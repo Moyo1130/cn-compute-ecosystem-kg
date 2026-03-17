@@ -1,15 +1,11 @@
 import csv
 import re
+import sys
 from collections import defaultdict
 from pathlib import Path
 
 import pdfplumber
 
-
-SOURCE_URL = "https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document"
-RUNTIME_ID = "runtime:dtk25043"
-RUNTIME_NAME = "DTK 25.04.3"
-PDF_NAME = "DTK 25.04.3 兼容性手册.pdf"
 
 NODES_HEADER = [
     "id",
@@ -32,6 +28,7 @@ EDGES_HEADER = ["source_id", "relation", "target_id"]
 TOP_HEADING_RE = re.compile(r"^([3-6])\s+(.+)$")
 SECOND_HEADING_RE = re.compile(r"^([356]\.\d+)\s+(.+)$")
 FULL_NAME_RE = re.compile(r"[A-Za-z_][A-Za-z0-9_:<>]*$")
+VERSION_RE = re.compile(r"DTK[- ](\d{2}\.\d{2}(?:\.\d+)?)", re.IGNORECASE)
 META_WORDS = {"define", "enum", "struct", "typedef", "type"}
 HEADER_WORDS = {
     "cuda",
@@ -83,6 +80,19 @@ SPLIT_PREFIXES = (
     "cusolver",
     "nccl",
 )
+
+
+def parse_pdf_metadata(pdf_path: Path) -> dict[str, str]:
+    match = VERSION_RE.search(pdf_path.stem)
+    if not match:
+        raise ValueError(f"Cannot parse DTK version from filename: {pdf_path.name}")
+    version = match.group(1)
+    return {
+        "version": version,
+        "runtime_id": f"runtime:dtk{version.replace('.', '')}",
+        "runtime_name": f"DTK {version}",
+        "source_url": f"https://download.sourcefind.cn:65024/1/main/DTK-{version}/Document",
+    }
 
 
 def normalize_cell(cell: str | None) -> str:
@@ -215,13 +225,19 @@ def compat_mode(current_top: int | None, current_second_code: str | None) -> boo
     return current_top in {3, 5, 6} and not (current_top == 3 and current_second_code == "3.15")
 
 
-def flush_support_buffers(buffers: list[str], library: str, api_nodes: dict[str, set[str]], edges: set[tuple[str, str, str]]):
+def flush_support_buffers(
+    buffers: list[str],
+    library: str,
+    api_nodes: dict[str, set[str]],
+    edges: set[tuple[str, str, str]],
+    runtime_id: str,
+):
     for idx, value in enumerate(buffers):
         if not value:
             continue
         if looks_like_api_name(value):
             add_api_node(api_nodes, value, library)
-            add_edge(edges, RUNTIME_ID, "SUPPORTS_API", api_id(value))
+            add_edge(edges, runtime_id, "SUPPORTS_API", api_id(value))
         buffers[idx] = ""
 
 
@@ -241,9 +257,12 @@ def process_support_table(
     buffers: list[str],
     api_nodes: dict[str, set[str]],
     edges: set[tuple[str, str, str]],
+    runtime_id: str,
 ):
     for raw_row in table_rows:
         cells = [normalize_cell(cell) for cell in raw_row]
+        if len(cells) > len(buffers):
+            buffers.extend([""] * (len(cells) - len(buffers)))
         nonempty_count = sum(1 for cell in cells if cell)
         if not nonempty_count:
             continue
@@ -255,7 +274,7 @@ def process_support_table(
             else:
                 if looks_like_api_name(buffers[idx]):
                     add_api_node(api_nodes, buffers[idx], library)
-                    add_edge(edges, RUNTIME_ID, "SUPPORTS_API", api_id(buffers[idx]))
+                    add_edge(edges, runtime_id, "SUPPORTS_API", api_id(buffers[idx]))
                 buffers[idx] = cell
 
 
@@ -350,14 +369,20 @@ def split_concat_names(name: str) -> list[str]:
     return parts or [name]
 
 
-def finalize_compat_pending(pending: dict | None, library: str, api_nodes: dict[str, set[str]], edges: set[tuple[str, str, str]]):
+def finalize_compat_pending(
+    pending: dict | None,
+    library: str,
+    api_nodes: dict[str, set[str]],
+    edges: set[tuple[str, str, str]],
+    runtime_id: str,
+):
     if not pending:
         return
     source = clean_api_name(pending["source"])
     target = clean_api_name(pending["target"])
     if looks_like_api_name(source):
         add_api_node(api_nodes, source, library)
-        add_edge(edges, RUNTIME_ID, "COMPATIBLE_WITH", api_id(source))
+        add_edge(edges, runtime_id, "COMPATIBLE_WITH", api_id(source))
     if looks_like_api_name(target):
         add_api_node(api_nodes, target, library)
         if looks_like_api_name(source):
@@ -370,6 +395,7 @@ def process_compat_table(
     pending: dict | None,
     api_nodes: dict[str, set[str]],
     edges: set[tuple[str, str, str]],
+    runtime_id: str,
 ) -> dict | None:
     start_index = 1 if table_rows and header_row(table_rows[0]) else 0
     for raw_row in table_rows[start_index:]:
@@ -394,7 +420,7 @@ def process_compat_table(
             pending["source"] = join_piece(pending["source"], source)
             pending["target"] = join_piece(pending["target"], target)
             continue
-        finalize_compat_pending(pending, library, api_nodes, edges)
+        finalize_compat_pending(pending, library, api_nodes, edges, runtime_id)
         pending = {"source": source, "target": target}
     return pending
 
@@ -439,27 +465,27 @@ def cleanup_graph(api_nodes: dict[str, set[str]], edges: set[tuple[str, str, str
     edges.update(cleaned_edges)
 
 
-def ensure_runtime_api_coverage(api_nodes: dict[str, set[str]], edges: set[tuple[str, str, str]]):
+def ensure_runtime_api_coverage(api_nodes: dict[str, set[str]], edges: set[tuple[str, str, str]], runtime_id: str):
     covered = {
         target_id
         for source_id, relation, target_id in edges
-        if source_id == RUNTIME_ID and relation in {"SUPPORTS_API", "COMPATIBLE_WITH"}
+        if source_id == runtime_id and relation in {"SUPPORTS_API", "COMPATIBLE_WITH"}
     }
     for name in api_nodes:
         target_id = api_id(name)
         if target_id not in covered:
-            edges.add((RUNTIME_ID, "COMPATIBLE_WITH", target_id))
+            edges.add((runtime_id, "COMPATIBLE_WITH", target_id))
 
 
-def write_nodes(path: Path, api_nodes: dict[str, set[str]]):
+def write_nodes(path: Path, api_nodes: dict[str, set[str]], runtime_id: str, runtime_name: str, source_url: str):
     with path.open("w", newline="", encoding="utf-8-sig") as file:
         writer = csv.writer(file)
         writer.writerow(NODES_HEADER)
         writer.writerow(
             [
-                RUNTIME_ID,
+                runtime_id,
                 "Runtime",
-                RUNTIME_NAME,
+                runtime_name,
                 "",
                 "",
                 "",
@@ -479,7 +505,7 @@ def write_nodes(path: Path, api_nodes: dict[str, set[str]]):
                     api_id(name),
                     "API",
                     name,
-                    SOURCE_URL,
+                    source_url,
                     "",
                     "",
                     "",
@@ -502,10 +528,8 @@ def write_edges(path: Path, edges: set[tuple[str, str, str]]):
             writer.writerow(edge)
 
 
-def main():
-    root = Path(__file__).resolve().parent
-    pdf_path = root / PDF_NAME
-
+def extract_graph(pdf_path: Path, nodes_output_path: Path, edges_output_path: Path) -> dict[str, str | int]:
+    metadata = parse_pdf_metadata(pdf_path)
     api_nodes: dict[str, set[str]] = defaultdict(set)
     edges: set[tuple[str, str, str]] = set()
     support_buffers = ["", "", "", ""]
@@ -523,14 +547,14 @@ def main():
 
             events = []
             for top, x0, text in group_rows(page):
-                if "CUDA API" in text and "兼容性列表" in text and "3" in text:
-                    events.append((top, "top", "3 CUDA API 兼容性列表"))
-                elif "CUDA API" in text and "支持列表" in text and "4" in text:
-                    events.append((top, "top", "4 CUDA API 支持列表"))
-                elif "数学库" in text and "兼容性列表" in text and "5" in text:
-                    events.append((top, "top", "5 数学库兼容性列表"))
-                elif "通讯组件" in text and "兼容性列表" in text and "6" in text:
-                    events.append((top, "top", "6 通讯组件兼容性列表"))
+                if "CUDA API" in text and "兼容" in text and "3" in text:
+                    events.append((top, "top", "3 CUDA API 兼容"))
+                elif "CUDA API" in text and "支持" in text and "4" in text:
+                    events.append((top, "top", "4 CUDA API 支持"))
+                elif "CUB" in text and "兼容" in text and "5" in text:
+                    events.append((top, "top", "5 CUB 兼容"))
+                elif "Thrust" in text and "兼容" in text and "6" in text:
+                    events.append((top, "top", "6 Thrust 兼容"))
                 elif "3.15" in text and "Device Library" in text:
                     events.append((top, "second", "3.15 Device Library"))
                 elif x0 <= 110 and SECOND_HEADING_RE.match(text):
@@ -542,8 +566,8 @@ def main():
             for _, kind, payload in sorted(events, key=lambda item: item[0]):
                 library = library_from_state(current_top, current_top_title, current_second_title)
                 if kind == "top":
-                    flush_support_buffers(support_buffers, library, api_nodes, edges)
-                    finalize_compat_pending(compat_pending, library, api_nodes, edges)
+                    flush_support_buffers(support_buffers, library, api_nodes, edges, metadata["runtime_id"])
+                    finalize_compat_pending(compat_pending, library, api_nodes, edges, metadata["runtime_id"])
                     compat_pending = None
                     match = TOP_HEADING_RE.match(payload)
                     current_top = int(match.group(1))
@@ -553,8 +577,8 @@ def main():
                     continue
 
                 if kind == "second":
-                    flush_support_buffers(support_buffers, library, api_nodes, edges)
-                    finalize_compat_pending(compat_pending, library, api_nodes, edges)
+                    flush_support_buffers(support_buffers, library, api_nodes, edges, metadata["runtime_id"])
+                    finalize_compat_pending(compat_pending, library, api_nodes, edges, metadata["runtime_id"])
                     compat_pending = None
                     match = SECOND_HEADING_RE.match(payload)
                     current_second_code = match.group(1)
@@ -563,21 +587,64 @@ def main():
 
                 library = library_from_state(current_top, current_top_title, current_second_title)
                 if support_mode(current_top, current_second_code):
-                    flush_support_buffers(support_buffers, library, api_nodes, edges)
-                    process_support_table(payload, library, support_buffers, api_nodes, edges)
-                    flush_support_buffers(support_buffers, library, api_nodes, edges)
+                    flush_support_buffers(support_buffers, library, api_nodes, edges, metadata["runtime_id"])
+                    process_support_table(payload, library, support_buffers, api_nodes, edges, metadata["runtime_id"])
+                    flush_support_buffers(support_buffers, library, api_nodes, edges, metadata["runtime_id"])
                 elif compat_mode(current_top, current_second_code):
-                    compat_pending = process_compat_table(payload, library, compat_pending, api_nodes, edges)
+                    compat_pending = process_compat_table(
+                        payload,
+                        library,
+                        compat_pending,
+                        api_nodes,
+                        edges,
+                        metadata["runtime_id"],
+                    )
 
     final_library = library_from_state(current_top, current_top_title, current_second_title)
-    flush_support_buffers(support_buffers, final_library, api_nodes, edges)
-    finalize_compat_pending(compat_pending, final_library, api_nodes, edges)
+    flush_support_buffers(support_buffers, final_library, api_nodes, edges, metadata["runtime_id"])
+    finalize_compat_pending(compat_pending, final_library, api_nodes, edges, metadata["runtime_id"])
     cleanup_graph(api_nodes, edges)
-    ensure_runtime_api_coverage(api_nodes, edges)
-    write_nodes(root / "nodes.csv", api_nodes)
-    write_edges(root / "edges.csv", edges)
-    print(f"nodes={len(api_nodes) + 1}")
-    print(f"edges={len(edges)}")
+    ensure_runtime_api_coverage(api_nodes, edges, metadata["runtime_id"])
+    nodes_output_path.parent.mkdir(parents=True, exist_ok=True)
+    edges_output_path.parent.mkdir(parents=True, exist_ok=True)
+    write_nodes(
+        nodes_output_path,
+        api_nodes,
+        metadata["runtime_id"],
+        metadata["runtime_name"],
+        metadata["source_url"],
+    )
+    write_edges(edges_output_path, edges)
+    return {
+        "pdf": str(pdf_path),
+        "runtime_id": metadata["runtime_id"],
+        "runtime_name": metadata["runtime_name"],
+        "source_url": metadata["source_url"],
+        "nodes": len(api_nodes) + 1,
+        "edges": len(edges),
+    }
+
+
+def default_pdf_path(root: Path) -> Path:
+    candidates = sorted(root.glob("DTK*.pdf"))
+    if not candidates:
+        raise FileNotFoundError("No DTK PDF found in workspace root.")
+    return candidates[0]
+
+
+def main():
+    root = Path(__file__).resolve().parent
+    pdf_path = Path(sys.argv[1]).resolve() if len(sys.argv) > 1 else default_pdf_path(root)
+    nodes_output_path = Path(sys.argv[2]).resolve() if len(sys.argv) > 2 else root / "nodes.csv"
+    edges_output_path = Path(sys.argv[3]).resolve() if len(sys.argv) > 3 else root / "edges.csv"
+
+    result = extract_graph(pdf_path, nodes_output_path, edges_output_path)
+    print(f"pdf={result['pdf']}")
+    print(f"runtime_id={result['runtime_id']}")
+    print(f"runtime_name={result['runtime_name']}")
+    print(f"source_url={result['source_url']}")
+    print(f"nodes={result['nodes']}")
+    print(f"edges={result['edges']}")
 
 
 if __name__ == "__main__":
