@@ -360,7 +360,7 @@ def finalize_compat_pending(pending: dict | None, library: str, api_nodes: dict[
         add_edge(edges, RUNTIME_ID, "COMPATIBLE_WITH", api_id(source))
     if looks_like_api_name(target):
         add_api_node(api_nodes, target, library)
-        if looks_like_api_name(source) and api_id(source) != api_id(target):
+        if looks_like_api_name(source):
             add_edge(edges, api_id(source), "MAPS_TO", api_id(target))
 
 
