@@ -44,6 +44,21 @@ HEADER_WORDS = {
     "nccl version",
     "type",
 }
+DROP_EXACT_NAMES = {
+    "CURAND_3RD",
+    "CURAND_DEFINITION",
+    "CURAND_DEVICE_API",
+}
+SPLIT_PREFIXES = (
+    "CUBLAS_",
+    "HIPBLAS_",
+    "CUFFT_",
+    "HIPFFT_",
+    "CURAND_",
+    "HIPRAND_",
+    "CUSPARSE_",
+    "HIPSPARSE_",
+)
 
 
 def normalize_cell(cell: str | None) -> str:
@@ -72,6 +87,14 @@ def looks_like_api_name(name: str) -> bool:
     if name.endswith("_"):
         return False
     if name in {"HIP", "CUBLAS_GEMM_AL"}:
+        return False
+    if name in DROP_EXACT_NAMES:
+        return False
+    if "enum" in name:
+        return False
+    if "cuFFT" in name:
+        return False
+    if name.startswith("MAX_"):
         return False
     if name.isupper() and "_" not in name and "::" not in name and len(name) > 6:
         return False
@@ -222,11 +245,68 @@ def row_source_target(cells: list[str]) -> tuple[str, str]:
     return source, target
 
 
+def row_is_continuation_only(cells: list[str]) -> bool:
+    nonempty = [cell for cell in cells if cell]
+    if not nonempty:
+        return False
+    if len(nonempty) == 1 and len(nonempty[0]) <= 16:
+        return True
+    if len(nonempty) >= 2 and not nonempty[0].isdigit():
+        return all(len(cell) <= 16 for cell in nonempty[:2])
+    return False
+
+
+def join_piece(base: str, piece: str) -> str:
+    if not piece:
+        return base
+    if not base:
+        return piece
+    return base + piece
+
+
+def clean_api_name(name: str) -> str:
+    name = normalize_cell(name)
+    replacements = {
+        "CUBLAS_GEMM_ALGO13CUBLAS_GEMM_AL": "CUBLAS_GEMM_ALGO13",
+        "CUSPARSE_ACTION_SYMBOLICCUSPARSE_ACTION_NUMERIC": "CUSPARSE_ACTION_NUMERIC",
+        "HIPSPARSE_ACTION_SYMBOLICHIPSPARSE_ACTION_NUMERIC": "HIPSPARSE_ACTION_NUMERIC",
+        "cusparseXcoosort_bufferSizeExtfferSizeExt": "cusparseXcoosort_bufferSizeExt",
+        "hipsparseXcoosort_bu": "hipsparseXcoosort_bufferSizeExt",
+    }
+    return replacements.get(name, name)
+
+
+def split_concat_names(name: str) -> list[str]:
+    name = clean_api_name(name)
+    if not name:
+        return []
+    positions = []
+    for prefix in SPLIT_PREFIXES:
+        start = 0
+        while True:
+            idx = name.find(prefix, start)
+            if idx == -1:
+                break
+            positions.append(idx)
+            start = idx + 1
+    positions = sorted(set(positions))
+    if len(positions) <= 1:
+        return [name]
+
+    parts = []
+    for i, pos in enumerate(positions):
+        end = positions[i + 1] if i + 1 < len(positions) else len(name)
+        part = name[pos:end]
+        if part:
+            parts.append(part)
+    return parts or [name]
+
+
 def finalize_compat_pending(pending: dict | None, library: str, api_nodes: dict[str, set[str]], edges: set[tuple[str, str, str]]):
     if not pending:
         return
-    source = pending["source"]
-    target = pending["target"]
+    source = clean_api_name(pending["source"])
+    target = clean_api_name(pending["target"])
     if looks_like_api_name(source):
         add_api_node(api_nodes, source, library)
         add_edge(edges, RUNTIME_ID, "COMPATIBLE_WITH", api_id(source))
@@ -246,6 +326,14 @@ def process_compat_table(
     start_index = 1 if table_rows and header_row(table_rows[0]) else 0
     for raw_row in table_rows[start_index:]:
         cells = [normalize_cell(cell) for cell in raw_row]
+        if row_is_continuation_only(cells):
+            if pending:
+                nonempty = [cell for cell in cells if cell]
+                if nonempty:
+                    pending["source"] = join_piece(pending["source"], nonempty[0])
+                if len(nonempty) > 1:
+                    pending["target"] = join_piece(pending["target"], nonempty[1])
+            continue
         source, target = row_source_target(cells)
         if not source and not target:
             continue
@@ -255,12 +343,52 @@ def process_compat_table(
             pending = {"source": source, "target": target}
             continue
         if not looks_like_compat_start(source):
-            pending["source"] += source
-            pending["target"] += target
+            pending["source"] = join_piece(pending["source"], source)
+            pending["target"] = join_piece(pending["target"], target)
             continue
         finalize_compat_pending(pending, library, api_nodes, edges)
         pending = {"source": source, "target": target}
     return pending
+
+
+def cleanup_graph(api_nodes: dict[str, set[str]], edges: set[tuple[str, str, str]]):
+    original_nodes = dict(api_nodes)
+    api_nodes.clear()
+
+    for name, libraries in original_nodes.items():
+        for split_name in split_concat_names(name):
+            if looks_like_api_name(split_name):
+                api_nodes[split_name].update(libraries)
+
+    cleaned_edges = set()
+    for source_id, relation, target_id in list(edges):
+        source_names = [source_id]
+        target_names = [target_id]
+
+        if source_id.startswith("API:"):
+            source_names = [api_id(name) for name in split_concat_names(source_id[4:]) if looks_like_api_name(name)]
+        if target_id.startswith("API:"):
+            target_names = [api_id(name) for name in split_concat_names(target_id[4:]) if looks_like_api_name(name)]
+
+        if not source_names or not target_names:
+            continue
+
+        if relation == "MAPS_TO" and len(source_names) == len(target_names):
+            for s, t in zip(source_names, target_names):
+                if s[4:] in api_nodes and t[4:] in api_nodes:
+                    cleaned_edges.add((s, relation, t))
+            continue
+
+        for s in source_names:
+            for t in target_names:
+                if s.startswith("API:") and s[4:] not in api_nodes:
+                    continue
+                if t.startswith("API:") and t[4:] not in api_nodes:
+                    continue
+                cleaned_edges.add((s, relation, t))
+
+    edges.clear()
+    edges.update(cleaned_edges)
 
 
 def write_nodes(path: Path, api_nodes: dict[str, set[str]]):
@@ -380,6 +508,7 @@ def main():
     final_library = library_from_state(current_top, current_top_title, current_second_title)
     flush_support_buffers(support_buffers, final_library, api_nodes, edges)
     finalize_compat_pending(compat_pending, final_library, api_nodes, edges)
+    cleanup_graph(api_nodes, edges)
     write_nodes(root / "nodes.csv", api_nodes)
     write_edges(root / "edges.csv", edges)
     print(f"nodes={len(api_nodes) + 1}")
