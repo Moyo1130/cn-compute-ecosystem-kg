@@ -77,8 +77,6 @@ API:CUBLAS_VER_BUILD,API,CUBLAS_VER_BUILD,https://download.sourcefind.cn:65024/1
 API:CUBLAS_VER_MAJOR,API,CUBLAS_VER_MAJOR,https://download.sourcefind.cn:65024/1/main/DTK-22.04.2/Document,,,,,,,,,,CUDA API 支持
 API:CUBLAS_VER_MINOR,API,CUBLAS_VER_MINOR,https://download.sourcefind.cn:65024/1/main/DTK-22.04.2/Document,,,,,,,,,,CUDA API 支持
 API:CUBLAS_VER_PATCH,API,CUBLAS_VER_PATCH,https://download.sourcefind.cn:65024/1/main/DTK-22.04.2/Document,,,,,,,,,,CUDA API 支持
-API:CUDA,API,CUDA,https://download.sourcefind.cn:65024/1/main/DTK-22.04.2/Document,,,,,,,,,,CUDA API 支持
-API:CUDAversion,API,CUDAversion,https://download.sourcefind.cn:65024/1/main/DTK-22.04.2/Document,,,,,,,,,,CUDA API 支持
 API:CUFFT_ALLOC_FAILED,API,CUFFT_ALLOC_FAILED,https://download.sourcefind.cn:65024/1/main/DTK-22.04.2/Document,,,,,,,,,,CUDA API 支持
 API:CUFFT_C2C,API,CUFFT_C2C,https://download.sourcefind.cn:65024/1/main/DTK-22.04.2/Document,,,,,,,,,,CUDA API 支持
 API:CUFFT_C2R,API,CUFFT_C2R,https://download.sourcefind.cn:65024/1/main/DTK-22.04.2/Document,,,,,,,,,,CUDA API 支持
@@ -2795,5 +2793,3 @@ API:rocsolver_zungtr,API,rocsolver_zungtr,https://download.sourcefind.cn:65024/1
 API:rocsolver_zunmqr,API,rocsolver_zunmqr,https://download.sourcefind.cn:65024/1/main/DTK-22.04.2/Document,,,,,,,,,,CUDA API 支持
 API:rocsolver_zunmtr,API,rocsolver_zunmtr,https://download.sourcefind.cn:65024/1/main/DTK-22.04.2/Document,,,,,,,,,,CUDA API 支持
 API:solverspScsreigs,API,solverspScsreigs,https://download.sourcefind.cn:65024/1/main/DTK-22.04.2/Document,,,,,,,,,,CUDA API 支持
-API:type,API,type,https://download.sourcefind.cn:65024/1/main/DTK-22.04.2/Document,,,,,,,,,,CUDA API 支持
-API:typedefstruct,API,typedefstruct,https://download.sourcefind.cn:65024/1/main/DTK-22.04.2/Document,,,,,,,,,,CUDA API 支持

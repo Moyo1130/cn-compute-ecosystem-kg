@@ -443,8 +443,6 @@ runtime:dtk24041,SUPPORTS_API,API:CUB_QUOTIENT_FLOOR
 runtime:dtk24041,SUPPORTS_API,API:CUB_ROUND_DOWN_NEAREST
 runtime:dtk24041,SUPPORTS_API,API:CUB_ROUND_UP_NEAREST
 runtime:dtk24041,SUPPORTS_API,API:CUB_STATIC_ASSERT
-runtime:dtk24041,SUPPORTS_API,API:CUDA
-runtime:dtk24041,SUPPORTS_API,API:CUDAversion
 runtime:dtk24041,SUPPORTS_API,API:CUFFT_ALLOC_FAILED
 runtime:dtk24041,SUPPORTS_API,API:CUFFT_C2C
 runtime:dtk24041,SUPPORTS_API,API:CUFFT_C2R
@@ -934,7 +932,6 @@ runtime:dtk24041,SUPPORTS_API,API:csrsv2Info
 runtime:dtk24041,SUPPORTS_API,API:csrsv2Info_t
 runtime:dtk24041,SUPPORTS_API,API:csru2csrInfo
 runtime:dtk24041,SUPPORTS_API,API:csru2csrInfo_t
-runtime:dtk24041,SUPPORTS_API,API:cub::
 runtime:dtk24041,SUPPORTS_API,API:cub::ArgIndexInputIterator
 runtime:dtk24041,SUPPORTS_API,API:cub::BFE
 runtime:dtk24041,SUPPORTS_API,API:cub::BlockAdjacentDifference
@@ -3124,7 +3121,6 @@ runtime:dtk24041,SUPPORTS_API,API:d_pool_resource
 runtime:dtk24041,SUPPORTS_API,API:define
 runtime:dtk24041,SUPPORTS_API,API:ding
 runtime:dtk24041,SUPPORTS_API,API:eSortKeysDescending
-runtime:dtk24041,SUPPORTS_API,API:ef
 runtime:dtk24041,SUPPORTS_API,API:efstruct
 runtime:dtk24041,SUPPORTS_API,API:ending
 runtime:dtk24041,SUPPORTS_API,API:erSizeExt
@@ -3461,7 +3457,6 @@ runtime:dtk24041,SUPPORTS_API,API:hipcub::DeviceReduce::Reduce
 runtime:dtk24041,SUPPORTS_API,API:hipcub::DeviceReduce::ReduceByKey
 runtime:dtk24041,SUPPORTS_API,API:hipcub::DeviceReduce::Sum
 runtime:dtk24041,SUPPORTS_API,API:hipcub::DeviceRunLengthEncode
-runtime:dtk24041,SUPPORTS_API,API:hipcub::DeviceRunLengthEncode::
 runtime:dtk24041,SUPPORTS_API,API:hipcub::DeviceRunLengthEncode::NonTrivialRuns
 runtime:dtk24041,SUPPORTS_API,API:hipcub::DeviceScan
 runtime:dtk24041,SUPPORTS_API,API:hipcub::DeviceScan::ExclusiveScan
@@ -4537,7 +4532,6 @@ runtime:dtk24041,SUPPORTS_API,API:ncclSend
 runtime:dtk24041,SUPPORTS_API,API:ncode
 runtime:dtk24041,SUPPORTS_API,API:normal_args_double_t
 runtime:dtk24041,SUPPORTS_API,API:normal_args_t
-runtime:dtk24041,SUPPORTS_API,API:or
 runtime:dtk24041,SUPPORTS_API,API:ortPairs
 runtime:dtk24041,SUPPORTS_API,API:printf
 runtime:dtk24041,SUPPORTS_API,API:pruneInfo
@@ -4548,13 +4542,10 @@ runtime:dtk24041,SUPPORTS_API,API:skipahead
 runtime:dtk24041,SUPPORTS_API,API:skipahead_subsequence
 runtime:dtk24041,SUPPORTS_API,API:skipaheadsequence
 runtime:dtk24041,SUPPORTS_API,API:solverspScsreigs
-runtime:dtk24041,SUPPORTS_API,API:srByPercentage_bufferSizeExt
 runtime:dtk24041,SUPPORTS_API,API:srNnz
 runtime:dtk24041,SUPPORTS_API,API:structstruct
 runtime:dtk24041,SUPPORTS_API,API:structstructstruct
 runtime:dtk24041,SUPPORTS_API,API:structstructstructstructstructstructstruct
-runtime:dtk24041,SUPPORTS_API,API:tPairs
-runtime:dtk24041,SUPPORTS_API,API:te
 runtime:dtk24041,SUPPORTS_API,API:thrust::abs
 runtime:dtk24041,SUPPORTS_API,API:thrust::acos
 runtime:dtk24041,SUPPORTS_API,API:thrust::acosh
@@ -4804,7 +4795,6 @@ runtime:dtk24041,SUPPORTS_API,API:thrust::stable_sort_by_key
 runtime:dtk24041,SUPPORTS_API,API:thrust::swap
 runtime:dtk24041,SUPPORTS_API,API:thrust::swap_ranges
 runtime:dtk24041,SUPPORTS_API,API:thrust::system
-runtime:dtk24041,SUPPORTS_API,API:thrust::system::
 runtime:dtk24041,SUPPORTS_API,API:thrust::system::cpp
 runtime:dtk24041,SUPPORTS_API,API:thrust::system::cpp::memory_resource
 runtime:dtk24041,SUPPORTS_API,API:thrust::system::cpp::pointer
@@ -4867,9 +4857,6 @@ runtime:dtk24041,SUPPORTS_API,API:thrust::universal_ptr
 runtime:dtk24041,SUPPORTS_API,API:thrust::voider
 runtime:dtk24041,SUPPORTS_API,API:thrust::zip_function
 runtime:dtk24041,SUPPORTS_API,API:thrust::zip_iterator
-runtime:dtk24041,SUPPORTS_API,API:type
-runtime:dtk24041,SUPPORTS_API,API:typed
-runtime:dtk24041,SUPPORTS_API,API:typedefstruct
 runtime:dtk24041,SUPPORTS_API,API:typedefstructtyped
 runtime:dtk24041,SUPPORTS_API,API:u64
 runtime:dtk24041,SUPPORTS_API,API:ubtractLeftPartialTile

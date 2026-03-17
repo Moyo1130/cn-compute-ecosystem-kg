@@ -445,8 +445,6 @@ runtime:dtk24042,SUPPORTS_API,API:CUB_QUOTIENT_FLOOR
 runtime:dtk24042,SUPPORTS_API,API:CUB_ROUND_DOWN_NEAREST
 runtime:dtk24042,SUPPORTS_API,API:CUB_ROUND_UP_NEAREST
 runtime:dtk24042,SUPPORTS_API,API:CUB_STATIC_ASSERT
-runtime:dtk24042,SUPPORTS_API,API:CUDA
-runtime:dtk24042,SUPPORTS_API,API:CUDAversion
 runtime:dtk24042,SUPPORTS_API,API:CUFFT_ALLOC_FAILED
 runtime:dtk24042,SUPPORTS_API,API:CUFFT_C2C
 runtime:dtk24042,SUPPORTS_API,API:CUFFT_C2R
@@ -941,7 +939,6 @@ runtime:dtk24042,SUPPORTS_API,API:csrsv2Info
 runtime:dtk24042,SUPPORTS_API,API:csrsv2Info_t
 runtime:dtk24042,SUPPORTS_API,API:csru2csrInfo
 runtime:dtk24042,SUPPORTS_API,API:csru2csrInfo_t
-runtime:dtk24042,SUPPORTS_API,API:cub::
 runtime:dtk24042,SUPPORTS_API,API:cub::ArgIndexInputIterator
 runtime:dtk24042,SUPPORTS_API,API:cub::BFE
 runtime:dtk24042,SUPPORTS_API,API:cub::BlockAdjacentDifference
@@ -3126,9 +3123,7 @@ runtime:dtk24042,SUPPORTS_API,API:cusparseZnnz_compress
 runtime:dtk24042,SUPPORTS_API,API:cusparseZsctr
 runtime:dtk24042,SUPPORTS_API,API:d_bufferSize
 runtime:dtk24042,SUPPORTS_API,API:define
-runtime:dtk24042,SUPPORTS_API,API:e
 runtime:dtk24042,SUPPORTS_API,API:erator
-runtime:dtk24042,SUPPORTS_API,API:ey
 runtime:dtk24042,SUPPORTS_API,API:float2int
 runtime:dtk24042,SUPPORTS_API,API:float2uint
 runtime:dtk24042,SUPPORTS_API,API:float_as_int
@@ -4538,7 +4533,6 @@ runtime:dtk24042,SUPPORTS_API,API:normal_args_t
 runtime:dtk24042,SUPPORTS_API,API:printf
 runtime:dtk24042,SUPPORTS_API,API:pruneInfo
 runtime:dtk24042,SUPPORTS_API,API:pruneInfo_t
-runtime:dtk24042,SUPPORTS_API,API:r
 runtime:dtk24042,SUPPORTS_API,API:skipahead
 runtime:dtk24042,SUPPORTS_API,API:skipahead_subsequence
 runtime:dtk24042,SUPPORTS_API,API:skipaheadsequence
@@ -4547,7 +4541,6 @@ runtime:dtk24042,SUPPORTS_API,API:srByPercentage
 runtime:dtk24042,SUPPORTS_API,API:structstruct
 runtime:dtk24042,SUPPORTS_API,API:structstructstruct
 runtime:dtk24042,SUPPORTS_API,API:structstructstructstructstructstructstruct
-runtime:dtk24042,SUPPORTS_API,API:tKeys
 runtime:dtk24042,SUPPORTS_API,API:thrust::abs
 runtime:dtk24042,SUPPORTS_API,API:thrust::acos
 runtime:dtk24042,SUPPORTS_API,API:thrust::acosh
@@ -4797,7 +4790,6 @@ runtime:dtk24042,SUPPORTS_API,API:thrust::stable_sort_by_key
 runtime:dtk24042,SUPPORTS_API,API:thrust::swap
 runtime:dtk24042,SUPPORTS_API,API:thrust::swap_ranges
 runtime:dtk24042,SUPPORTS_API,API:thrust::system
-runtime:dtk24042,SUPPORTS_API,API:thrust::system::
 runtime:dtk24042,SUPPORTS_API,API:thrust::system::cpp
 runtime:dtk24042,SUPPORTS_API,API:thrust::system::cpp::memory_resource
 runtime:dtk24042,SUPPORTS_API,API:thrust::system::cpp::pointer
@@ -4860,8 +4852,6 @@ runtime:dtk24042,SUPPORTS_API,API:thrust::universal_ptr
 runtime:dtk24042,SUPPORTS_API,API:thrust::voider
 runtime:dtk24042,SUPPORTS_API,API:thrust::zip_function
 runtime:dtk24042,SUPPORTS_API,API:thrust::zip_iterator
-runtime:dtk24042,SUPPORTS_API,API:type
-runtime:dtk24042,SUPPORTS_API,API:typedefstruct
 runtime:dtk24042,SUPPORTS_API,API:uint2float
 runtime:dtk24042,SUPPORTS_API,API:umul24
 runtime:dtk24042,SUPPORTS_API,API:umul64hi
@@ -4869,4 +4859,3 @@ runtime:dtk24042,SUPPORTS_API,API:utDim
 runtime:dtk24042,SUPPORTS_API,API:ward
 runtime:dtk24042,SUPPORTS_API,API:wardFilterAlgorithm
 runtime:dtk24042,SUPPORTS_API,API:wardOutputDim
-runtime:dtk24042,SUPPORTS_API,API:ze

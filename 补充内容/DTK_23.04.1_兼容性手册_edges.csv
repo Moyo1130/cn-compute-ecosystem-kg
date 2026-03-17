@@ -89,7 +89,6 @@ API:cudaStreamSynchronize,MAPS_TO,API:hipStreamSynchronize
 API:cudaStreamWaitEvent,MAPS_TO,API:hipStreamWaitEvent
 API:make_cudaExtent,MAPS_TO,API:make_hipExtent
 API:make_cudaPos,MAPS_TO,API:make_hipPos
-runtime:dtk23041,COMPATIBLE_WITH,API:CUDA
 runtime:dtk23041,COMPATIBLE_WITH,API:cudaArrayGetInfo
 runtime:dtk23041,COMPATIBLE_WITH,API:cudaChooseDevice
 runtime:dtk23041,COMPATIBLE_WITH,API:cudaConfigureCall
@@ -444,8 +443,6 @@ runtime:dtk23041,SUPPORTS_API,API:CUB_QUOTIENT_FLOOR
 runtime:dtk23041,SUPPORTS_API,API:CUB_ROUND_DOWN_NEAREST
 runtime:dtk23041,SUPPORTS_API,API:CUB_ROUND_UP_NEAREST
 runtime:dtk23041,SUPPORTS_API,API:CUB_STATIC_ASSERT
-runtime:dtk23041,SUPPORTS_API,API:CUDA
-runtime:dtk23041,SUPPORTS_API,API:CUDAversion
 runtime:dtk23041,SUPPORTS_API,API:CUFFT_ALLOC_FAILED
 runtime:dtk23041,SUPPORTS_API,API:CUFFT_C2C
 runtime:dtk23041,SUPPORTS_API,API:CUFFT_C2R
@@ -627,7 +624,6 @@ runtime:dtk23041,SUPPORTS_API,API:HIPBLAS_GEMM_DEFAULT
 runtime:dtk23041,SUPPORTS_API,API:HIPBLAS_OP_C
 runtime:dtk23041,SUPPORTS_API,API:HIPBLAS_OP_N
 runtime:dtk23041,SUPPORTS_API,API:HIPBLAS_OP_T
-runtime:dtk23041,SUPPORTS_API,API:HIPBLAS_POINTER
 runtime:dtk23041,SUPPORTS_API,API:HIPBLAS_POINTER_MODE_DEVICE
 runtime:dtk23041,SUPPORTS_API,API:HIPBLAS_SIDE_LEFT
 runtime:dtk23041,SUPPORTS_API,API:HIPBLAS_SIDE_RIGHT
@@ -709,7 +705,6 @@ runtime:dtk23041,SUPPORTS_API,API:HIPSPARSE_DIRECTION_COLUMN
 runtime:dtk23041,SUPPORTS_API,API:HIPSPARSE_DIRECTION_ROW
 runtime:dtk23041,SUPPORTS_API,API:HIPSPARSE_FILL_MODE_LOWER
 runtime:dtk23041,SUPPORTS_API,API:HIPSPARSE_FILL_MODE_UPPER
-runtime:dtk23041,SUPPORTS_API,API:HIPSPARSE_HYB_PART
 runtime:dtk23041,SUPPORTS_API,API:HIPSPARSE_HYB_PARTITION_AUTO
 runtime:dtk23041,SUPPORTS_API,API:HIPSPARSE_HYB_PARTITION_USER
 runtime:dtk23041,SUPPORTS_API,API:HIPSPARSE_INDEX_BASE_ONE
@@ -725,7 +720,6 @@ runtime:dtk23041,SUPPORTS_API,API:HIPSPARSE_POINTER_MODE_DEVICE
 runtime:dtk23041,SUPPORTS_API,API:HIPSPARSE_POINTER_MODE_HOST
 runtime:dtk23041,SUPPORTS_API,API:HIPSPARSE_SOLVE_POLICY_NO_LEVEL
 runtime:dtk23041,SUPPORTS_API,API:HIPSPARSE_SOLVE_POLICY_USE_LEVEL
-runtime:dtk23041,SUPPORTS_API,API:HIPSPARSE_STATUS_A
 runtime:dtk23041,SUPPORTS_API,API:HIPSPARSE_STATUS_ARCH_MISMATCH
 runtime:dtk23041,SUPPORTS_API,API:HIPSPARSE_STATUS_EXECUTION_FAILED
 runtime:dtk23041,SUPPORTS_API,API:HIPSPARSE_STATUS_INTERNAL_ERROR
@@ -741,7 +735,6 @@ runtime:dtk23041,SUPPORTS_API,API:LLOC_FAILED
 runtime:dtk23041,SUPPORTS_API,API:MODE_HOST
 runtime:dtk23041,SUPPORTS_API,API:NCCL
 runtime:dtk23041,SUPPORTS_API,API:NCCLversion
-runtime:dtk23041,SUPPORTS_API,API:OR
 runtime:dtk23041,SUPPORTS_API,API:RCCL
 runtime:dtk23041,SUPPORTS_API,API:Size
 runtime:dtk23041,SUPPORTS_API,API:THRUST_BINARY_FUNCTOR_VOID_SPECIALIZATION
@@ -937,7 +930,6 @@ runtime:dtk23041,SUPPORTS_API,API:csrsv2Info
 runtime:dtk23041,SUPPORTS_API,API:csrsv2Info_t
 runtime:dtk23041,SUPPORTS_API,API:csru2csrInfo
 runtime:dtk23041,SUPPORTS_API,API:csru2csrInfo_t
-runtime:dtk23041,SUPPORTS_API,API:cub::
 runtime:dtk23041,SUPPORTS_API,API:cub::ArgIndexInputIterator
 runtime:dtk23041,SUPPORTS_API,API:cub::BFE
 runtime:dtk23041,SUPPORTS_API,API:cub::BlockAdjacentDifference
@@ -3122,18 +3114,14 @@ runtime:dtk23041,SUPPORTS_API,API:cusparseZhybsv_analysis
 runtime:dtk23041,SUPPORTS_API,API:cusparseZnnz
 runtime:dtk23041,SUPPORTS_API,API:cusparseZnnz_compress
 runtime:dtk23041,SUPPORTS_API,API:cusparseZsctr
-runtime:dtk23041,SUPPORTS_API,API:d
 runtime:dtk23041,SUPPORTS_API,API:define
 runtime:dtk23041,SUPPORTS_API,API:dingBlockedToStriped
 runtime:dtk23041,SUPPORTS_API,API:e2csrByPercentage
 runtime:dtk23041,SUPPORTS_API,API:e_N
 runtime:dtk23041,SUPPORTS_API,API:ectorized
-runtime:dtk23041,SUPPORTS_API,API:edBatch_bufferSizeExt
 runtime:dtk23041,SUPPORTS_API,API:edReduce
-runtime:dtk23041,SUPPORTS_API,API:ef
 runtime:dtk23041,SUPPORTS_API,API:ence
 runtime:dtk23041,SUPPORTS_API,API:endingBlockedToStriped
-runtime:dtk23041,SUPPORTS_API,API:fferSizeExt
 runtime:dtk23041,SUPPORTS_API,API:float2int
 runtime:dtk23041,SUPPORTS_API,API:float2uint
 runtime:dtk23041,SUPPORTS_API,API:float_as_int
@@ -4500,7 +4488,6 @@ runtime:dtk23041,SUPPORTS_API,API:int2float
 runtime:dtk23041,SUPPORTS_API,API:int_as_float
 runtime:dtk23041,SUPPORTS_API,API:lock
 runtime:dtk23041,SUPPORTS_API,API:lock64
-runtime:dtk23041,SUPPORTS_API,API:m
 runtime:dtk23041,SUPPORTS_API,API:memcpy
 runtime:dtk23041,SUPPORTS_API,API:memset
 runtime:dtk23041,SUPPORTS_API,API:mtgp32_fast_param_t
@@ -4541,7 +4528,6 @@ runtime:dtk23041,SUPPORTS_API,API:ncclScalarResidence_t
 runtime:dtk23041,SUPPORTS_API,API:ncclSend
 runtime:dtk23041,SUPPORTS_API,API:normal_args_double_t
 runtime:dtk23041,SUPPORTS_API,API:normal_args_t
-runtime:dtk23041,SUPPORTS_API,API:nz
 runtime:dtk23041,SUPPORTS_API,API:printf
 runtime:dtk23041,SUPPORTS_API,API:pruneInfo
 runtime:dtk23041,SUPPORTS_API,API:pruneInfo_t
@@ -4554,9 +4540,7 @@ runtime:dtk23041,SUPPORTS_API,API:solverspScsreigs
 runtime:dtk23041,SUPPORTS_API,API:structstruct
 runtime:dtk23041,SUPPORTS_API,API:structstructstruct
 runtime:dtk23041,SUPPORTS_API,API:structstructstructstructstruct
-runtime:dtk23041,SUPPORTS_API,API:t
 runtime:dtk23041,SUPPORTS_API,API:t::SortKeys
-runtime:dtk23041,SUPPORTS_API,API:tedReduce
 runtime:dtk23041,SUPPORTS_API,API:thrust::abs
 runtime:dtk23041,SUPPORTS_API,API:thrust::acos
 runtime:dtk23041,SUPPORTS_API,API:thrust::acosh
@@ -4806,7 +4790,6 @@ runtime:dtk23041,SUPPORTS_API,API:thrust::stable_sort_by_key
 runtime:dtk23041,SUPPORTS_API,API:thrust::swap
 runtime:dtk23041,SUPPORTS_API,API:thrust::swap_ranges
 runtime:dtk23041,SUPPORTS_API,API:thrust::system
-runtime:dtk23041,SUPPORTS_API,API:thrust::system::
 runtime:dtk23041,SUPPORTS_API,API:thrust::system::cpp
 runtime:dtk23041,SUPPORTS_API,API:thrust::system::cpp::memory_resource
 runtime:dtk23041,SUPPORTS_API,API:thrust::system::cpp::pointer
@@ -4869,11 +4852,7 @@ runtime:dtk23041,SUPPORTS_API,API:thrust::universal_ptr
 runtime:dtk23041,SUPPORTS_API,API:thrust::voider
 runtime:dtk23041,SUPPORTS_API,API:thrust::zip_function
 runtime:dtk23041,SUPPORTS_API,API:thrust::zip_iterator
-runtime:dtk23041,SUPPORTS_API,API:type
-runtime:dtk23041,SUPPORTS_API,API:typed
-runtime:dtk23041,SUPPORTS_API,API:typedefstruct
 runtime:dtk23041,SUPPORTS_API,API:ubtractRightPartialTile
 runtime:dtk23041,SUPPORTS_API,API:uint2float
 runtime:dtk23041,SUPPORTS_API,API:umul24
 runtime:dtk23041,SUPPORTS_API,API:umul64hi
-runtime:dtk23041,SUPPORTS_API,API:ze

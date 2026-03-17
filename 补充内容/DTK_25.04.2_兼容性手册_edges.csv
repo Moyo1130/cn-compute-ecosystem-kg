@@ -366,7 +366,6 @@ runtime:dtk25042,COMPATIBLE_WITH,API:make_cudaPitchedPtr
 runtime:dtk25042,COMPATIBLE_WITH,API:make_cudaPos
 runtime:dtk25042,COMPATIBLE_WITH,API:make_hipExtent
 runtime:dtk25042,COMPATIBLE_WITH,API:make_hipPos
-runtime:dtk25042,SUPPORTS_API,API:ALIZATION_FAILED
 runtime:dtk25042,SUPPORTS_API,API:Algorithm
 runtime:dtk25042,SUPPORTS_API,API:Bias
 runtime:dtk25042,SUPPORTS_API,API:COO
@@ -455,8 +454,6 @@ runtime:dtk25042,SUPPORTS_API,API:CUB_QUOTIENT_FLOOR
 runtime:dtk25042,SUPPORTS_API,API:CUB_ROUND_DOWN_NEAREST
 runtime:dtk25042,SUPPORTS_API,API:CUB_ROUND_UP_NEAREST
 runtime:dtk25042,SUPPORTS_API,API:CUB_STATIC_ASSERT
-runtime:dtk25042,SUPPORTS_API,API:CUDA
-runtime:dtk25042,SUPPORTS_API,API:CUDAversion
 runtime:dtk25042,SUPPORTS_API,API:CUFFT_ALLOC_FAILED
 runtime:dtk25042,SUPPORTS_API,API:CUFFT_C2C
 runtime:dtk25042,SUPPORTS_API,API:CUFFT_C2R
@@ -940,7 +937,6 @@ runtime:dtk25042,SUPPORTS_API,API:csrsv2Info
 runtime:dtk25042,SUPPORTS_API,API:csrsv2Info_t
 runtime:dtk25042,SUPPORTS_API,API:csru2csrInfo
 runtime:dtk25042,SUPPORTS_API,API:csru2csrInfo_t
-runtime:dtk25042,SUPPORTS_API,API:cub::
 runtime:dtk25042,SUPPORTS_API,API:cub::ArgIndexInputIterator
 runtime:dtk25042,SUPPORTS_API,API:cub::BFE
 runtime:dtk25042,SUPPORTS_API,API:cub::BlockAdjacentDifference
@@ -3124,11 +3120,8 @@ runtime:dtk25042,SUPPORTS_API,API:cusparseZhybsv_analysis
 runtime:dtk25042,SUPPORTS_API,API:cusparseZnnz
 runtime:dtk25042,SUPPORTS_API,API:cusparseZnnz_compress
 runtime:dtk25042,SUPPORTS_API,API:cusparseZsctr
-runtime:dtk25042,SUPPORTS_API,API:d
 runtime:dtk25042,SUPPORTS_API,API:define
-runtime:dtk25042,SUPPORTS_API,API:e
 runtime:dtk25042,SUPPORTS_API,API:erator
-runtime:dtk25042,SUPPORTS_API,API:fferSizeExt
 runtime:dtk25042,SUPPORTS_API,API:float2int
 runtime:dtk25042,SUPPORTS_API,API:float2uint
 runtime:dtk25042,SUPPORTS_API,API:float_as_int
@@ -4493,7 +4486,6 @@ runtime:dtk25042,SUPPORTS_API,API:hipsparseZnnz_compress
 runtime:dtk25042,SUPPORTS_API,API:hipsparseZsctr
 runtime:dtk25042,SUPPORTS_API,API:int2float
 runtime:dtk25042,SUPPORTS_API,API:int_as_float
-runtime:dtk25042,SUPPORTS_API,API:k
 runtime:dtk25042,SUPPORTS_API,API:lock
 runtime:dtk25042,SUPPORTS_API,API:lock64
 runtime:dtk25042,SUPPORTS_API,API:memcpy
@@ -4544,12 +4536,10 @@ runtime:dtk25042,SUPPORTS_API,API:skipahead
 runtime:dtk25042,SUPPORTS_API,API:skipahead_subsequence
 runtime:dtk25042,SUPPORTS_API,API:skipaheadsequence
 runtime:dtk25042,SUPPORTS_API,API:solverspScsreigs
-runtime:dtk25042,SUPPORTS_API,API:sr_bufferSizeExt
 runtime:dtk25042,SUPPORTS_API,API:stogramRange
 runtime:dtk25042,SUPPORTS_API,API:structstruct
 runtime:dtk25042,SUPPORTS_API,API:structstructstruct
 runtime:dtk25042,SUPPORTS_API,API:structstructstructstructstructstructstruct
-runtime:dtk25042,SUPPORTS_API,API:tKeys
 runtime:dtk25042,SUPPORTS_API,API:thrust::abs
 runtime:dtk25042,SUPPORTS_API,API:thrust::acos
 runtime:dtk25042,SUPPORTS_API,API:thrust::acosh
@@ -4799,7 +4789,6 @@ runtime:dtk25042,SUPPORTS_API,API:thrust::stable_sort_by_key
 runtime:dtk25042,SUPPORTS_API,API:thrust::swap
 runtime:dtk25042,SUPPORTS_API,API:thrust::swap_ranges
 runtime:dtk25042,SUPPORTS_API,API:thrust::system
-runtime:dtk25042,SUPPORTS_API,API:thrust::system::
 runtime:dtk25042,SUPPORTS_API,API:thrust::system::cpp
 runtime:dtk25042,SUPPORTS_API,API:thrust::system::cpp::memory_resource
 runtime:dtk25042,SUPPORTS_API,API:thrust::system::cpp::pointer
@@ -4862,11 +4851,7 @@ runtime:dtk25042,SUPPORTS_API,API:thrust::universal_ptr
 runtime:dtk25042,SUPPORTS_API,API:thrust::voider
 runtime:dtk25042,SUPPORTS_API,API:thrust::zip_function
 runtime:dtk25042,SUPPORTS_API,API:thrust::zip_iterator
-runtime:dtk25042,SUPPORTS_API,API:type
-runtime:dtk25042,SUPPORTS_API,API:typedefstruct
 runtime:dtk25042,SUPPORTS_API,API:uint2float
 runtime:dtk25042,SUPPORTS_API,API:umul24
 runtime:dtk25042,SUPPORTS_API,API:umul64hi
 runtime:dtk25042,SUPPORTS_API,API:wardDataAlgorithm
-runtime:dtk25042,SUPPORTS_API,API:y
-runtime:dtk25042,SUPPORTS_API,API:ze

@@ -76,8 +76,6 @@ API:CUBLAS_VER_BUILD,API,CUBLAS_VER_BUILD,https://download.sourcefind.cn:65024/1
 API:CUBLAS_VER_MAJOR,API,CUBLAS_VER_MAJOR,https://download.sourcefind.cn:65024/1/main/DTK-22.10.1/Document,,,,,,,,,,CUDA API 支持
 API:CUBLAS_VER_MINOR,API,CUBLAS_VER_MINOR,https://download.sourcefind.cn:65024/1/main/DTK-22.10.1/Document,,,,,,,,,,CUDA API 支持
 API:CUBLAS_VER_PATCH,API,CUBLAS_VER_PATCH,https://download.sourcefind.cn:65024/1/main/DTK-22.10.1/Document,,,,,,,,,,CUDA API 支持
-API:CUDA,API,CUDA,https://download.sourcefind.cn:65024/1/main/DTK-22.10.1/Document,,,,,,,,,,CUDA API 支持
-API:CUDAversion,API,CUDAversion,https://download.sourcefind.cn:65024/1/main/DTK-22.10.1/Document,,,,,,,,,,CUDA API 支持
 API:CUFFT_ALLOC_FAILED,API,CUFFT_ALLOC_FAILED,https://download.sourcefind.cn:65024/1/main/DTK-22.10.1/Document,,,,,,,,,,CUDA API 支持
 API:CUFFT_C2C,API,CUFFT_C2C,https://download.sourcefind.cn:65024/1/main/DTK-22.10.1/Document,,,,,,,,,,CUDA API 支持
 API:CUFFT_C2R,API,CUFFT_C2R,https://download.sourcefind.cn:65024/1/main/DTK-22.10.1/Document,,,,,,,,,,CUDA API 支持
@@ -278,7 +276,6 @@ API:HIPSPARSE_POINTER_MODE_DEVICE,API,HIPSPARSE_POINTER_MODE_DEVICE,https://down
 API:HIPSPARSE_POINTER_MODE_HOST,API,HIPSPARSE_POINTER_MODE_HOST,https://download.sourcefind.cn:65024/1/main/DTK-22.10.1/Document,,,,,,,,,,CUDA API 支持
 API:HIPSPARSE_SOLVE_POLICY_NO_LEVEL,API,HIPSPARSE_SOLVE_POLICY_NO_LEVEL,https://download.sourcefind.cn:65024/1/main/DTK-22.10.1/Document,,,,,,,,,,CUDA API 支持
 API:HIPSPARSE_SOLVE_POLICY_USE_LEVEL,API,HIPSPARSE_SOLVE_POLICY_USE_LEVEL,https://download.sourcefind.cn:65024/1/main/DTK-22.10.1/Document,,,,,,,,,,CUDA API 支持
-API:HIPSPARSE_STA,API,HIPSPARSE_STA,https://download.sourcefind.cn:65024/1/main/DTK-22.10.1/Document,,,,,,,,,,CUDA API 支持
 API:HIPSPARSE_STATUS_ALLOC_FAILED,API,HIPSPARSE_STATUS_ALLOC_FAILED,https://download.sourcefind.cn:65024/1/main/DTK-22.10.1/Document,,,,,,,,,,CUDA API 支持
 API:HIPSPARSE_STATUS_ARCH_MISMATCH,API,HIPSPARSE_STATUS_ARCH_MISMATCH,https://download.sourcefind.cn:65024/1/main/DTK-22.10.1/Document,,,,,,,,,,CUDA API 支持
 API:HIPSPARSE_STATUS_EXECUTION_FAILED,API,HIPSPARSE_STATUS_EXECUTION_FAILED,https://download.sourcefind.cn:65024/1/main/DTK-22.10.1/Document,,,,,,,,,,CUDA API 支持
@@ -299,7 +296,6 @@ API:bsrsm2Info,API,bsrsm2Info,https://download.sourcefind.cn:65024/1/main/DTK-22
 API:bsrsm2Info_t,API,bsrsm2Info_t,https://download.sourcefind.cn:65024/1/main/DTK-22.10.1/Document,,,,,,,,,,CUDA API 支持
 API:bsrsv2Info,API,bsrsv2Info,https://download.sourcefind.cn:65024/1/main/DTK-22.10.1/Document,,,,,,,,,,CUDA API 支持
 API:bsrsv2Info_t,API,bsrsv2Info_t,https://download.sourcefind.cn:65024/1/main/DTK-22.10.1/Document,,,,,,,,,,CUDA API 支持
-API:ce,API,ce,https://download.sourcefind.cn:65024/1/main/DTK-22.10.1/Document,,,,,,,,,,CUDA API 支持
 API:criptor,API,criptor,https://download.sourcefind.cn:65024/1/main/DTK-22.10.1/Document,,,,,,,,,,CUDA API 支持
 API:csrgemm2Info,API,csrgemm2Info,https://download.sourcefind.cn:65024/1/main/DTK-22.10.1/Document,,,,,,,,,,CUDA API 支持
 API:csrgemm2Info_t,API,csrgemm2Info_t,https://download.sourcefind.cn:65024/1/main/DTK-22.10.1/Document,,,,,,,,,,CUDA API 支持
@@ -2801,6 +2797,3 @@ API:rocsolver_zunmqr,API,rocsolver_zunmqr,https://download.sourcefind.cn:65024/1
 API:rocsolver_zunmtr,API,rocsolver_zunmtr,https://download.sourcefind.cn:65024/1/main/DTK-22.10.1/Document,,,,,,,,,,CUDA API 支持
 API:scr,API,scr,https://download.sourcefind.cn:65024/1/main/DTK-22.10.1/Document,,,,,,,,,,CUDA API 支持
 API:solverspScsreigs,API,solverspScsreigs,https://download.sourcefind.cn:65024/1/main/DTK-22.10.1/Document,,,,,,,,,,CUDA API 支持
-API:tor,API,tor,https://download.sourcefind.cn:65024/1/main/DTK-22.10.1/Document,,,,,,,,,,CUDA API 支持
-API:type,API,type,https://download.sourcefind.cn:65024/1/main/DTK-22.10.1/Document,,,,,,,,,,CUDA API 支持
-API:typedefstruct,API,typedefstruct,https://download.sourcefind.cn:65024/1/main/DTK-22.10.1/Document,,,,,,,,,,CUDA API 支持

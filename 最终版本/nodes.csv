@@ -2418,8 +2418,6 @@ API:CUBLAS_VER_BUILD,API,CUBLAS_VER_BUILD,https://download.sourcefind.cn:65024/1
 API:CUBLAS_VER_MAJOR,API,CUBLAS_VER_MAJOR,https://download.sourcefind.cn:65024/1/main/DTK-22.04.2/Document,,,,,,,,,,CUDA API 支持
 API:CUBLAS_VER_MINOR,API,CUBLAS_VER_MINOR,https://download.sourcefind.cn:65024/1/main/DTK-22.04.2/Document,,,,,,,,,,CUDA API 支持
 API:CUBLAS_VER_PATCH,API,CUBLAS_VER_PATCH,https://download.sourcefind.cn:65024/1/main/DTK-22.04.2/Document,,,,,,,,,,CUDA API 支持
-API:CUDA,API,CUDA,https://download.sourcefind.cn:65024/1/main/DTK-22.04.2/Document,,,,,,,,,,CUDA API 支持
-API:CUDAversion,API,CUDAversion,https://download.sourcefind.cn:65024/1/main/DTK-22.04.2/Document,,,,,,,,,,CUDA API 支持
 API:CUFFT_ALLOC_FAILED,API,CUFFT_ALLOC_FAILED,https://download.sourcefind.cn:65024/1/main/DTK-22.04.2/Document,,,,,,,,,,CUDA API 支持
 API:CUFFT_C2C,API,CUFFT_C2C,https://download.sourcefind.cn:65024/1/main/DTK-22.04.2/Document,,,,,,,,,,CUDA API 支持
 API:CUFFT_C2R,API,CUFFT_C2R,https://download.sourcefind.cn:65024/1/main/DTK-22.04.2/Document,,,,,,,,,,CUDA API 支持
@@ -4680,17 +4678,13 @@ API:rocsolver_zungtr,API,rocsolver_zungtr,https://download.sourcefind.cn:65024/1
 API:rocsolver_zunmqr,API,rocsolver_zunmqr,https://download.sourcefind.cn:65024/1/main/DTK-22.04.2/Document,,,,,,,,,,CUDA API 支持
 API:rocsolver_zunmtr,API,rocsolver_zunmtr,https://download.sourcefind.cn:65024/1/main/DTK-22.04.2/Document,,,,,,,,,,CUDA API 支持
 API:solverspScsreigs,API,solverspScsreigs,https://download.sourcefind.cn:65024/1/main/DTK-22.04.2/Document,,,,,,,,,,CUDA API 支持
-API:type,API,type,https://download.sourcefind.cn:65024/1/main/DTK-22.04.2/Document,,,,,,,,,,CUDA API 支持
-API:typedefstruct,API,typedefstruct,https://download.sourcefind.cn:65024/1/main/DTK-22.04.2/Document,,,,,,,,,,CUDA API 支持
 runtime:dtk22101,Runtime,DTK 22.10.1,,,,,,,,,,,
 API:Alg_t,API,Alg_t,https://download.sourcefind.cn:65024/1/main/DTK-22.10.1/Document,,,,,,,,,,CUDA API 支持
 API:CUSPARSE_STA,API,CUSPARSE_STA,https://download.sourcefind.cn:65024/1/main/DTK-22.10.1/Document,,,,,,,,,,CUDA API 支持
 API:GO11_TENSOR_OP,API,GO11_TENSOR_OP,https://download.sourcefind.cn:65024/1/main/DTK-22.10.1/Document,,,,,,,,,,CUDA API 支持
 API:GO8,API,GO8,https://download.sourcefind.cn:65024/1/main/DTK-22.10.1/Document,,,,,,,,,,CUDA API 支持
-API:HIPSPARSE_STA,API,HIPSPARSE_STA,https://download.sourcefind.cn:65024/1/main/DTK-22.10.1/Document,,,,,,,,,,CUDA API 支持
 API:TUS_INVALID_VALUE,API,TUS_INVALID_VALUE,https://download.sourcefind.cn:65024/1/main/DTK-22.10.1/Document,,,,,,,,,,CUDA API 支持
 API:ardFilterWorkspaceSize,API,ardFilterWorkspaceSize,https://download.sourcefind.cn:65024/1/main/DTK-22.10.1/Document,,,,,,,,,,CUDA API 支持
-API:ce,API,ce,https://download.sourcefind.cn:65024/1/main/DTK-22.10.1/Document,,,,,,,,,,CUDA API 支持
 API:criptor,API,criptor,https://download.sourcefind.cn:65024/1/main/DTK-22.10.1/Document,,,,,,,,,,CUDA API 支持
 API:cudaLaunchCooperativeKernelMultiDevi,API,cudaLaunchCooperativeKernelMultiDevi,https://download.sourcefind.cn:65024/1/main/DTK-22.10.1/Document,,,,,,,,,,CUDA API 支持
 API:cudnnGetConvolutionBackwardFilter,API,cudnnGetConvolutionBackwardFilter,https://download.sourcefind.cn:65024/1/main/DTK-22.10.1/Document,,,,,,,,,,CUDA API 支持
@@ -4703,7 +4697,6 @@ API:hipdnnCreateDropoutDescrip,API,hipdnnCreateDropoutDescrip,https://download.s
 API:hipdnnDestroyActivationDes,API,hipdnnDestroyActivationDes,https://download.sourcefind.cn:65024/1/main/DTK-22.10.1/Document,,,,,,,,,,CUDA API 支持
 API:hipdnnGetConvolutionBackw,API,hipdnnGetConvolutionBackw,https://download.sourcefind.cn:65024/1/main/DTK-22.10.1/Document,,,,,,,,,,CUDA API 支持
 API:scr,API,scr,https://download.sourcefind.cn:65024/1/main/DTK-22.10.1/Document,,,,,,,,,,CUDA API 支持
-API:tor,API,tor,https://download.sourcefind.cn:65024/1/main/DTK-22.10.1/Document,,,,,,,,,,CUDA API 支持
 runtime:dtk23041,Runtime,DTK 23.04.1,,,,,,,,,,,
 API:ALG,API,ALG,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:Algorithm_v7,API,Algorithm_v7,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
@@ -4774,7 +4767,6 @@ API:GRID_MAPPING_RAKE,API,GRID_MAPPING_RAKE,https://download.sourcefind.cn:65024
 API:GRID_MAPPING_STRIP_MINE,API,GRID_MAPPING_STRIP_MINE,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:HIPBLAS_ATOMICS_ALLOWED,API,HIPBLAS_ATOMICS_ALLOWED,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:HIPBLAS_ATOMICS_NOT_ALLOWED,API,HIPBLAS_ATOMICS_NOT_ALLOWED,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
-API:HIPBLAS_POINTER,API,HIPBLAS_POINTER,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:HIPFFT_MAJOR_VERSION,API,HIPFFT_MAJOR_VERSION,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:HIPFFT_MINOR_VERSION,API,HIPFFT_MINOR_VERSION,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:HIPFFT_PATCH_LEVEL,API,HIPFFT_PATCH_LEVEL,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
@@ -4803,15 +4795,12 @@ API:HIPRAND_STATUS_PREEXISTING_FAILURE,API,HIPRAND_STATUS_PREEXISTING_FAILURE,ht
 API:HIPRAND_STATUS_SUCCESS,API,HIPRAND_STATUS_SUCCESS,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:HIPRAND_STATUS_TYPE_ERROR,API,HIPRAND_STATUS_TYPE_ERROR,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:HIPRAND_STATUS_VERSION_MISMATCH,API,HIPRAND_STATUS_VERSION_MISMATCH,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
-API:HIPSPARSE_HYB_PART,API,HIPSPARSE_HYB_PART,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
-API:HIPSPARSE_STATUS_A,API,HIPSPARSE_STATUS_A,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:ICENSE_ERROR,API,ICENSE_ERROR,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:ITION_MAX,API,ITION_MAX,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:LLOC_FAILED,API,LLOC_FAILED,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:MODE_HOST,API,MODE_HOST,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:NCCL,API,NCCL,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:NCCLversion,API,NCCLversion,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
-API:OR,API,OR,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:RCCL,API,RCCL,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:Size,API,Size,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:THRUST_BINARY_FUNCTOR_VOID_SPECIALIZATION,API,THRUST_BINARY_FUNCTOR_VOID_SPECIALIZATION,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
@@ -4930,7 +4919,6 @@ API:btractRightPartialTile,API,btractRightPartialTile,https://download.sourcefin
 API:c_bufferSize,API,c_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:clock,API,clock,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,Device Library
 API:clock64,API,clock64,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,Device Library
-API:cub::,API,cub::,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:cub::ArgIndexInputIterator,API,cub::ArgIndexInputIterator,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:cub::BFE,API,cub::BFE,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:cub::BlockAdjacentDifference,API,cub::BlockAdjacentDifference,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
@@ -5257,17 +5245,13 @@ API:cusparseSpVV,API,cusparseSpVV,https://download.sourcefind.cn:65024/1/main/DT
 API:cusparseSpVV_bufferSize,API,cusparseSpVV_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:cusparseSpVecSetValues,API,cusparseSpVecSetValues,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:cusparseZcsrcolor,API,cusparseZcsrcolor,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
-API:d,API,d,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:dingBlockedToStriped,API,dingBlockedToStriped,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:e2csrByPercentage,API,e2csrByPercentage,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:e_N,API,e_N,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,Device Library
 API:ectorized,API,ectorized,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
-API:edBatch_bufferSizeExt,API,edBatch_bufferSizeExt,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:edReduce,API,edReduce,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
-API:ef,API,ef,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:ence,API,ence,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:endingBlockedToStriped,API,endingBlockedToStriped,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
-API:fferSizeExt,API,fferSizeExt,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:float2int,API,float2int,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,Device Library
 API:float2uint,API,float2uint,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,Device Library
 API:float_as_int,API,float_as_int,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,Device Library
@@ -6169,7 +6153,6 @@ API:int2float,API,int2float,https://download.sourcefind.cn:65024/1/main/DTK-23.0
 API:int_as_float,API,int_as_float,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,Device Library
 API:lock,API,lock,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,Device Library
 API:lock64,API,lock64,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,Device Library
-API:m,API,m,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:make_cudaExtent,API,make_cudaExtent,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,Memory Management
 API:make_cudaPitchedPtr,API,make_cudaPitchedPtr,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,Memory Management
 API:make_cudaPos,API,make_cudaPos,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,Memory Management
@@ -6208,7 +6191,6 @@ API:ncclResult_t,API,ncclResult_t,https://download.sourcefind.cn:65024/1/main/DT
 API:ncclScalarResidence_t,API,ncclScalarResidence_t,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:normal_args_double_t,API,normal_args_double_t,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:normal_args_t,API,normal_args_t,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
-API:nz,API,nz,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:printf,API,printf,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,Device Library
 API:rSizeExt,API,rSizeExt,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:riptor,API,riptor,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
@@ -6218,9 +6200,7 @@ API:skipaheadsequence,API,skipaheadsequence,https://download.sourcefind.cn:65024
 API:structstruct,API,structstruct,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:structstructstruct,API,structstructstruct,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:structstructstructstructstruct,API,structstructstructstructstruct,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
-API:t,API,t,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:t::SortKeys,API,t::SortKeys,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
-API:tedReduce,API,tedReduce,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:thrust::abs,API,thrust::abs,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:thrust::acos,API,thrust::acos,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:thrust::acosh,API,thrust::acosh,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
@@ -6470,7 +6450,6 @@ API:thrust::stable_sort_by_key,API,thrust::stable_sort_by_key,https://download.s
 API:thrust::swap,API,thrust::swap,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:thrust::swap_ranges,API,thrust::swap_ranges,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:thrust::system,API,thrust::system,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
-API:thrust::system::,API,thrust::system::,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:thrust::system::cpp,API,thrust::system::cpp,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:thrust::system::cpp::memory_resource,API,thrust::system::cpp::memory_resource,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:thrust::system::cpp::pointer,API,thrust::system::cpp::pointer,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
@@ -6533,12 +6512,10 @@ API:thrust::universal_ptr,API,thrust::universal_ptr,https://download.sourcefind.
 API:thrust::voider,API,thrust::voider,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:thrust::zip_function,API,thrust::zip_function,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:thrust::zip_iterator,API,thrust::zip_iterator,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
-API:typed,API,typed,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:ubtractRightPartialTile,API,ubtractRightPartialTile,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 API:uint2float,API,uint2float,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,Device Library
 API:umul24,API,umul24,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,Device Library
 API:umul64hi,API,umul64hi,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,Device Library
-API:ze,API,ze,https://download.sourcefind.cn:65024/1/main/DTK-23.04.1/Document,,,,,,,,,,CUDA API 支持
 runtime:dtk23101,Runtime,DTK 23.10.1,,,,,,,,,,,
 runtime:dtk2310,Runtime,DTK 23.10,,,,,,,,,,,
 runtime:dtk24041,Runtime,DTK 24.04.1,,,,,,,,,,,
@@ -6585,7 +6562,6 @@ API:hed,API,hed,https://download.sourcefind.cn:65024/1/main/DTK-24.04.1/Document
 API:hipblasSgemmStridedBatc,API,hipblasSgemmStridedBatc,https://download.sourcefind.cn:65024/1/main/DTK-24.04.1/Document,,,,,,,,,,CUDA API 支持
 API:hipcub::BlockRadixSort::SortDescendingBlockedToStriped,API,hipcub::BlockRadixSort::SortDescendingBlockedToStriped,https://download.sourcefind.cn:65024/1/main/DTK-24.04.1/Document,,,,,,,,,,CUDA API 支持
 API:hipcub::DeviceMergeSort::StableS,API,hipcub::DeviceMergeSort::StableS,https://download.sourcefind.cn:65024/1/main/DTK-24.04.1/Document,,,,,,,,,,CUDA API 支持
-API:hipcub::DeviceRunLengthEncode::,API,hipcub::DeviceRunLengthEncode::,https://download.sourcefind.cn:65024/1/main/DTK-24.04.1/Document,,,,,,,,,,CUDA API 支持
 API:hipcub::DeviceScan::ExclusiveSum,API,hipcub::DeviceScan::ExclusiveSum,https://download.sourcefind.cn:65024/1/main/DTK-24.04.1/Document,,,,,,,,,,CUDA API 支持
 API:hipcub::DeviceSegmentedRadixSort::SortKeys,API,hipcub::DeviceSegmentedRadixSort::SortKeys,https://download.sourcefind.cn:65024/1/main/DTK-24.04.1/Document,,,,,,,,,,CUDA API 支持
 API:hipcub::DeviceSegmentedSort::Sta,API,hipcub::DeviceSegmentedSort::Sta,https://download.sourcefind.cn:65024/1/main/DTK-24.04.1/Document,,,,,,,,,,CUDA API 支持
@@ -6605,15 +6581,11 @@ API:hipsparseSpruneCsr2c,API,hipsparseSpruneCsr2c,https://download.sourcefind.cn
 API:hipsparseSpruneDense,API,hipsparseSpruneDense,https://download.sourcefind.cn:65024/1/main/DTK-24.04.1/Document,,,,,,,,,,CUDA API 支持
 API:hipsparseXcsr2gebsrNnz,API,hipsparseXcsr2gebsrNnz,https://download.sourcefind.cn:65024/1/main/DTK-24.04.1/Document,,,,,,,,,,CUDA API 支持
 API:ncode,API,ncode,https://download.sourcefind.cn:65024/1/main/DTK-24.04.1/Document,,,,,,,,,,CUDA API 支持
-API:or,API,or,https://download.sourcefind.cn:65024/1/main/DTK-24.04.1/Document,,,,,,,,,,CUDA API 支持
 API:ortPairs,API,ortPairs,https://download.sourcefind.cn:65024/1/main/DTK-24.04.1/Document,,,,,,,,,,CUDA API 支持
 API:ptor,API,ptor,https://download.sourcefind.cn:65024/1/main/DTK-24.04.1/Document,,,,,,,,,,CUDA API 支持
 API:r_bufferSize,API,r_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-24.04.1/Document,,,,,,,,,,CUDA API 支持
-API:srByPercentage_bufferSizeExt,API,srByPercentage_bufferSizeExt,https://download.sourcefind.cn:65024/1/main/DTK-24.04.1/Document,,,,,,,,,,CUDA API 支持
 API:srNnz,API,srNnz,https://download.sourcefind.cn:65024/1/main/DTK-24.04.1/Document,,,,,,,,,,CUDA API 支持
 API:structstructstructstructstructstructstruct,API,structstructstructstructstructstructstruct,https://download.sourcefind.cn:65024/1/main/DTK-24.04.1/Document,,,,,,,,,,CUDA API 支持
-API:tPairs,API,tPairs,https://download.sourcefind.cn:65024/1/main/DTK-24.04.1/Document,,,,,,,,,,CUDA API 支持
-API:te,API,te,https://download.sourcefind.cn:65024/1/main/DTK-24.04.1/Document,,,,,,,,,,Device Library
 API:thrust::make_reversed_index_sequence,API,thrust::make_reversed_index_sequence,https://download.sourcefind.cn:65024/1/main/DTK-24.04.1/Document,,,,,,,,,,CUDA API 支持
 API:thrust::mr::disjoint_unsynchronize,API,thrust::mr::disjoint_unsynchronize,https://download.sourcefind.cn:65024/1/main/DTK-24.04.1/Document,,,,,,,,,,CUDA API 支持
 API:typedefstructtyped,API,typedefstructtyped,https://download.sourcefind.cn:65024/1/main/DTK-24.04.1/Document,,,,,,,,,,CUDA API 支持
@@ -6652,9 +6624,7 @@ API:cudnnFindConvolutionBackwardFilter,API,cudnnFindConvolutionBackwardFilter,ht
 API:cudnnGetConvolution2dForwardOutp,API,cudnnGetConvolution2dForwardOutp,https://download.sourcefind.cn:65024/1/main/DTK-24.04.2/Document,,,,,,,,,,CUDA API 支持
 API:curandStateScrambledSobol,API,curandStateScrambledSobol,https://download.sourcefind.cn:65024/1/main/DTK-24.04.2/Document,,,,,,,,,,CUDA API 支持
 API:cusolverRfSetResetValuesFastMod,API,cusolverRfSetResetValuesFastMod,https://download.sourcefind.cn:65024/1/main/DTK-24.04.2/Document,,,,,,,,,,CUDA API 支持
-API:e,API,e,https://download.sourcefind.cn:65024/1/main/DTK-24.04.2/Document,,,,,,,,,,CUDA API 支持
 API:erator,API,erator,https://download.sourcefind.cn:65024/1/main/DTK-24.04.2/Document,,,,,,,,,,CUDA API 支持
-API:ey,API,ey,https://download.sourcefind.cn:65024/1/main/DTK-24.04.2/Document,,,,,,,,,,CUDA API 支持
 API:hipcub::BlockExchange::StripedTo,API,hipcub::BlockExchange::StripedTo,https://download.sourcefind.cn:65024/1/main/DTK-24.04.2/Document,,,,,,,,,,CUDA API 支持
 API:hipcub::DeviceSegmentedSort::Sor,API,hipcub::DeviceSegmentedSort::Sor,https://download.sourcefind.cn:65024/1/main/DTK-24.04.2/Document,,,,,,,,,,CUDA API 支持
 API:hipcub::DeviceSelect::UniqueByK,API,hipcub::DeviceSelect::UniqueByK,https://download.sourcefind.cn:65024/1/main/DTK-24.04.2/Document,,,,,,,,,,CUDA API 支持
@@ -6667,9 +6637,7 @@ API:hipdnnSetOpTensorDescripto,API,hipdnnSetOpTensorDescripto,https://download.s
 API:hiprandStateScrambledSobol,API,hiprandStateScrambledSobol,https://download.sourcefind.cn:65024/1/main/DTK-24.04.2/Document,,,,,,,,,,CUDA API 支持
 API:hipsolverDnDgesvdaStridedBatche,API,hipsolverDnDgesvdaStridedBatche,https://download.sourcefind.cn:65024/1/main/DTK-24.04.2/Document,,,,,,,,,,CUDA API 支持
 API:locked,API,locked,https://download.sourcefind.cn:65024/1/main/DTK-24.04.2/Document,,,,,,,,,,CUDA API 支持
-API:r,API,r,https://download.sourcefind.cn:65024/1/main/DTK-24.04.2/Document,,,,,,,,,,CUDA API 支持|Device Library
 API:srByPercentage,API,srByPercentage,https://download.sourcefind.cn:65024/1/main/DTK-24.04.2/Document,,,,,,,,,,CUDA API 支持
-API:tKeys,API,tKeys,https://download.sourcefind.cn:65024/1/main/DTK-24.04.2/Document,,,,,,,,,,CUDA API 支持
 API:thrust::make_transform_output_it,API,thrust::make_transform_output_it,https://download.sourcefind.cn:65024/1/main/DTK-24.04.2/Document,,,,,,,,,,CUDA API 支持
 API:thrust::mr::stateless_resource_allo,API,thrust::mr::stateless_resource_allo,https://download.sourcefind.cn:65024/1/main/DTK-24.04.2/Document,,,,,,,,,,CUDA API 支持
 API:utDim,API,utDim,https://download.sourcefind.cn:65024/1/main/DTK-24.04.2/Document,,,,,,,,,,CUDA API 支持
@@ -6690,7 +6658,6 @@ runtime:dtk25041,Runtime,DTK 25.04.1,,,,,,,,,,,
 API:_tag,API,_tag,https://download.sourcefind.cn:65024/1/main/DTK-25.04.1/Document,,,,,,,,,,CUDA API 支持
 API:thrust::bidirectional_host_iterator,API,thrust::bidirectional_host_iterator,https://download.sourcefind.cn:65024/1/main/DTK-25.04.1/Document,,,,,,,,,,CUDA API 支持
 runtime:dtk25042,Runtime,DTK 25.04.2,,,,,,,,,,,
-API:ALIZATION_FAILED,API,ALIZATION_FAILED,https://download.sourcefind.cn:65024/1/main/DTK-25.04.2/Document,,,,,,,,,,CUDA API 支持
 API:Bias,API,Bias,https://download.sourcefind.cn:65024/1/main/DTK-25.04.2/Document,,,,,,,,,,CUDA API 支持
 API:COO,API,COO,https://download.sourcefind.cn:65024/1/main/DTK-25.04.2/Document,,,,,,,,,,CUDA API 支持
 API:CURAND_STATUS_INITI,API,CURAND_STATUS_INITI,https://download.sourcefind.cn:65024/1/main/DTK-25.04.2/Document,,,,,,,,,,CUDA API 支持
@@ -6710,12 +6677,9 @@ API:cusolverSpScsrqrBufferInfoBatche,API,cusolverSpScsrqrBufferInfoBatche,https:
 API:hipcub::BlockShuffle::TempStorag,API,hipcub::BlockShuffle::TempStorag,https://download.sourcefind.cn:65024/1/main/DTK-25.04.2/Document,,,,,,,,,,CUDA API 支持
 API:hipcub::DeviceHistogram::MultiHi,API,hipcub::DeviceHistogram::MultiHi,https://download.sourcefind.cn:65024/1/main/DTK-25.04.2/Document,,,,,,,,,,CUDA API 支持
 API:hipcub::DeviceSelect::UniqueByKe,API,hipcub::DeviceSelect::UniqueByKe,https://download.sourcefind.cn:65024/1/main/DTK-25.04.2/Document,,,,,,,,,,CUDA API 支持
-API:k,API,k,https://download.sourcefind.cn:65024/1/main/DTK-25.04.2/Document,,,,,,,,,,CUDA API 支持
 API:ogramRange,API,ogramRange,https://download.sourcefind.cn:65024/1/main/DTK-25.04.2/Document,,,,,,,,,,CUDA API 支持
-API:sr_bufferSizeExt,API,sr_bufferSizeExt,https://download.sourcefind.cn:65024/1/main/DTK-25.04.2/Document,,,,,,,,,,CUDA API 支持
 API:stogramRange,API,stogramRange,https://download.sourcefind.cn:65024/1/main/DTK-25.04.2/Document,,,,,,,,,,CUDA API 支持
 API:wardDataAlgorithm,API,wardDataAlgorithm,https://download.sourcefind.cn:65024/1/main/DTK-25.04.2/Document,,,,,,,,,,CUDA API 支持
-API:y,API,y,https://download.sourcefind.cn:65024/1/main/DTK-25.04.2/Document,,,,,,,,,,CUDA API 支持
 runtime:dtk25043,Runtime,DTK 25.04.3,,,,,,,,,,,
 runtime:dtk25044,Runtime,DTK 25.04.4,,,,,,,,,,,
 runtime:dtk2504,Runtime,DTK 25.04,,,,,,,,,,,

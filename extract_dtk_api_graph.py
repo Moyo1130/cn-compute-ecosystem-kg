@@ -45,7 +45,39 @@ DROP_EXACT_NAMES = {
     "CURAND_3RD",
     "CURAND_DEFINITION",
     "CURAND_DEVICE_API",
+    "CUDA",
+    "CUDAversion",
+    "HIP",
+    "type",
+    "typedef",
+    "typedefstruct",
+    "struct",
+    "version",
+    "Version",
+    "tor",
+    "OR",
+    "t",
+    "te",
+    "typed",
+    "tedReduce",
+    "tPairs",
+    "tKeys",
+    "ALIZATION_FAILED",
+    "edBatch_bufferSizeExt",
+    "fferSizeExt",
+    "srByPercentage_bufferSizeExt",
+    "sr_bufferSizeExt",
+    "HIPBLAS_POINTER",
+    "HIPSPARSE_HYB_PART",
+    "HIPSPARSE_STATUS_A",
+    "HIPSPARSE_STA",
+    "thrust::system::",
 }
+DROP_NAME_PATTERNS = (
+    re.compile(r".*::$"),
+    re.compile(r".*_AL$"),
+    re.compile(r"^[a-z]{1,2}$"),
+)
 SPLIT_PREFIXES = (
     "CUBLAS_",
     "HIPBLAS_",
@@ -124,6 +156,8 @@ def looks_like_api_name(name: str) -> bool:
         return False
     if name in DROP_EXACT_NAMES:
         return False
+    if any(pattern.fullmatch(name) for pattern in DROP_NAME_PATTERNS):
+        return False
     if name in {"glong"}:
         return False
     if name in {"struct", "typedef"}:
@@ -135,6 +169,8 @@ def looks_like_api_name(name: str) -> bool:
     if name.startswith("MAX_"):
         return False
     if "structtypedef" in name:
+        return False
+    if name.endswith("::"):
         return False
     if name.isupper() and "_" not in name and "::" not in name and len(name) > 6:
         return False

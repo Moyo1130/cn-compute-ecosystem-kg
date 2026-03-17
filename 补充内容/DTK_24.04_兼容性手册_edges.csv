@@ -444,8 +444,6 @@ runtime:dtk2404,SUPPORTS_API,API:CUB_QUOTIENT_FLOOR
 runtime:dtk2404,SUPPORTS_API,API:CUB_ROUND_DOWN_NEAREST
 runtime:dtk2404,SUPPORTS_API,API:CUB_ROUND_UP_NEAREST
 runtime:dtk2404,SUPPORTS_API,API:CUB_STATIC_ASSERT
-runtime:dtk2404,SUPPORTS_API,API:CUDA
-runtime:dtk2404,SUPPORTS_API,API:CUDAversion
 runtime:dtk2404,SUPPORTS_API,API:CUFFT_ALLOC_FAILED
 runtime:dtk2404,SUPPORTS_API,API:CUFFT_C2C
 runtime:dtk2404,SUPPORTS_API,API:CUFFT_C2R
@@ -708,7 +706,6 @@ runtime:dtk2404,SUPPORTS_API,API:HIPSPARSE_DIRECTION_COLUMN
 runtime:dtk2404,SUPPORTS_API,API:HIPSPARSE_DIRECTION_ROW
 runtime:dtk2404,SUPPORTS_API,API:HIPSPARSE_FILL_MODE_LOWER
 runtime:dtk2404,SUPPORTS_API,API:HIPSPARSE_FILL_MODE_UPPER
-runtime:dtk2404,SUPPORTS_API,API:HIPSPARSE_HYB_PART
 runtime:dtk2404,SUPPORTS_API,API:HIPSPARSE_HYB_PARTITION_AUTO
 runtime:dtk2404,SUPPORTS_API,API:HIPSPARSE_HYB_PARTITION_USER
 runtime:dtk2404,SUPPORTS_API,API:HIPSPARSE_INDEX_BASE_ONE
@@ -724,7 +721,6 @@ runtime:dtk2404,SUPPORTS_API,API:HIPSPARSE_POINTER_MODE_DEVICE
 runtime:dtk2404,SUPPORTS_API,API:HIPSPARSE_POINTER_MODE_HOST
 runtime:dtk2404,SUPPORTS_API,API:HIPSPARSE_SOLVE_POLICY_NO_LEVEL
 runtime:dtk2404,SUPPORTS_API,API:HIPSPARSE_SOLVE_POLICY_USE_LEVEL
-runtime:dtk2404,SUPPORTS_API,API:HIPSPARSE_STATUS_A
 runtime:dtk2404,SUPPORTS_API,API:HIPSPARSE_STATUS_ARCH_MISMATCH
 runtime:dtk2404,SUPPORTS_API,API:HIPSPARSE_STATUS_EXECUTION_FAILED
 runtime:dtk2404,SUPPORTS_API,API:HIPSPARSE_STATUS_INTERNAL_ERROR
@@ -931,7 +927,6 @@ runtime:dtk2404,SUPPORTS_API,API:csrsv2Info
 runtime:dtk2404,SUPPORTS_API,API:csrsv2Info_t
 runtime:dtk2404,SUPPORTS_API,API:csru2csrInfo
 runtime:dtk2404,SUPPORTS_API,API:csru2csrInfo_t
-runtime:dtk2404,SUPPORTS_API,API:cub::
 runtime:dtk2404,SUPPORTS_API,API:cub::ArgIndexInputIterator
 runtime:dtk2404,SUPPORTS_API,API:cub::BFE
 runtime:dtk2404,SUPPORTS_API,API:cub::BlockAdjacentDifference
@@ -3120,11 +3115,8 @@ runtime:dtk2404,SUPPORTS_API,API:define
 runtime:dtk2404,SUPPORTS_API,API:dingBlockedToStriped
 runtime:dtk2404,SUPPORTS_API,API:e2csrByPercentage
 runtime:dtk2404,SUPPORTS_API,API:ectorized
-runtime:dtk2404,SUPPORTS_API,API:edBatch_bufferSizeExt
 runtime:dtk2404,SUPPORTS_API,API:edReduce
-runtime:dtk2404,SUPPORTS_API,API:ef
 runtime:dtk2404,SUPPORTS_API,API:endingBlockedToStriped
-runtime:dtk2404,SUPPORTS_API,API:fferSizeExt
 runtime:dtk2404,SUPPORTS_API,API:float2int
 runtime:dtk2404,SUPPORTS_API,API:float2uint
 runtime:dtk2404,SUPPORTS_API,API:float_as_int
@@ -4491,7 +4483,6 @@ runtime:dtk2404,SUPPORTS_API,API:int2float
 runtime:dtk2404,SUPPORTS_API,API:int_as_float
 runtime:dtk2404,SUPPORTS_API,API:lock
 runtime:dtk2404,SUPPORTS_API,API:lock64
-runtime:dtk2404,SUPPORTS_API,API:m
 runtime:dtk2404,SUPPORTS_API,API:memcpy
 runtime:dtk2404,SUPPORTS_API,API:memset
 runtime:dtk2404,SUPPORTS_API,API:mtgp32_fast_param_t
@@ -4533,9 +4524,7 @@ runtime:dtk2404,SUPPORTS_API,API:ncclSend
 runtime:dtk2404,SUPPORTS_API,API:normal_args_double_t
 runtime:dtk2404,SUPPORTS_API,API:normal_args_t
 runtime:dtk2404,SUPPORTS_API,API:ntSolver
-runtime:dtk2404,SUPPORTS_API,API:nz
 runtime:dtk2404,SUPPORTS_API,API:object_v
-runtime:dtk2404,SUPPORTS_API,API:or
 runtime:dtk2404,SUPPORTS_API,API:printf
 runtime:dtk2404,SUPPORTS_API,API:pruneInfo
 runtime:dtk2404,SUPPORTS_API,API:pruneInfo_t
@@ -4547,9 +4536,7 @@ runtime:dtk2404,SUPPORTS_API,API:solverspScsreigs
 runtime:dtk2404,SUPPORTS_API,API:structstruct
 runtime:dtk2404,SUPPORTS_API,API:structstructstruct
 runtime:dtk2404,SUPPORTS_API,API:structstructstructstructstruct
-runtime:dtk2404,SUPPORTS_API,API:t
 runtime:dtk2404,SUPPORTS_API,API:t::SortKeys
-runtime:dtk2404,SUPPORTS_API,API:tedReduce
 runtime:dtk2404,SUPPORTS_API,API:thrust::abs
 runtime:dtk2404,SUPPORTS_API,API:thrust::acos
 runtime:dtk2404,SUPPORTS_API,API:thrust::acosh
@@ -4798,7 +4785,6 @@ runtime:dtk2404,SUPPORTS_API,API:thrust::stable_sort_by_key
 runtime:dtk2404,SUPPORTS_API,API:thrust::swap
 runtime:dtk2404,SUPPORTS_API,API:thrust::swap_ranges
 runtime:dtk2404,SUPPORTS_API,API:thrust::system
-runtime:dtk2404,SUPPORTS_API,API:thrust::system::
 runtime:dtk2404,SUPPORTS_API,API:thrust::system::cpp
 runtime:dtk2404,SUPPORTS_API,API:thrust::system::cpp::memory_resource
 runtime:dtk2404,SUPPORTS_API,API:thrust::system::cpp::pointer
@@ -4861,9 +4847,6 @@ runtime:dtk2404,SUPPORTS_API,API:thrust::universal_ptr
 runtime:dtk2404,SUPPORTS_API,API:thrust::voider
 runtime:dtk2404,SUPPORTS_API,API:thrust::zip_function
 runtime:dtk2404,SUPPORTS_API,API:thrust::zip_iterator
-runtime:dtk2404,SUPPORTS_API,API:type
-runtime:dtk2404,SUPPORTS_API,API:typed
-runtime:dtk2404,SUPPORTS_API,API:typedefstruct
 runtime:dtk2404,SUPPORTS_API,API:ubtractRightPartialTile
 runtime:dtk2404,SUPPORTS_API,API:uint2float
 runtime:dtk2404,SUPPORTS_API,API:umul24

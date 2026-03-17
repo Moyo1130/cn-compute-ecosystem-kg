@@ -445,8 +445,6 @@ runtime:dtk25041,SUPPORTS_API,API:CUB_QUOTIENT_FLOOR
 runtime:dtk25041,SUPPORTS_API,API:CUB_ROUND_DOWN_NEAREST
 runtime:dtk25041,SUPPORTS_API,API:CUB_ROUND_UP_NEAREST
 runtime:dtk25041,SUPPORTS_API,API:CUB_STATIC_ASSERT
-runtime:dtk25041,SUPPORTS_API,API:CUDA
-runtime:dtk25041,SUPPORTS_API,API:CUDAversion
 runtime:dtk25041,SUPPORTS_API,API:CUFFT_ALLOC_FAILED
 runtime:dtk25041,SUPPORTS_API,API:CUFFT_C2C
 runtime:dtk25041,SUPPORTS_API,API:CUFFT_C2R
@@ -940,7 +938,6 @@ runtime:dtk25041,SUPPORTS_API,API:csrsv2Info
 runtime:dtk25041,SUPPORTS_API,API:csrsv2Info_t
 runtime:dtk25041,SUPPORTS_API,API:csru2csrInfo
 runtime:dtk25041,SUPPORTS_API,API:csru2csrInfo_t
-runtime:dtk25041,SUPPORTS_API,API:cub::
 runtime:dtk25041,SUPPORTS_API,API:cub::ArgIndexInputIterator
 runtime:dtk25041,SUPPORTS_API,API:cub::BFE
 runtime:dtk25041,SUPPORTS_API,API:cub::BlockAdjacentDifference
@@ -3125,7 +3122,6 @@ runtime:dtk25041,SUPPORTS_API,API:cusparseZnnz_compress
 runtime:dtk25041,SUPPORTS_API,API:cusparseZsctr
 runtime:dtk25041,SUPPORTS_API,API:d_bufferSize
 runtime:dtk25041,SUPPORTS_API,API:define
-runtime:dtk25041,SUPPORTS_API,API:e
 runtime:dtk25041,SUPPORTS_API,API:float2int
 runtime:dtk25041,SUPPORTS_API,API:float2uint
 runtime:dtk25041,SUPPORTS_API,API:float_as_int
@@ -4535,7 +4531,6 @@ runtime:dtk25041,SUPPORTS_API,API:normal_args_t
 runtime:dtk25041,SUPPORTS_API,API:printf
 runtime:dtk25041,SUPPORTS_API,API:pruneInfo
 runtime:dtk25041,SUPPORTS_API,API:pruneInfo_t
-runtime:dtk25041,SUPPORTS_API,API:r
 runtime:dtk25041,SUPPORTS_API,API:skipahead
 runtime:dtk25041,SUPPORTS_API,API:skipahead_subsequence
 runtime:dtk25041,SUPPORTS_API,API:skipaheadsequence
@@ -4793,7 +4788,6 @@ runtime:dtk25041,SUPPORTS_API,API:thrust::stable_sort_by_key
 runtime:dtk25041,SUPPORTS_API,API:thrust::swap
 runtime:dtk25041,SUPPORTS_API,API:thrust::swap_ranges
 runtime:dtk25041,SUPPORTS_API,API:thrust::system
-runtime:dtk25041,SUPPORTS_API,API:thrust::system::
 runtime:dtk25041,SUPPORTS_API,API:thrust::system::cpp
 runtime:dtk25041,SUPPORTS_API,API:thrust::system::cpp::memory_resource
 runtime:dtk25041,SUPPORTS_API,API:thrust::system::cpp::pointer
@@ -4856,8 +4850,6 @@ runtime:dtk25041,SUPPORTS_API,API:thrust::universal_ptr
 runtime:dtk25041,SUPPORTS_API,API:thrust::voider
 runtime:dtk25041,SUPPORTS_API,API:thrust::zip_function
 runtime:dtk25041,SUPPORTS_API,API:thrust::zip_iterator
-runtime:dtk25041,SUPPORTS_API,API:type
-runtime:dtk25041,SUPPORTS_API,API:typedefstruct
 runtime:dtk25041,SUPPORTS_API,API:uint2float
 runtime:dtk25041,SUPPORTS_API,API:umul24
 runtime:dtk25041,SUPPORTS_API,API:umul64hi
