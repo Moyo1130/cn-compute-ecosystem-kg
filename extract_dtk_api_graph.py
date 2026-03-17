@@ -439,6 +439,18 @@ def cleanup_graph(api_nodes: dict[str, set[str]], edges: set[tuple[str, str, str
     edges.update(cleaned_edges)
 
 
+def ensure_runtime_api_coverage(api_nodes: dict[str, set[str]], edges: set[tuple[str, str, str]]):
+    covered = {
+        target_id
+        for source_id, relation, target_id in edges
+        if source_id == RUNTIME_ID and relation in {"SUPPORTS_API", "COMPATIBLE_WITH"}
+    }
+    for name in api_nodes:
+        target_id = api_id(name)
+        if target_id not in covered:
+            edges.add((RUNTIME_ID, "COMPATIBLE_WITH", target_id))
+
+
 def write_nodes(path: Path, api_nodes: dict[str, set[str]]):
     with path.open("w", newline="", encoding="utf-8-sig") as file:
         writer = csv.writer(file)
@@ -561,6 +573,7 @@ def main():
     flush_support_buffers(support_buffers, final_library, api_nodes, edges)
     finalize_compat_pending(compat_pending, final_library, api_nodes, edges)
     cleanup_graph(api_nodes, edges)
+    ensure_runtime_api_coverage(api_nodes, edges)
     write_nodes(root / "nodes.csv", api_nodes)
     write_edges(root / "edges.csv", edges)
     print(f"nodes={len(api_nodes) + 1}")
