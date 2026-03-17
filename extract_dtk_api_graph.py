@@ -58,6 +58,17 @@ SPLIT_PREFIXES = (
     "HIPRAND_",
     "CUSPARSE_",
     "HIPSPARSE_",
+    "cublas",
+    "hipblas",
+    "cufft",
+    "hipfft",
+    "cusparse",
+    "hipsparse",
+    "cub::",
+    "hipcub::",
+    "thrust::",
+    "THRUST_",
+    "GRID_MAPPING_",
 )
 
 
