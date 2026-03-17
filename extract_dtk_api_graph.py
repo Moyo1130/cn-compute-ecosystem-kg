@@ -114,6 +114,8 @@ def looks_like_api_name(name: str) -> bool:
         return False
     if name in DROP_EXACT_NAMES:
         return False
+    if name in {"glong"}:
+        return False
     if name in {"struct", "typedef"}:
         return False
     if "enum" in name:
@@ -161,6 +163,8 @@ def looks_like_compat_start(name: str) -> bool:
     ):
         return True
     if "::" in name or name.endswith("_t"):
+        return True
+    if name.endswith("Info"):
         return True
     if name.isupper() and len(name) <= 12:
         return True
@@ -266,22 +270,20 @@ def row_source_target(cells: list[str]) -> tuple[str, str]:
         return "", ""
     if nonempty[0].lower() in META_WORDS or nonempty[0].isdigit():
         source = nonempty[1] if len(nonempty) > 1 else ""
-        target = nonempty[2] if len(nonempty) > 2 else ""
+        target = nonempty[2] if len(nonempty) > 2 and not re.fullmatch(r"[\d.]+(?:Update\d+)?", nonempty[2]) else ""
         return source, target
     source = nonempty[0]
-    target = nonempty[1] if len(nonempty) > 1 else ""
+    target = nonempty[1] if len(nonempty) > 1 and not re.fullmatch(r"[\d.]+(?:Update\d+)?", nonempty[1]) else ""
     return source, target
 
 
 def row_is_continuation_only(cells: list[str]) -> bool:
+    if not cells or cells[0]:
+        return False
     nonempty = [cell for cell in cells if cell]
     if not nonempty:
         return False
-    if len(nonempty) == 1 and len(nonempty[0]) <= 16:
-        return True
-    if len(nonempty) >= 2 and not nonempty[0].isdigit():
-        return all(len(cell) <= 16 for cell in nonempty[:2])
-    return False
+    return all(len(cell) <= 24 for cell in nonempty[:2])
 
 
 def join_piece(base: str, piece: str) -> str:
@@ -499,6 +501,8 @@ def main():
                     events.append((top, "top", "5 数学库兼容性列表"))
                 elif "通讯组件" in text and "兼容性列表" in text and "6" in text:
                     events.append((top, "top", "6 通讯组件兼容性列表"))
+                elif "3.15" in text and "Device Library" in text:
+                    events.append((top, "second", "3.15 Device Library"))
                 elif x0 <= 110 and SECOND_HEADING_RE.match(text):
                     events.append((top, "second", text))
 
@@ -529,7 +533,9 @@ def main():
 
                 library = library_from_state(current_top, current_top_title, current_second_title)
                 if support_mode(current_top, current_second_code):
+                    flush_support_buffers(support_buffers, library, api_nodes, edges)
                     process_support_table(payload, library, support_buffers, api_nodes, edges)
+                    flush_support_buffers(support_buffers, library, api_nodes, edges)
                 elif compat_mode(current_top, current_second_code):
                     compat_pending = process_compat_table(payload, library, compat_pending, api_nodes, edges)
 
