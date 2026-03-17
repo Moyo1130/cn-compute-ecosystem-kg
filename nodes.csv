@@ -441,6 +441,15 @@ API:__hadd,API,__hadd,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Do
 API:__half,API,__half,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Library
 API:__half2float,API,__half2float,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Library
 API:__hiloint2double,API,__hiloint2double,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Library
+API:__hip_ds_bpermute,API,__hip_ds_bpermute,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Library
+API:__hip_ds_bpermutef,API,__hip_ds_bpermutef,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Library
+API:__hip_ds_permute,API,__hip_ds_permute,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Library
+API:__hip_ds_permutef,API,__hip_ds_permutef,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Library
+API:__hip_ds_swizzle_N,API,__hip_ds_swizzle_N,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Library
+API:__hip_ds_swizzlef_N,API,__hip_ds_swizzlef_N,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Library
+API:__hip_memcpy,API,__hip_memcpy,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Library
+API:__hip_memset,API,__hip_memset,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Library
+API:__hip_move_dpp_N,API,__hip_move_dpp_N,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Library
 API:__int2double_rn,API,__int2double_rn,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Library
 API:__int2float_rd,API,__int2float_rd,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Library
 API:__int2float_rn,API,__int2float_rn,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Library
@@ -605,7 +614,6 @@ API:cub::BlockShuffle,API,cub::BlockShuffle,https://download.sourcefind.cn:65024
 API:cub::BlockShuffle::Down,API,cub::BlockShuffle::Down,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
 API:cub::BlockShuffle::Offset,API,cub::BlockShuffle::Offset,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
 API:cub::BlockShuffle::Rotate,API,cub::BlockShuffle::Rotate,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
-API:cub::BlockShuffle::TempStorag,API,cub::BlockShuffle::TempStorag,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
 API:cub::BlockShuffle::TempStoragee,API,cub::BlockShuffle::TempStoragee,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
 API:cub::BlockShuffle::Up,API,cub::BlockShuffle::Up,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
 API:cub::BlockStore,API,cub::BlockStore,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
@@ -690,7 +698,6 @@ API:cub::DeviceSelect,API,cub::DeviceSelect,https://download.sourcefind.cn:65024
 API:cub::DeviceSelect::Flagged,API,cub::DeviceSelect::Flagged,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
 API:cub::DeviceSelect::If,API,cub::DeviceSelect::If,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
 API:cub::DeviceSelect::Unique,API,cub::DeviceSelect::Unique,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
-API:cub::DeviceSelect::UniqueByKe,API,cub::DeviceSelect::UniqueByKe,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
 API:cub::DeviceSelect::UniqueByKeyy,API,cub::DeviceSelect::UniqueByKeyy,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
 API:cub::DeviceSpmv,API,cub::DeviceSpmv,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
 API:cub::DeviceSpmv::CsrMV,API,cub::DeviceSpmv::CsrMV,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
@@ -1305,6 +1312,7 @@ API:curandGeneratePoissonMethod,API,curandGeneratePoissonMethod,https://download
 API:curandGenerateSeeds,API,curandGenerateSeeds,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:curandGenerateUniform,API,curandGenerateUniform,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:curandGenerateUniformDouble,API,curandGenerateUniformDouble,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
+API:curandGeneratehiprandGenerateCharhiprandGenerateShort,API,curandGeneratehiprandGenerateCharhiprandGenerateShort,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:curandGenerator_t,API,curandGenerator_t,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:curandGetDirectionVectors32,API,curandGetDirectionVectors32,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:curandGetDirectionVectors64,API,curandGetDirectionVectors64,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
@@ -2398,7 +2406,6 @@ API:float2int,API,float2int,https://download.sourcefind.cn:65024/1/main/DTK-25.0
 API:float2uint,API,float2uint,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Library
 API:float_as_int,API,float_as_int,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Library
 API:float_as_uint,API,float_as_uint,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Library
-API:hip,API,hip,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB|thrust
 API:hipChooseDevice,API,hipChooseDevice,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Management
 API:hipConfigureCall,API,hipConfigureCall,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Execution Control [DEPRECATED since 7.0]
 API:hipDeviceCanAccessPeer,API,hipDeviceCanAccessPeer,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Peer Device Memory Access
@@ -2490,15 +2497,6 @@ API:hipStreamGetPriority,API,hipStreamGetPriority,https://download.sourcefind.cn
 API:hipStreamQuery,API,hipStreamQuery,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Stream Management
 API:hipStreamSynchronize,API,hipStreamSynchronize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Stream Management
 API:hipStreamWaitEvent,API,hipStreamWaitEvent,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Stream Management
-API:hip_ds_bpermute,API,hip_ds_bpermute,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Library
-API:hip_ds_bpermutef,API,hip_ds_bpermutef,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Library
-API:hip_ds_permute,API,hip_ds_permute,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Library
-API:hip_ds_permutef,API,hip_ds_permutef,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Library
-API:hip_ds_swizzle_N,API,hip_ds_swizzle_N,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Library
-API:hip_ds_swizzlef_N,API,hip_ds_swizzlef_N,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Library
-API:hip_memcpy,API,hip_memcpy,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Library
-API:hip_memset,API,hip_memset,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Library
-API:hip_move_dpp_N,API,hip_move_dpp_N,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Library
 API:hipblasAtomicsMode_t,API,hipblasAtomicsMode_t,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,BLAS Data types
 API:hipblasDiagType_t,API,hipblasDiagType_t,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,BLAS Data types
 API:hipblasFillMode_t,API,hipblasFillMode_t,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,BLAS Data types
@@ -2507,6 +2505,206 @@ API:hipblasOperation_t,API,hipblasOperation_t,https://download.sourcefind.cn:650
 API:hipblasPointerMode_t,API,hipblasPointerMode_t,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,BLAS Data types
 API:hipblasSideMode_t,API,hipblasSideMode_t,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,BLAS Data types
 API:hipblasStatus_t,API,hipblasStatus_t,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,BLAS Data types
+API:hipcub::ArgIndexInputIterator,API,hipcub::ArgIndexInputIterator,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::BFE,API,hipcub::BFE,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::BlockDiscontinuity::FlagHeads,API,hipcub::BlockDiscontinuity::FlagHeads,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::BlockDiscontinuity::FlagHeadsAndTails,API,hipcub::BlockDiscontinuity::FlagHeadsAndTails,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::BlockDiscontinuity::FlagTails,API,hipcub::BlockDiscontinuity::FlagTails,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::BlockExchange,API,hipcub::BlockExchange,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::BlockExchange::BlockedToStriped,API,hipcub::BlockExchange::BlockedToStriped,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::BlockExchange::BlockedToWarpStriped,API,hipcub::BlockExchange::BlockedToWarpStriped,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::BlockExchange::ScatterToBlocked,API,hipcub::BlockExchange::ScatterToBlocked,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::BlockExchange::ScatterToStriped,API,hipcub::BlockExchange::ScatterToStriped,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::BlockExchange::ScatterToStripedFlagged,API,hipcub::BlockExchange::ScatterToStripedFlagged,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::BlockExchange::ScatterToStripedGuarded,API,hipcub::BlockExchange::ScatterToStripedGuarded,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::BlockExchange::StripedToBlocked,API,hipcub::BlockExchange::StripedToBlocked,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::BlockExchange::TempStorage,API,hipcub::BlockExchange::TempStorage,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::BlockExchange::WarpStripedToBlocked,API,hipcub::BlockExchange::WarpStripedToBlocked,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::BlockHistogram,API,hipcub::BlockHistogram,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::BlockHistogram::Composite,API,hipcub::BlockHistogram::Composite,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::BlockHistogram::Histogram,API,hipcub::BlockHistogram::Histogram,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::BlockHistogram::InitHistogram,API,hipcub::BlockHistogram::InitHistogram,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::BlockHistogram::TempStorage,API,hipcub::BlockHistogram::TempStorage,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::BlockLoad,API,hipcub::BlockLoad,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::BlockLoad::Load,API,hipcub::BlockLoad::Load,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::BlockLoad::TempStorage,API,hipcub::BlockLoad::TempStorage,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::BlockMergeSort,API,hipcub::BlockMergeSort,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::BlockRadixSort,API,hipcub::BlockRadixSort,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::BlockRadixSort::Sort,API,hipcub::BlockRadixSort::Sort,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::BlockRadixSort::SortBlockedToStriped,API,hipcub::BlockRadixSort::SortBlockedToStriped,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::BlockRadixSort::SortDescending,API,hipcub::BlockRadixSort::SortDescending,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::BlockRadixSort::SortDescendingBlockedToStriped,API,hipcub::BlockRadixSort::SortDescendingBlockedToStriped,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::BlockRadixSort::TempStorage,API,hipcub::BlockRadixSort::TempStorage,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::BlockReduce,API,hipcub::BlockReduce,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::BlockReduce::Reduce,API,hipcub::BlockReduce::Reduce,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::BlockReduce::Sum,API,hipcub::BlockReduce::Sum,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::BlockReduce::TempStorage,API,hipcub::BlockReduce::TempStorage,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::BlockScan,API,hipcub::BlockScan,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::BlockScan::ExclusiveScan,API,hipcub::BlockScan::ExclusiveScan,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::BlockScan::ExclusiveSum,API,hipcub::BlockScan::ExclusiveSum,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::BlockScan::InclusiveScan,API,hipcub::BlockScan::InclusiveScan,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::BlockScan::InclusiveSum,API,hipcub::BlockScan::InclusiveSum,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::BlockScan::TempStorage,API,hipcub::BlockScan::TempStorage,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::BlockShuffle,API,hipcub::BlockShuffle,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::BlockShuffle::Down,API,hipcub::BlockShuffle::Down,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::BlockShuffle::Offset,API,hipcub::BlockShuffle::Offset,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::BlockShuffle::Rotate,API,hipcub::BlockShuffle::Rotate,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::BlockShuffle::TempStorag,API,hipcub::BlockShuffle::TempStorag,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::BlockShuffle::Up,API,hipcub::BlockShuffle::Up,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::BlockStore,API,hipcub::BlockStore,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::BlockStore::Store,API,hipcub::BlockStore::Store,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::BlockStore::TempStorage,API,hipcub::BlockStore::TempStorage,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::CacheLoadModifier,API,hipcub::CacheLoadModifier,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::CacheModifiedInputIterator,API,hipcub::CacheModifiedInputIterator,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::CacheModifiedOutputIterator,API,hipcub::CacheModifiedOutputIterator,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::CacheStoreModifier,API,hipcub::CacheStoreModifier,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::CachingDeviceAllocator,API,hipcub::CachingDeviceAllocator,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::ConstantInputIterator,API,hipcub::ConstantInputIterator,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::Debug,API,hipcub::Debug,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceAdjacentDifference,API,hipcub::DeviceAdjacentDifference,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceAdjacentDifference::SubtractLeft,API,hipcub::DeviceAdjacentDifference::SubtractLeft,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceAdjacentDifference::SubtractLeftCopy,API,hipcub::DeviceAdjacentDifference::SubtractLeftCopy,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceAdjacentDifference::SubtractRight,API,hipcub::DeviceAdjacentDifference::SubtractRight,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceAdjacentDifference::SubtractRightCopy,API,hipcub::DeviceAdjacentDifference::SubtractRightCopy,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceHistogram,API,hipcub::DeviceHistogram,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceHistogram::HistogramEven,API,hipcub::DeviceHistogram::HistogramEven,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceHistogram::HistogramRange,API,hipcub::DeviceHistogram::HistogramRange,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceHistogram::MultiHistogramEven,API,hipcub::DeviceHistogram::MultiHistogramEven,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceHistogram::MultiHistogramRange,API,hipcub::DeviceHistogram::MultiHistogramRange,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceMergeSort,API,hipcub::DeviceMergeSort,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceMergeSort::SortKeys,API,hipcub::DeviceMergeSort::SortKeys,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceMergeSort::SortKeysCopy,API,hipcub::DeviceMergeSort::SortKeysCopy,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceMergeSort::SortPairsCopy,API,hipcub::DeviceMergeSort::SortPairsCopy,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceMergeSort::StableSortKeys,API,hipcub::DeviceMergeSort::StableSortKeys,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceMergeSort::StableSortPairs,API,hipcub::DeviceMergeSort::StableSortPairs,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DevicePartition,API,hipcub::DevicePartition,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DevicePartition::Flagged,API,hipcub::DevicePartition::Flagged,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DevicePartition::If,API,hipcub::DevicePartition::If,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceRadixSort,API,hipcub::DeviceRadixSort,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceRadixSort::SortKeys,API,hipcub::DeviceRadixSort::SortKeys,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceRadixSort::SortKeysDescending,API,hipcub::DeviceRadixSort::SortKeysDescending,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceRadixSort::SortPairs,API,hipcub::DeviceRadixSort::SortPairs,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceRadixSort::SortPairsDescending,API,hipcub::DeviceRadixSort::SortPairsDescending,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceReduce,API,hipcub::DeviceReduce,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceReduce::ArgMax,API,hipcub::DeviceReduce::ArgMax,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceReduce::ArgMin,API,hipcub::DeviceReduce::ArgMin,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceReduce::Max,API,hipcub::DeviceReduce::Max,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceReduce::Min,API,hipcub::DeviceReduce::Min,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceReduce::Reduce,API,hipcub::DeviceReduce::Reduce,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceReduce::ReduceByKey,API,hipcub::DeviceReduce::ReduceByKey,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceReduce::Sum,API,hipcub::DeviceReduce::Sum,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceRunLengthEncode,API,hipcub::DeviceRunLengthEncode,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceRunLengthEncode::Encode,API,hipcub::DeviceRunLengthEncode::Encode,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceRunLengthEncode::NonTrivialRuns,API,hipcub::DeviceRunLengthEncode::NonTrivialRuns,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceScan,API,hipcub::DeviceScan,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceScan::ExclusiveScan,API,hipcub::DeviceScan::ExclusiveScan,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceScan::ExclusiveScanByKey,API,hipcub::DeviceScan::ExclusiveScanByKey,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceScan::ExclusiveSum,API,hipcub::DeviceScan::ExclusiveSum,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceScan::ExclusiveSumByKey,API,hipcub::DeviceScan::ExclusiveSumByKey,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceScan::InclusiveScan,API,hipcub::DeviceScan::InclusiveScan,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceScan::InclusiveScanByKey,API,hipcub::DeviceScan::InclusiveScanByKey,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceScan::InclusiveSum,API,hipcub::DeviceScan::InclusiveSum,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceScan::InclusiveSumByKey,API,hipcub::DeviceScan::InclusiveSumByKey,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceSegmentedRadixSort,API,hipcub::DeviceSegmentedRadixSort,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceSegmentedRadixSort::SortKeys,API,hipcub::DeviceSegmentedRadixSort::SortKeys,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceSegmentedRadixSort::SortKeysDescending,API,hipcub::DeviceSegmentedRadixSort::SortKeysDescending,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceSegmentedRadixSort::SortPairs,API,hipcub::DeviceSegmentedRadixSort::SortPairs,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceSegmentedRadixSort::SortPairsDescending,API,hipcub::DeviceSegmentedRadixSort::SortPairsDescending,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceSegmentedReduce,API,hipcub::DeviceSegmentedReduce,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceSegmentedReduce::ArgMax,API,hipcub::DeviceSegmentedReduce::ArgMax,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceSegmentedReduce::ArgMin,API,hipcub::DeviceSegmentedReduce::ArgMin,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceSegmentedReduce::Max,API,hipcub::DeviceSegmentedReduce::Max,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceSegmentedReduce::Min,API,hipcub::DeviceSegmentedReduce::Min,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceSegmentedReduce::Reduce,API,hipcub::DeviceSegmentedReduce::Reduce,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceSegmentedReduce::Sum,API,hipcub::DeviceSegmentedReduce::Sum,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceSegmentedSort,API,hipcub::DeviceSegmentedSort,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceSegmentedSort::SortKeys,API,hipcub::DeviceSegmentedSort::SortKeys,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceSegmentedSort::SortKeysDescending,API,hipcub::DeviceSegmentedSort::SortKeysDescending,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceSegmentedSort::SortPairs,API,hipcub::DeviceSegmentedSort::SortPairs,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceSegmentedSort::SortPairsDescending,API,hipcub::DeviceSegmentedSort::SortPairsDescending,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceSegmentedSort::StableSortKeys,API,hipcub::DeviceSegmentedSort::StableSortKeys,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceSegmentedSort::StableSortKeysDescending,API,hipcub::DeviceSegmentedSort::StableSortKeysDescending,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceSegmentedSort::StableSortPairs,API,hipcub::DeviceSegmentedSort::StableSortPairs,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceSegmentedSort::StableSortPairsDescending,API,hipcub::DeviceSegmentedSort::StableSortPairsDescending,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceSelect,API,hipcub::DeviceSelect,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceSelect::Flagged,API,hipcub::DeviceSelect::Flagged,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceSelect::If,API,hipcub::DeviceSelect::If,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceSelect::Unique,API,hipcub::DeviceSelect::Unique,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceSelect::UniqueByKe,API,hipcub::DeviceSelect::UniqueByKe,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceSpmv,API,hipcub::DeviceSpmv,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DeviceSpmv::CsrMV,API,hipcub::DeviceSpmv::CsrMV,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::DiscardOutputIterator,API,hipcub::DiscardOutputIterator,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::GridBarrier,API,hipcub::GridBarrier,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::GridBarrier::Sync,API,hipcub::GridBarrier::Sync,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::GridBarrier::SyncFlag,API,hipcub::GridBarrier::SyncFlag,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::GridBarrierLifetime,API,hipcub::GridBarrierLifetime,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::GridBarrierLifetime::HostReset,API,hipcub::GridBarrierLifetime::HostReset,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::GridBarrierLifetime::Setup,API,hipcub::GridBarrierLifetime::Setup,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::GridBarrierLifetime::sync_bytes,API,hipcub::GridBarrierLifetime::sync_bytes,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::GridEvenShare,API,hipcub::GridEvenShare,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::GridEvenShare::BlockInit,API,hipcub::GridEvenShare::BlockInit,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::GridEvenShare::DispatchInit,API,hipcub::GridEvenShare::DispatchInit,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::GridMappingStrategy,API,hipcub::GridMappingStrategy,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::GridQueue,API,hipcub::GridQueue,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::GridQueue::AllocationSize,API,hipcub::GridQueue::AllocationSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::GridQueue::Drain,API,hipcub::GridQueue::Drain,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::GridQueue::Fill,API,hipcub::GridQueue::Fill,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::GridQueue::FillAndResetDrain,API,hipcub::GridQueue::FillAndResetDrain,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::GridQueue::FillSize,API,hipcub::GridQueue::FillSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::GridQueue::ResetDrain,API,hipcub::GridQueue::ResetDrain,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::GridQueue::ResetFill,API,hipcub::GridQueue::ResetFill,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::IADD3,API,hipcub::IADD3,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::LaneId,API,hipcub::LaneId,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::LaneMaskGe,API,hipcub::LaneMaskGe,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::LaneMaskGt,API,hipcub::LaneMaskGt,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::LaneMaskLe,API,hipcub::LaneMaskLe,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::LaneMaskLt,API,hipcub::LaneMaskLt,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::LoadDirectBlocked,API,hipcub::LoadDirectBlocked,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::LoadDirectBlockedVectorized,API,hipcub::LoadDirectBlockedVectorized,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::LoadDirectStriped,API,hipcub::LoadDirectStriped,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::LoadDirectWarpStriped,API,hipcub::LoadDirectWarpStriped,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::PRMT,API,hipcub::PRMT,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::RowMajorTid,API,hipcub::RowMajorTid,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::SHR_ADD,API,hipcub::SHR_ADD,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::StoreDirectBlocked,API,hipcub::StoreDirectBlocked,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::StoreDirectBlockedVectorized,API,hipcub::StoreDirectBlockedVectorized,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::StoreDirectStriped,API,hipcub::StoreDirectStriped,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::StoreDirectWarpStriped,API,hipcub::StoreDirectWarpStriped,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::TexObjInputIterator,API,hipcub::TexObjInputIterator,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::TexRefInputIterator,API,hipcub::TexRefInputIterator,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::ThreadLoad,API,hipcub::ThreadLoad,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::ThreadStore,API,hipcub::ThreadStore,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::TransformInputIterator,API,hipcub::TransformInputIterator,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::WarpExchange,API,hipcub::WarpExchange,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::WarpExchange::BlockedToStriped,API,hipcub::WarpExchange::BlockedToStriped,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::WarpExchange::ScatterToStriped,API,hipcub::WarpExchange::ScatterToStriped,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::WarpExchange::StripedToBlocked,API,hipcub::WarpExchange::StripedToBlocked,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::WarpId,API,hipcub::WarpId,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::WarpLoad,API,hipcub::WarpLoad,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::WarpLoad::Load,API,hipcub::WarpLoad::Load,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::WarpLoad::TempStorage,API,hipcub::WarpLoad::TempStorage,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::WarpMask,API,hipcub::WarpMask,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::WarpMergeSort,API,hipcub::WarpMergeSort,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::WarpMergeSort::get_member_mask,API,hipcub::WarpMergeSort::get_member_mask,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::WarpReduce,API,hipcub::WarpReduce,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::WarpReduce::HeadSegmentedReduce,API,hipcub::WarpReduce::HeadSegmentedReduce,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::WarpReduce::HeadSegmentedSum,API,hipcub::WarpReduce::HeadSegmentedSum,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::WarpReduce::Reduce,API,hipcub::WarpReduce::Reduce,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::WarpReduce::Sum,API,hipcub::WarpReduce::Sum,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::WarpReduce::TailSegmentedReduce,API,hipcub::WarpReduce::TailSegmentedReduce,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::WarpReduce::TailSegmentedSum,API,hipcub::WarpReduce::TailSegmentedSum,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::WarpReduce::TempStorage,API,hipcub::WarpReduce::TempStorage,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::WarpScan,API,hipcub::WarpScan,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::WarpScan::Broadcast,API,hipcub::WarpScan::Broadcast,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::WarpScan::ExclusiveScan,API,hipcub::WarpScan::ExclusiveScan,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::WarpScan::ExclusiveSum,API,hipcub::WarpScan::ExclusiveSum,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::WarpScan::InclusiveScan,API,hipcub::WarpScan::InclusiveScan,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::WarpScan::InclusiveSum,API,hipcub::WarpScan::InclusiveSum,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::WarpScan::Scan,API,hipcub::WarpScan::Scan,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::WarpScan::TempStorage,API,hipcub::WarpScan::TempStorage,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::WarpStore,API,hipcub::WarpStore,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::WarpStore::Store,API,hipcub::WarpStore::Store,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:hipcub::WarpStore::TempStorage,API,hipcub::WarpStore::TempStorage,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
 API:hipdnnActivationBackward,API,hipdnnActivationBackward,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,MIOpen
 API:hipdnnActivationForward,API,hipdnnActivationForward,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,MIOpen
 API:hipdnnAddTensor,API,hipdnnAddTensor,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,MIOpen
@@ -2663,7 +2861,6 @@ API:hiprandDestroyGenerator,API,hiprandDestroyGenerator,https://download.sourcef
 API:hiprandDirectionVectors32_t,API,hiprandDirectionVectors32_t,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:hiprandDiscreteDistribution_t,API,hiprandDiscreteDistribution_t,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:hiprandGenerate,API,hiprandGenerate,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
-API:hiprandGenerateChar,API,hiprandGenerateChar,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:hiprandGenerateLogNormal,API,hiprandGenerateLogNormal,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:hiprandGenerateLogNormalDouble,API,hiprandGenerateLogNormalDouble,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:hiprandGenerateLogNormalHalf,API,hiprandGenerateLogNormalHalf,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
@@ -2672,7 +2869,6 @@ API:hiprandGenerateNormalDouble,API,hiprandGenerateNormalDouble,https://download
 API:hiprandGenerateNormalHalf,API,hiprandGenerateNormalHalf,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:hiprandGeneratePoisson,API,hiprandGeneratePoisson,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:hiprandGenerateSeeds,API,hiprandGenerateSeeds,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
-API:hiprandGenerateShort,API,hiprandGenerateShort,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:hiprandGenerateUniform,API,hiprandGenerateUniform,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:hiprandGenerateUniformDouble,API,hiprandGenerateUniformDouble,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:hiprandGenerateUniformHalf,API,hiprandGenerateUniformHalf,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
@@ -3736,6 +3932,7 @@ API:thrust::system::error_category,API,thrust::system::error_category,https://do
 API:thrust::system::error_code,API,thrust::system::error_code,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,thrust
 API:thrust::system::error_condition,API,thrust::system::error_condition,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,thrust
 API:thrust::system::generic_category,API,thrust::system::generic_category,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,thrust
+API:thrust::system::hip,API,thrust::system::hip,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,thrust
 API:thrust::system::make_error_code,API,thrust::system::make_error_code,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,thrust
 API:thrust::system::omp,API,thrust::system::omp,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,thrust
 API:thrust::system::omp::memory_resource,API,thrust::system::omp::memory_resource,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,thrust

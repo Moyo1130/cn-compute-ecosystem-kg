@@ -72,7 +72,7 @@ SPLIT_PREFIXES = (
     "CUB_",
     "Cub",
     "cuda",
-    "hip",
+    "hipProfiler",
     "printf",
     "__",
     "curand_",
@@ -310,22 +310,40 @@ def split_concat_names(name: str) -> list[str]:
     name = clean_api_name(name)
     if not name:
         return []
-    positions = []
-    for prefix in SPLIT_PREFIXES:
-        start = 0
-        while True:
-            idx = name.find(prefix, start)
-            if idx == -1:
+    prefixes = sorted(SPLIT_PREFIXES, key=len, reverse=True)
+
+    def longest_prefix_at(index: int) -> str | None:
+        for prefix in prefixes:
+            if name.startswith(prefix, index):
+                return prefix
+        return None
+
+    first_prefix = longest_prefix_at(0)
+    if not first_prefix:
+        return [name]
+
+    starts = [0]
+    search_from = len(first_prefix)
+    while search_from < len(name):
+        next_pos = None
+        next_prefix = None
+        for idx in range(search_from, len(name)):
+            prefix = longest_prefix_at(idx)
+            if prefix:
+                next_pos = idx
+                next_prefix = prefix
                 break
-            positions.append(idx)
-            start = idx + 1
-    positions = sorted(set(positions))
-    if len(positions) <= 1:
+        if next_pos is None:
+            break
+        starts.append(next_pos)
+        search_from = next_pos + len(next_prefix)
+
+    if len(starts) == 1:
         return [name]
 
     parts = []
-    for i, pos in enumerate(positions):
-        end = positions[i + 1] if i + 1 < len(positions) else len(name)
+    for i, pos in enumerate(starts):
+        end = starts[i + 1] if i + 1 < len(starts) else len(name)
         part = name[pos:end]
         if part:
             parts.append(part)
