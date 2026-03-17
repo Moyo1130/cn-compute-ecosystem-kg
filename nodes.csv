@@ -66,6 +66,15 @@ API:CUBLAS_STATUS_MAPPING_ERROR,API,CUBLAS_STATUS_MAPPING_ERROR,https://download
 API:CUBLAS_STATUS_NOT_INITIALIZED,API,CUBLAS_STATUS_NOT_INITIALIZED,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,BLAS Data types
 API:CUBLAS_STATUS_NOT_SUPPORTED,API,CUBLAS_STATUS_NOT_SUPPORTED,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,BLAS Data types
 API:CUBLAS_STATUS_SUCCESS,API,CUBLAS_STATUS_SUCCESS,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,BLAS Data types
+API:CUB_ALIGN,API,CUB_ALIGN,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:CUB_MAX,API,CUB_MAX,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:CUB_MIN,API,CUB_MIN,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:CUB_PREVENT_MACRO_SUBSTITUTION,API,CUB_PREVENT_MACRO_SUBSTITUTION,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:CUB_QUOTIENT_CEILING,API,CUB_QUOTIENT_CEILING,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:CUB_QUOTIENT_FLOOR,API,CUB_QUOTIENT_FLOOR,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:CUB_ROUND_DOWN_NEAREST,API,CUB_ROUND_DOWN_NEAREST,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:CUB_ROUND_UP_NEAREST,API,CUB_ROUND_UP_NEAREST,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:CUB_STATIC_ASSERT,API,CUB_STATIC_ASSERT,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
 API:CUFFT_ALLOC_FAILED,API,CUFFT_ALLOC_FAILED,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,FFT
 API:CUFFT_C2C,API,CUFFT_C2C,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,FFT
 API:CUFFT_C2R,API,CUFFT_C2R,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,FFT
@@ -213,10 +222,12 @@ API:CUSPARSE_STATUS_MAPPING_ERROR,API,CUSPARSE_STATUS_MAPPING_ERROR,https://down
 API:CUSPARSE_STATUS_MATRIX_TYPE_NOT_SUPPORTED,API,CUSPARSE_STATUS_MATRIX_TYPE_NOT_SUPPORTED,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SPARSE
 API:CUSPARSE_STATUS_NOT_INITIALIZED,API,CUSPARSE_STATUS_NOT_INITIALIZED,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SPARSE
 API:CUSPARSE_STATUS_SUCCESS,API,CUSPARSE_STATUS_SUCCESS,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SPARSE
-API:CUSPARSE_STATUS_ZERO_PIVOTstructtypedefstructtypedefstruct,API,CUSPARSE_STATUS_ZERO_PIVOTstructtypedefstructtypedefstruct,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SPARSE
 API:CUSPARSE_VER_MAJOR,API,CUSPARSE_VER_MAJOR,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SPARSE
 API:CUSPARSE_VER_MINOR,API,CUSPARSE_VER_MINOR,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SPARSE
 API:CUSPARSE_VER_PATCH,API,CUSPARSE_VER_PATCH,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SPARSE
+API:CubDebug,API,CubDebug,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:CubLog,API,CubLog,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:CubVector,API,CubVector,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
 API:GRID_MAPPING_DYNAMIC,API,GRID_MAPPING_DYNAMIC,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
 API:GRID_MAPPING_RAKE,API,GRID_MAPPING_RAKE,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
 API:GRID_MAPPING_STRIP_MINE,API,GRID_MAPPING_STRIP_MINE,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
@@ -340,27 +351,76 @@ API:THRUST_BINARY_FUNCTOR_VOID_SPECIALIZATION,API,THRUST_BINARY_FUNCTOR_VOID_SPE
 API:THRUST_BINARY_FUNCTOR_VOID_SPECIALIZATION_OP,API,THRUST_BINARY_FUNCTOR_VOID_SPECIALIZATION_OP,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,thrust
 API:THRUST_PROCLAIM_CONTIGUOUS_ITERATOR,API,THRUST_PROCLAIM_CONTIGUOUS_ITERATOR,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,thrust
 API:THRUST_UNARY_FUNCTOR_VOID_SPECIALIZATION,API,THRUST_UNARY_FUNCTOR_VOID_SPECIALIZATION,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,thrust
-API:__bitextract_u32__bitextract_u64,API,__bitextract_u32__bitextract_u64,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__bitextract_u32,API,__bitextract_u32,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__bitextract_u64,API,__bitextract_u64,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
 API:__bitinsert_u32,API,__bitinsert_u32,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
 API:__bitinsert_u64,API,__bitinsert_u64,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
-API:__byte_perm__hadd__mul24__mul64hi__mulhi__rhadd,API,__byte_perm__hadd__mul24__mul64hi__mulhi__rhadd,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__brev,API,__brev,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__brevll,API,__brevll,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__byte_perm,API,__byte_perm,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__clz,API,__clz,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__clzll,API,__clzll,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
 API:__double2float_rd,API,__double2float_rd,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
 API:__double2float_rn,API,__double2float_rn,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
 API:__double2float_ru,API,__double2float_ru,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
-API:__double2float_rz__double2hiint__double2loint__double2int_rd__double2int_rn__double2int_ru__double2int_rz__double2ll_rd__double2ll_rn__double2ll_ru__double2ll_rz__double2uint_rd__double2uint_rn__double2uint_ru__double2uint_rz__double2ull_rd__double2ull_rn__double2ull_ru__double2ull_rz__double_as_lon__float2half_rn__half2float__ull2double_ruatomicMinatomicMin_systematomicOratomicOr_systematomicXoratomicXor_systematomicIncatomicDec,API,__double2float_rz__double2hiint__double2loint__double2int_rd__double2int_rn__double2int_ru__double2int_rz__double2ll_rd__double2ll_rn__double2ll_ru__double2ll_rz__double2uint_rd__double2uint_rn__double2uint_ru__double2uint_rz__double2ull_rd__double2ull_rn__double2ull_ru__double2ull_rz__double_as_lon__float2half_rn__half2float__ull2double_ruatomicMinatomicMin_systematomicOratomicOr_systematomicXoratomicXor_systematomicIncatomicDec,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
-API:__hip_ds_bpermute,API,__hip_ds_bpermute,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
-API:__hip_ds_bpermutef__hip_ds_permute,API,__hip_ds_bpermutef__hip_ds_permute,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
-API:__hip_ds_permutef,API,__hip_ds_permutef,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
-API:__hip_ds_swizzle_N,API,__hip_ds_swizzle_N,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
-API:__hip_ds_swizzlef_N__hip_move_dpp_N__shfl__shfl_up__shfl_down__shfl_xor,API,__hip_ds_swizzlef_N__hip_move_dpp_N__shfl__shfl_up__shfl_down__shfl_xor,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__double2float_rz,API,__double2float_rz,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__double2hiint,API,__double2hiint,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__double2int_rd,API,__double2int_rd,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__double2int_rn,API,__double2int_rn,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__double2int_ru,API,__double2int_ru,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__double2int_rz,API,__double2int_rz,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__double2ll_rd,API,__double2ll_rd,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__double2ll_rn,API,__double2ll_rn,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__double2ll_ru,API,__double2ll_ru,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__double2ll_rz,API,__double2ll_rz,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__double2loint,API,__double2loint,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__double2uint_rd,API,__double2uint_rd,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__double2uint_rn,API,__double2uint_rn,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__double2uint_ru,API,__double2uint_ru,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__double2uint_rz,API,__double2uint_rz,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__double2ull_rd,API,__double2ull_rd,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__double2ull_rn,API,__double2ull_rn,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__double2ull_ru,API,__double2ull_ru,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__double2ull_rz,API,__double2ull_rz,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__double_as_lon,API,__double_as_lon,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__ffs,API,__ffs,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__ffsll,API,__ffsll,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__float2half_rn,API,__float2half_rn,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__hadd,API,__hadd,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__half2float,API,__half2float,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__halfatomicCASatomicCAS_systematomicAddatomicAdd_systematomicAddNoRetatomicSubatomicSub_systematomicExch,API,__halfatomicCASatomicCAS_systematomicAddatomicAdd_systematomicAddNoRetatomicSubatomicSub_systematomicExch,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__lane_id,API,__lane_id,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
 API:__lastbit_u32_u64,API,__lastbit_u32_u64,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__mbcnt_hi,API,__mbcnt_hi,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__mbcnt_lo,API,__mbcnt_lo,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__mul24,API,__mul24,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__mul24mul24,API,__mul24mul24,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__mul64hi,API,__mul64hi,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__mul64himul64hi,API,__mul64himul64hi,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__mulhi,API,__mulhi,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__mulhimulhi,API,__mulhimulhi,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__popc,API,__popc,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__popcll,API,__popcll,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__rhadd,API,__rhadd,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
 API:__sad,API,__sad,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__shfl,API,__shfl,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__shfl_down,API,__shfl_down,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__shfl_up,API,__shfl_up,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__shfl_xor,API,__shfl_xor,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
 API:__uhadd,API,__uhadd,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__ull2double_ruatomicMinatomicMin_systematomicOratomicOr_systematomicXoratomicXor_systematomicIncatomicDec,API,__ull2double_ruatomicMinatomicMin_systematomicOratomicOr_systematomicXoratomicXor_systematomicIncatomicDec,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
 API:__umul24,API,__umul24,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
-API:__umul64hi__umulhi__urhadd__usad__byte_perm__hadd__mul24mul24__mul64himul64hi__mulhimulhi__rhadd__sad__uhadd__umul24umul24__umul64himul64hiumul64higlongumul64himul64hi__halfatomicCASatomicCAS_systematomicAddatomicAdd_systematomicAddNoRetatomicSubatomicSub_systematomicExch,API,__umul64hi__umulhi__urhadd__usad__byte_perm__hadd__mul24mul24__mul64himul64hi__mulhimulhi__rhadd__sad__uhadd__umul24umul24__umul64himul64hiumul64higlongumul64himul64hi__halfatomicCASatomicCAS_systematomicAddatomicAdd_systematomicAddNoRetatomicSubatomicSub_systematomicExch,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__umul24umul24,API,__umul24umul24,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__umul64hi,API,__umul64hi,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__umul64himul64hiumul64higlongumul64himul64hi,API,__umul64himul64hiumul64higlongumul64himul64hi,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__umulhi,API,__umulhi,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__umulhimulhimulhimulhi,API,__umulhimulhimulhimulhi,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__urhadd,API,__urhadd,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:__usad,API,__usad,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
 API:atomicAnd,API,atomicAnd,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
 API:atomicExch_systematomicAnd_system,API,atomicExch_systematomicAnd_system,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
 API:csrsv2Infocsrsv2Info_tcsrsm2Infocsrsm2Info_tbsrsv2Infobsrsv2Info_tbsrsm2Infobsrsm2Info_tbsric02Infobsric02Info_tcsrilu02Infocsrilu02Info_tbsrilu02Infobsrilu02Info_tcsru2csrInfocsru2csrInfo_tcsrgemm2Infocsrgemm2Info_t,API,csrsv2Infocsrsv2Info_tcsrsm2Infocsrsm2Info_tbsrsv2Infobsrsv2Info_tbsrsm2Infobsrsm2Info_tbsric02Infobsric02Info_tcsrilu02Infocsrilu02Info_tbsrilu02Infobsrilu02Info_tcsru2csrInfocsru2csrInfo_tcsrgemm2Infocsrgemm2Info_t,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SPARSE
+API:cub::,API,cub::,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
 API:cub::ArgIndexInputIterator,API,cub::ArgIndexInputIterator,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
 API:cub::BFE,API,cub::BFE,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
 API:cub::BlockAdjacentDifference,API,cub::BlockAdjacentDifference,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
@@ -423,13 +483,12 @@ API:cub::BlockShuffle::Up,API,cub::BlockShuffle::Up,https://download.sourcefind.
 API:cub::BlockStore,API,cub::BlockStore,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
 API:cub::BlockStore::Store,API,cub::BlockStore::Store,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
 API:cub::BlockStore::TempStorage,API,cub::BlockStore::TempStorage,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
-API:cub::CUB_MAXCUB_ALIGNCUB_PREVENT_MACRO_SUBSTITUTIONCUB_MAXCUB_MINCUB_QUOTIENT_FLOORCUB_QUOTIENT_CEILINGCUB_ROUND_UP_NEARESTCUB_ROUND_DOWN_NEARESTCUB_STATIC_ASSERTCubVector,API,cub::CUB_MAXCUB_ALIGNCUB_PREVENT_MACRO_SUBSTITUTIONCUB_MAXCUB_MINCUB_QUOTIENT_FLOORCUB_QUOTIENT_CEILINGCUB_ROUND_UP_NEARESTCUB_ROUND_DOWN_NEARESTCUB_STATIC_ASSERTCubVector,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
 API:cub::CacheLoadModifier,API,cub::CacheLoadModifier,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
 API:cub::CacheModifiedInputIterator,API,cub::CacheModifiedInputIterator,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
 API:cub::CacheModifiedOutputIterator,API,cub::CacheModifiedOutputIterator,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
 API:cub::CacheStoreModifier,API,cub::CacheStoreModifier,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
 API:cub::CachingDeviceAllocator,API,cub::CachingDeviceAllocator,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
-API:cub::ChainedPolicyCubDebugCubDebugExit_CubLog,API,cub::ChainedPolicyCubDebugCubDebugExit_CubLog,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
+API:cub::ChainedPolicy,API,cub::ChainedPolicy,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
 API:cub::ConstantInputIterator,API,cub::ConstantInputIterator,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
 API:cub::CurrentDevice,API,cub::CurrentDevice,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
 API:cub::Debug,API,cub::Debug,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
@@ -784,14 +843,14 @@ API:cublasZtrsm,API,cublasZtrsm,https://download.sourcefind.cn:65024/1/main/DTK-
 API:cublasZtrsmBatched,API,cublasZtrsmBatched,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,BLAS Data types
 API:cublasZtrsm_v2,API,cublasZtrsm_v2,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,BLAS Data types
 API:cublasZtrttp,API,cublasZtrttp,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,BLAS Data types
+API:cuda,API,cuda,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,thrust
 API:cudaArrayGetInfo,API,cudaArrayGetInfo,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表
 API:cudaBindTexture,API,cudaBindTexture,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表
 API:cudaBindTexture2D,API,cudaBindTexture2D,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表
 API:cudaBindTextureToArray,API,cudaBindTextureToArray,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表
 API:cudaBindTextureToMipmappedArray,API,cudaBindTextureToMipmappedArray,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表
 API:cudaChooseDevice,API,cudaChooseDevice,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表
-API:cudaConfigureCall,API,cudaConfigureCall,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表
-API:cudaConfigureCallcudaLaunch,API,cudaConfigureCallcudaLaunch,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Execution Control [DEPRECATED since 7.0]
+API:cudaConfigureCall,API,cudaConfigureCall,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Execution Control [DEPRECATED since 7.0]
 API:cudaCreateTextureObject,API,cudaCreateTextureObject,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表
 API:cudaDestroyExternalMemory,API,cudaDestroyExternalMemory,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,External Resource Interoperability
 API:cudaDestroyExternalSemaphore,API,cudaDestroyExternalSemaphore,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,External Resource Interoperability
@@ -807,19 +866,21 @@ API:cudaDeviceGetNvSciSyncAttributes,API,cudaDeviceGetNvSciSyncAttributes,https:
 API:cudaDeviceGetP2PAttribute,API,cudaDeviceGetP2PAttribute,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Management
 API:cudaDeviceGetPCIBusId,API,cudaDeviceGetPCIBusId,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Device Management
 API:cudaDeviceGetSharedMemConfig,API,cudaDeviceGetSharedMemConfig,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Management
-API:cudaDeviceGetStreamPriorityRangecudaDeviceReset,API,cudaDeviceGetStreamPriorityRangecudaDeviceReset,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Management
-API:cudaDeviceReset,API,cudaDeviceReset,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表
+API:cudaDeviceGetStreamPriorityRange,API,cudaDeviceGetStreamPriorityRange,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Management
+API:cudaDeviceReset,API,cudaDeviceReset,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Device Management
 API:cudaDeviceSetCacheConfig,API,cudaDeviceSetCacheConfig,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Device Management
 API:cudaDeviceSetLimit,API,cudaDeviceSetLimit,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Management
 API:cudaDeviceSetSharedMemConfig,API,cudaDeviceSetSharedMemConfig,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Device Management
-API:cudaDeviceSynchronizecudaGetDevice,API,cudaDeviceSynchronizecudaGetDevice,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Management
+API:cudaDeviceSynchronize,API,cudaDeviceSynchronize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Management
 API:cudaDriverGetVersion,API,cudaDriverGetVersion,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Version Management
 API:cudaEventCreate,API,cudaEventCreate,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表
-API:cudaEventCreateWithFlagscudaEventDestroy,API,cudaEventCreateWithFlagscudaEventDestroy,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Event Management
-API:cudaEventElapsedTime,API,cudaEventElapsedTime,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表
-API:cudaEventElapsedTimecudaEventQuerycudaEventRecord,API,cudaEventElapsedTimecudaEventQuerycudaEventRecord,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Event Management
-API:cudaEventQuery,API,cudaEventQuery,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表
+API:cudaEventCreateWithFlags,API,cudaEventCreateWithFlags,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Event Management
+API:cudaEventDestroy,API,cudaEventDestroy,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Event Management
+API:cudaEventElapsedTime,API,cudaEventElapsedTime,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Event Management
+API:cudaEventQuery,API,cudaEventQuery,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Event Management
+API:cudaEventRecord,API,cudaEventRecord,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Event Management
 API:cudaEventSynchronize,API,cudaEventSynchronize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Event Management
+API:cudaExtent,API,cudaExtent,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
 API:cudaExternalMemoryGetMappedBuffer,API,cudaExternalMemoryGetMappedBuffer,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,External Resource Interoperability
 API:cudaExternalMemoryGetMappedMipmappedArray,API,cudaExternalMemoryGetMappedMipmappedArray,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,External Resource Interoperability
 API:cudaFreeArray,API,cudaFreeArray,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表
@@ -830,16 +891,17 @@ API:cudaFuncSetAttribute,API,cudaFuncSetAttribute,https://download.sourcefind.cn
 API:cudaFuncSetCacheConfig,API,cudaFuncSetCacheConfig,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Execution Control
 API:cudaFuncSetSharedMemConfig,API,cudaFuncSetSharedMemConfig,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Execution Control
 API:cudaGetChannelDesc,API,cudaGetChannelDesc,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表
+API:cudaGetDevice,API,cudaGetDevice,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Management
 API:cudaGetDeviceCount,API,cudaGetDeviceCount,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Management
 API:cudaGetDeviceFlags,API,cudaGetDeviceFlags,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Device Management
 API:cudaGetDeviceProperties,API,cudaGetDeviceProperties,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Management
-API:cudaGetErrorStringcudaGetLastError,API,cudaGetErrorStringcudaGetLastError,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Error Handling
+API:cudaGetErrorString,API,cudaGetErrorString,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Error Handling
+API:cudaGetLastError,API,cudaGetLastError,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Error Handling
 API:cudaGetMipmappedArrayLevel,API,cudaGetMipmappedArrayLevel,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Memory Management
 API:cudaGetParameterBuffer,API,cudaGetParameterBuffer,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Execution Control
-API:cudaGetParameterBufferV2cudaLaunchKernel,API,cudaGetParameterBufferV2cudaLaunchKernel,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Execution Control
+API:cudaGetParameterBufferV2,API,cudaGetParameterBufferV2,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Execution Control
 API:cudaGetSymbolAddress,API,cudaGetSymbolAddress,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Memory Management
-API:cudaGetSymbolSize,API,cudaGetSymbolSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表
-API:cudaGetSymbolSizecudaHostAlloc,API,cudaGetSymbolSizecudaHostAlloc,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
+API:cudaGetSymbolSize,API,cudaGetSymbolSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Memory Management
 API:cudaGetTextureAlignmentOffset,API,cudaGetTextureAlignmentOffset,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表
 API:cudaGetTextureObjectResourceDesc,API,cudaGetTextureObjectResourceDesc,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表
 API:cudaGetTextureObjectResourceViewDesc,API,cudaGetTextureObjectResourceViewDesc,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表
@@ -852,7 +914,10 @@ API:cudaGraphAddHostNode,API,cudaGraphAddHostNode,https://download.sourcefind.cn
 API:cudaGraphAddKernelNode,API,cudaGraphAddKernelNode,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Graph Management
 API:cudaGraphAddMemcpyNode,API,cudaGraphAddMemcpyNode,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Graph Management
 API:cudaGraphAddMemsetNode,API,cudaGraphAddMemsetNode,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Graph Management
-API:cudaGraphChildGraphNodeGetGraphcudaGraphClonecudaGraphCreatecudaGraphDestroy,API,cudaGraphChildGraphNodeGetGraphcudaGraphClonecudaGraphCreatecudaGraphDestroy,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Graph Management
+API:cudaGraphChildGraphNodeGetGraph,API,cudaGraphChildGraphNodeGetGraph,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Graph Management
+API:cudaGraphClone,API,cudaGraphClone,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Graph Management
+API:cudaGraphCreate,API,cudaGraphCreate,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Graph Management
+API:cudaGraphDestroy,API,cudaGraphDestroy,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Graph Management
 API:cudaGraphDestroyNode,API,cudaGraphDestroyNode,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Graph Management
 API:cudaGraphExecDestroy,API,cudaGraphExecDestroy,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Graph Management
 API:cudaGraphExecHostNodeSetParams,API,cudaGraphExecHostNodeSetParams,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Graph Management
@@ -867,7 +932,8 @@ API:cudaGraphHostNodeGetParams,API,cudaGraphHostNodeGetParams,https://download.s
 API:cudaGraphHostNodeSetParams,API,cudaGraphHostNodeSetParams,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Graph Management
 API:cudaGraphInstantiate,API,cudaGraphInstantiate,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Graph Management
 API:cudaGraphKernelNodeGetParams,API,cudaGraphKernelNodeGetParams,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Graph Management
-API:cudaGraphKernelNodeSetParamscudaGraphLaunch,API,cudaGraphKernelNodeSetParamscudaGraphLaunch,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Graph Management
+API:cudaGraphKernelNodeSetParams,API,cudaGraphKernelNodeSetParams,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Graph Management
+API:cudaGraphLaunch,API,cudaGraphLaunch,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Graph Management
 API:cudaGraphMemcpyNodeGetParams,API,cudaGraphMemcpyNodeGetParams,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Graph Management
 API:cudaGraphMemcpyNodeSetParams,API,cudaGraphMemcpyNodeSetParams,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Graph Management
 API:cudaGraphMemsetNodeGetParams,API,cudaGraphMemsetNodeGetParams,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Graph Management
@@ -877,76 +943,75 @@ API:cudaGraphNodeGetDependencies,API,cudaGraphNodeGetDependencies,https://downlo
 API:cudaGraphNodeGetDependentNodes,API,cudaGraphNodeGetDependentNodes,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Graph Management
 API:cudaGraphNodeGetType,API,cudaGraphNodeGetType,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Graph Management
 API:cudaGraphRemoveDependencies,API,cudaGraphRemoveDependencies,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Graph Management
-API:cudaHostAlloc,API,cudaHostAlloc,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表
-API:cudaHostGetDevicePointer,API,cudaHostGetDevicePointer,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表
-API:cudaHostGetDevicePointercudaHostGetFlagscudaHostRegister,API,cudaHostGetDevicePointercudaHostGetFlagscudaHostRegister,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
-API:cudaHostGetFlags,API,cudaHostGetFlags,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表
-API:cudaHostRegister,API,cudaHostRegister,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表
-API:cudaHostUnregister,API,cudaHostUnregister,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表
-API:cudaHostUnregistercudaMalloccudaMalloc3D,API,cudaHostUnregistercudaMalloccudaMalloc3D,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
+API:cudaHostAlloc,API,cudaHostAlloc,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Memory Management
+API:cudaHostGetDevicePointer,API,cudaHostGetDevicePointer,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Memory Management
+API:cudaHostGetFlags,API,cudaHostGetFlags,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Memory Management
+API:cudaHostRegister,API,cudaHostRegister,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Memory Management
+API:cudaHostUnregister,API,cudaHostUnregister,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Memory Management
 API:cudaImportExternalMemory,API,cudaImportExternalMemory,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,External Resource Interoperability
 API:cudaImportExternalSemaphore,API,cudaImportExternalSemaphore,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,External Resource Interoperability
 API:cudaIpcCloseMemHandle,API,cudaIpcCloseMemHandle,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Device Management
 API:cudaIpcGetEventHandle,API,cudaIpcGetEventHandle,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Device Management
 API:cudaIpcGetMemHandle,API,cudaIpcGetMemHandle,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Device Management
 API:cudaIpcOpenEventHandle,API,cudaIpcOpenEventHandle,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Device Management
-API:cudaIpcOpenMemHandle,API,cudaIpcOpenMemHandle,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表
-API:cudaIpcOpenMemHandlecudaSetDevice,API,cudaIpcOpenMemHandlecudaSetDevice,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Management
+API:cudaIpcOpenMemHandle,API,cudaIpcOpenMemHandle,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Device Management
+API:cudaLaunch,API,cudaLaunch,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Execution Control [DEPRECATED since 7.0]
 API:cudaLaunchCooperativeKernel,API,cudaLaunchCooperativeKernel,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Execution Control
 API:cudaLaunchCooperativeKernelMultiDevice,API,cudaLaunchCooperativeKernelMultiDevice,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Execution Control
 API:cudaLaunchHostFunc,API,cudaLaunchHostFunc,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Execution Control
-API:cudaLaunchKernel,API,cudaLaunchKernel,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表
-API:cudaMalloc3D,API,cudaMalloc3D,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表
-API:cudaMalloc3DArray,API,cudaMalloc3DArray,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表
-API:cudaMalloc3DArraycudaMallocArraycudaMallocHost,API,cudaMalloc3DArraycudaMallocArraycudaMallocHost,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
-API:cudaMallocArray,API,cudaMallocArray,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表
-API:cudaMallocHost,API,cudaMallocHost,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表
+API:cudaLaunchKernel,API,cudaLaunchKernel,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Execution Control
+API:cudaMalloc,API,cudaMalloc,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
+API:cudaMalloc3D,API,cudaMalloc3D,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Memory Management
+API:cudaMalloc3DArray,API,cudaMalloc3DArray,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Memory Management
+API:cudaMallocArray,API,cudaMallocArray,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Memory Management
+API:cudaMallocHost,API,cudaMallocHost,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Memory Management
 API:cudaMallocManaged,API,cudaMallocManaged,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
-API:cudaMallocMipmappedArray,API,cudaMallocMipmappedArray,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表
-API:cudaMallocMipmappedArraycudaMallocPitchcudaMemGetInfo,API,cudaMallocMipmappedArraycudaMallocPitchcudaMemGetInfo,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
-API:cudaMallocPitch,API,cudaMallocPitch,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表
+API:cudaMallocMipmappedArray,API,cudaMallocMipmappedArray,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Memory Management
+API:cudaMallocPitch,API,cudaMallocPitch,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Memory Management
 API:cudaMemAdvise,API,cudaMemAdvise,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表
-API:cudaMemPrefetchAsync,API,cudaMemPrefetchAsync,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表
-API:cudaMemPrefetchAsynccudaMemcpycudaMemcpy2D,API,cudaMemPrefetchAsynccudaMemcpycudaMemcpy2D,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
+API:cudaMemGetInfo,API,cudaMemGetInfo,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
+API:cudaMemPrefetchAsync,API,cudaMemPrefetchAsync,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Memory Management
 API:cudaMemRangeGetAttribute,API,cudaMemRangeGetAttribute,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表
 API:cudaMemRangeGetAttributes,API,cudaMemRangeGetAttributes,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表
-API:cudaMemcpy,API,cudaMemcpy,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表
-API:cudaMemcpy2D,API,cudaMemcpy2D,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表
+API:cudaMemcpy,API,cudaMemcpy,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Memory Management
+API:cudaMemcpy2D,API,cudaMemcpy2D,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Memory Management
 API:cudaMemcpy2DArrayToArray,API,cudaMemcpy2DArrayToArray,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
 API:cudaMemcpy2DAsync,API,cudaMemcpy2DAsync,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
 API:cudaMemcpy2DFromArray,API,cudaMemcpy2DFromArray,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Memory Management
 API:cudaMemcpy2DFromArrayAsync,API,cudaMemcpy2DFromArrayAsync,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
 API:cudaMemcpy2DToArray,API,cudaMemcpy2DToArray,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Memory Management
-API:cudaMemcpy2DToArrayAsynccudaMemcpy3D,API,cudaMemcpy2DToArrayAsynccudaMemcpy3D,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
-API:cudaMemcpy3D,API,cudaMemcpy3D,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表
-API:cudaMemcpy3DAsynccudaMemcpy3DPeer,API,cudaMemcpy3DAsynccudaMemcpy3DPeer,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
+API:cudaMemcpy2DToArrayAsync,API,cudaMemcpy2DToArrayAsync,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
+API:cudaMemcpy3D,API,cudaMemcpy3D,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Memory Management
+API:cudaMemcpy3DAsync,API,cudaMemcpy3DAsync,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
+API:cudaMemcpy3DPeer,API,cudaMemcpy3DPeer,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
 API:cudaMemcpy3DPeerAsync,API,cudaMemcpy3DPeerAsync,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
-API:cudaMemcpyArrayToArraycudaMemcpyAsync,API,cudaMemcpyArrayToArraycudaMemcpyAsync,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
+API:cudaMemcpyArrayToArray,API,cudaMemcpyArrayToArray,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
+API:cudaMemcpyAsync,API,cudaMemcpyAsync,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
 API:cudaMemcpyFromArray,API,cudaMemcpyFromArray,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Memory Management
 API:cudaMemcpyFromArrayAsync,API,cudaMemcpyFromArrayAsync,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
 API:cudaMemcpyFromSymbol,API,cudaMemcpyFromSymbol,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Memory Management
-API:cudaMemcpyFromSymbolAsync,API,cudaMemcpyFromSymbolAsync,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表
-API:cudaMemcpyFromSymbolAsynccudaMemcpyPeer,API,cudaMemcpyFromSymbolAsynccudaMemcpyPeer,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
-API:cudaMemcpyPeer,API,cudaMemcpyPeer,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表
+API:cudaMemcpyFromSymbolAsync,API,cudaMemcpyFromSymbolAsync,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Memory Management
+API:cudaMemcpyPeer,API,cudaMemcpyPeer,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Memory Management
 API:cudaMemcpyPeerAsync,API,cudaMemcpyPeerAsync,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Memory Management
 API:cudaMemcpyToArray,API,cudaMemcpyToArray,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Memory Management
 API:cudaMemcpyToArrayAsync,API,cudaMemcpyToArrayAsync,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
 API:cudaMemcpyToSymbol,API,cudaMemcpyToSymbol,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Memory Management
-API:cudaMemcpyToSymbolAsync,API,cudaMemcpyToSymbolAsync,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表
-API:cudaMemcpyToSymbolAsynccudaMemsetcudaMemset2D,API,cudaMemcpyToSymbolAsynccudaMemsetcudaMemset2D,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
-API:cudaMemset,API,cudaMemset,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表
-API:cudaMemset2D,API,cudaMemset2D,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表
-API:cudaMemset2DAsynccudaMemset3D,API,cudaMemset2DAsynccudaMemset3D,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
-API:cudaMemset3D,API,cudaMemset3D,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表
-API:cudaMemset3DAsynccudaMemsetAsyncmake_cudaExtent,API,cudaMemset3DAsynccudaMemsetAsyncmake_cudaExtent,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
+API:cudaMemcpyToSymbolAsync,API,cudaMemcpyToSymbolAsync,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Memory Management
+API:cudaMemset,API,cudaMemset,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Memory Management
+API:cudaMemset2D,API,cudaMemset2D,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Memory Management
+API:cudaMemset2DAsync,API,cudaMemset2DAsync,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
+API:cudaMemset3D,API,cudaMemset3D,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Memory Management
+API:cudaMemset3DAsync,API,cudaMemset3DAsync,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
 API:cudaOccupancyMaxActiveBlocksPerMultiprocessor,API,cudaOccupancyMaxActiveBlocksPerMultiprocessor,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Occupancy
 API:cudaOccupancyMaxActiveBlocksPerMultiprocessorWithFlags,API,cudaOccupancyMaxActiveBlocksPerMultiprocessorWithFlags,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Occupancy
 API:cudaPeekAtLastError,API,cudaPeekAtLastError,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Error Handling
 API:cudaPointerGetAttributes,API,cudaPointerGetAttributes,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Unified Addressing
+API:cudaPos,API,cudaPos,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
 API:cudaProfilerInitialize,API,cudaProfilerInitialize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
-API:cudaProfilerStartcudaProfilerStopprintf__popc__popcll__clz__clzll__ffs__ffsll__ffs__ffsll__brev__brevll,API,cudaProfilerStartcudaProfilerStopprintf__popc__popcll__clz__clzll__ffs__ffsll__ffs__ffsll__brev__brevll,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:cudaProfilerStart,API,cudaProfilerStart,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:cudaProfilerStop,API,cudaProfilerStop,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
 API:cudaRuntimeGetVersion,API,cudaRuntimeGetVersion,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Version Management
-API:cudaSetDevice,API,cudaSetDevice,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表
+API:cudaSetDevice,API,cudaSetDevice,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Device Management
 API:cudaSetDeviceFlags,API,cudaSetDeviceFlags,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Device Management
 API:cudaSetDoubleForDevice,API,cudaSetDoubleForDevice,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Execution Control
 API:cudaSetDoubleForHost,API,cudaSetDoubleForHost,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Execution Control
@@ -956,16 +1021,16 @@ API:cudaSignalExternalSemaphoresAsync,API,cudaSignalExternalSemaphoresAsync,http
 API:cudaStreamAddCallback,API,cudaStreamAddCallback,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Stream Management
 API:cudaStreamAttachMemAsync,API,cudaStreamAttachMemAsync,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Stream Management
 API:cudaStreamBeginCapture,API,cudaStreamBeginCapture,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Stream Management
-API:cudaStreamCreate,API,cudaStreamCreate,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表
+API:cudaStreamCreate,API,cudaStreamCreate,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Stream Management
 API:cudaStreamCreateWithFlags,API,cudaStreamCreateWithFlags,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Stream Management
 API:cudaStreamCreateWithPriority,API,cudaStreamCreateWithPriority,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Stream Management
 API:cudaStreamDestroy,API,cudaStreamDestroy,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Stream Management
 API:cudaStreamEndCapture,API,cudaStreamEndCapture,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Stream Management
-API:cudaStreamGetCaptureInfocudaStreamCreate,API,cudaStreamGetCaptureInfocudaStreamCreate,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Stream Management
+API:cudaStreamGetCaptureInfo,API,cudaStreamGetCaptureInfo,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Stream Management
 API:cudaStreamGetFlags,API,cudaStreamGetFlags,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Stream Management
-API:cudaStreamGetPrioritycudaStreamQuery,API,cudaStreamGetPrioritycudaStreamQuery,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Stream Management
+API:cudaStreamGetPriority,API,cudaStreamGetPriority,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Stream Management
 API:cudaStreamIsCapturing,API,cudaStreamIsCapturing,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Stream Management
-API:cudaStreamQuery,API,cudaStreamQuery,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表
+API:cudaStreamQuery,API,cudaStreamQuery,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Stream Management
 API:cudaStreamSynchronize,API,cudaStreamSynchronize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUDA API 支持列表|Stream Management
 API:cudaStreamWaitEvent,API,cudaStreamWaitEvent,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Stream Management
 API:cudaThreadExchangeStreamCaptureMode,API,cudaThreadExchangeStreamCaptureMode,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Stream Management
@@ -1287,7 +1352,6 @@ API:curandGetDirectionVectors32,API,curandGetDirectionVectors32,https://download
 API:curandGetDirectionVectors64,API,curandGetDirectionVectors64,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:curandGetPropertycurandSetStream,API,curandGetPropertycurandSetStream,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:curandGetScrambleConstants32,API,curandGetScrambleConstants32,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
-API:curandGetScrambleConstants64curand_initcurandcurand4curand_MRG32k3acurand_discrete,API,curandGetScrambleConstants64curand_initcurandcurand4curand_MRG32k3acurand_discrete,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:curandGetVersion,API,curandGetVersion,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:curandHistogramM2K_t,API,curandHistogramM2K_t,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:curandHistogramM2V_t,API,curandHistogramM2V_t,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
@@ -1307,9 +1371,13 @@ API:curandStateSobol32_t,API,curandStateSobol32_t,https://download.sourcefind.cn
 API:curandStateSobol64_t,API,curandStateSobol64_t,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:curandStateTest_t,API,curandStateTest_t,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:curandStateXORWOW_t,API,curandStateXORWOW_t,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
+API:curand_M2_double,API,curand_M2_double,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:curand_M2_double4,API,curand_M2_double4,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
+API:curand_MRG32k3a,API,curand_MRG32k3a,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:curand_binary_search_double,API,curand_binary_search_double,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
+API:curand_discrete,API,curand_discrete,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:curand_discrete4,API,curand_discrete4,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
+API:curand_initcurandcurand4,API,curand_initcurandcurand4,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:curand_log_normal,API,curand_log_normal,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:curand_log_normal2,API,curand_log_normal2,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:curand_log_normal2_double,API,curand_log_normal2_double,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
@@ -1317,27 +1385,40 @@ API:curand_log_normal4,API,curand_log_normal4,https://download.sourcefind.cn:650
 API:curand_log_normal4_double,API,curand_log_normal4_double,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:curand_log_normal_double,API,curand_log_normal_double,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:curand_mtgp32_single,API,curand_mtgp32_single,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
-API:curand_mtgp32_single_specificcurand_normalcurand_normal2curand_normal4,API,curand_mtgp32_single_specificcurand_normalcurand_normal2curand_normal4,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
+API:curand_mtgp32_single_specific,API,curand_mtgp32_single_specific,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:curand_mtgp32_specific,API,curand_mtgp32_specific,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
+API:curand_normal,API,curand_normal,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
+API:curand_normal2,API,curand_normal2,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:curand_normal2_double,API,curand_normal2_double,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
-API:curand_normal4_doublecurand_uniform,API,curand_normal4_doublecurand_uniform,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
+API:curand_normal4,API,curand_normal4,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
+API:curand_normal4_double,API,curand_normal4_double,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:curand_normal_double,API,curand_normal_double,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
-API:curand_poisson_from_normalcurand_M2_double,API,curand_poisson_from_normalcurand_M2_double,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
+API:curand_poisson,API,curand_poisson,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
+API:curand_poisson4,API,curand_poisson4,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
+API:curand_poisson_from_normal,API,curand_poisson_from_normal,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:curand_poisson_gammainc,API,curand_poisson_gammainc,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:curand_poisson_gammainc4,API,curand_poisson_gammainc4,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:curand_poisson_knuth,API,curand_poisson_knuth,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:curand_poisson_knuth4,API,curand_poisson_knuth4,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
-API:curand_uniform4_doubleskipaheadskipaheadsequenceskipahead_subsequencecurand_poissoncurand_poisson4,API,curand_uniform4_doubleskipaheadskipaheadsequenceskipahead_subsequencecurand_poissoncurand_poisson4,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
-API:curand_uniform_doublecurand_uniform4,API,curand_uniform_doublecurand_uniform4,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
+API:curand_uniform,API,curand_uniform,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
+API:curand_uniform4,API,curand_uniform4,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
+API:curand_uniform4_double,API,curand_uniform4_double,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
+API:curand_uniform_double,API,curand_uniform_double,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
+API:cusolverDnCCgels,API,cusolverDnCCgels,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnCCgels_bufferSize,API,cusolverDnCCgels_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
-API:cusolverDnCCgelscusolverDnCKgelscusolverDnCEgelscusolverDnCYgels,API,cusolverDnCCgelscusolverDnCKgelscusolverDnCEgelscusolverDnCYgels,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnCCgesv,API,cusolverDnCCgesv,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnCCgesv_bufferSize,API,cusolverDnCCgesv_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
-API:cusolverDnCCgesvcusolverDnCKgesvcusolverDnCEgesvcusolverDnCYgesv,API,cusolverDnCCgesvcusolverDnCKgesvcusolverDnCEgesvcusolverDnCYgesv,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnCEgels,API,cusolverDnCEgels,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnCEgels_bufferSize,API,cusolverDnCEgels_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnCEgesv,API,cusolverDnCEgesv,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnCEgesv_bufferSize,API,cusolverDnCEgesv_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnCKgels,API,cusolverDnCKgels,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnCKgels_bufferSize,API,cusolverDnCKgels_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnCKgesv,API,cusolverDnCKgesv,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnCKgesv_bufferSize,API,cusolverDnCKgesv_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnCYgels,API,cusolverDnCYgels,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnCYgels_bufferSize,API,cusolverDnCYgels_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnCYgesv,API,cusolverDnCYgesv,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnCYgesv_bufferSize,API,cusolverDnCYgesv_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnCgebrd,API,cusolverDnCgebrd,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnCgebrd_bufferSize,API,cusolverDnCgebrd_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
@@ -1393,17 +1474,25 @@ API:cusolverDnCunmqr,API,cusolverDnCunmqr,https://download.sourcefind.cn:65024/1
 API:cusolverDnCunmqr_bufferSize,API,cusolverDnCunmqr_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnCunmtr,API,cusolverDnCunmtr,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnCunmtr_bufferSize,API,cusolverDnCunmtr_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnDBgels,API,cusolverDnDBgels,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnDBgels_bufferSize,API,cusolverDnDBgels_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnDBgesv,API,cusolverDnDBgesv,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnDBgesv_bufferSize,API,cusolverDnDBgesv_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnDDgels,API,cusolverDnDDgels,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnDDgels_bufferSize,API,cusolverDnDDgels_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
-API:cusolverDnDDgelscusolverDnDSgelscusolverDnDHgelscusolverDnDBgelscusolverDnDXgels,API,cusolverDnDDgelscusolverDnDSgelscusolverDnDHgelscusolverDnDBgelscusolverDnDXgels,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnDDgesv,API,cusolverDnDDgesv,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnDDgesv_bufferSize,API,cusolverDnDDgesv_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
-API:cusolverDnDDgesvcusolverDnDSgesvcusolverDnDHgesvcusolverDnDBgesvcusolverDnDXgesv,API,cusolverDnDDgesvcusolverDnDSgesvcusolverDnDHgesvcusolverDnDBgesvcusolverDnDXgesv,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnDHgels,API,cusolverDnDHgels,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnDHgels_bufferSize,API,cusolverDnDHgels_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnDHgesv,API,cusolverDnDHgesv,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnDHgesv_bufferSize,API,cusolverDnDHgesv_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnDSgels,API,cusolverDnDSgels,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnDSgels_bufferSize,API,cusolverDnDSgels_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnDSgesv,API,cusolverDnDSgesv,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnDSgesv_bufferSize,API,cusolverDnDSgesv_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnDXgels,API,cusolverDnDXgels,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnDXgels_bufferSize,API,cusolverDnDXgels_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnDXgesv,API,cusolverDnDXgesv,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnDXgesv_bufferSize,API,cusolverDnDXgesv_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnDestroy,API,cusolverDnDestroy,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnDestroyGesvdjInfo,API,cusolverDnDestroyGesvdjInfo,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
@@ -1484,15 +1573,21 @@ API:cusolverDnIRSXgels,API,cusolverDnIRSXgels,https://download.sourcefind.cn:650
 API:cusolverDnIRSXgels_bufferSize,API,cusolverDnIRSXgels_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnIRSXgesv,API,cusolverDnIRSXgesv,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnIRSXgesv_bufferSize,API,cusolverDnIRSXgesv_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnSBgels,API,cusolverDnSBgels,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnSBgels_bufferSize,API,cusolverDnSBgels_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnSBgesv,API,cusolverDnSBgesv,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnSBgesv_bufferSize,API,cusolverDnSBgesv_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnSHgels,API,cusolverDnSHgels,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnSHgels_bufferSize,API,cusolverDnSHgels_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnSHgesv,API,cusolverDnSHgesv,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnSHgesv_bufferSize,API,cusolverDnSHgesv_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnSSgels,API,cusolverDnSSgels,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnSSgels_bufferSize,API,cusolverDnSSgels_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
-API:cusolverDnSSgelscusolverDnSHgelscusolverDnSBgelscusolverDnSXgels,API,cusolverDnSSgelscusolverDnSHgelscusolverDnSBgelscusolverDnSXgels,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnSSgesv,API,cusolverDnSSgesv,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnSSgesv_bufferSize,API,cusolverDnSSgesv_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
-API:cusolverDnSSgesvcusolverDnSHgesvcusolverDnSBgesvcusolverDnSXgesv,API,cusolverDnSSgesvcusolverDnSHgesvcusolverDnSBgesvcusolverDnSXgesv,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnSXgels,API,cusolverDnSXgels,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnSXgels_bufferSize,API,cusolverDnSXgels_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnSXgesv,API,cusolverDnSXgesv,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnSXgesv_bufferSize,API,cusolverDnSXgesv_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnSetAdvOptions,API,cusolverDnSetAdvOptions,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnSetStream,API,cusolverDnSetStream,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
@@ -1546,8 +1641,10 @@ API:cusolverDnSsytrd,API,cusolverDnSsytrd,https://download.sourcefind.cn:65024/1
 API:cusolverDnSsytrd_bufferSize,API,cusolverDnSsytrd_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnSsytrf,API,cusolverDnSsytrf,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnSsytrf_bufferSize,API,cusolverDnSsytrf_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
-API:cusolverDnXgeqrf_bufferSizecusolverDnXgeqrf,API,cusolverDnXgeqrf_bufferSizecusolverDnXgeqrf,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
-API:cusolverDnXgesvd_bufferSizecusolverDnXgesvd,API,cusolverDnXgesvd_bufferSizecusolverDnXgesvd,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnXgeqrf,API,cusolverDnXgeqrf,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnXgeqrf_bufferSize,API,cusolverDnXgeqrf_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnXgesvd,API,cusolverDnXgesvd,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnXgesvd_bufferSize,API,cusolverDnXgesvd_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnXgesvdjGetResidual,API,cusolverDnXgesvdjGetResidual,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnXgesvdjGetSweeps,API,cusolverDnXgesvdjGetSweeps,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnXgesvdjSetMaxSweeps,API,cusolverDnXgesvdjSetMaxSweeps,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
@@ -1557,30 +1654,45 @@ API:cusolverDnXgesvdp,API,cusolverDnXgesvdp,https://download.sourcefind.cn:65024
 API:cusolverDnXgesvdp_bufferSize,API,cusolverDnXgesvdp_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnXgesvdr,API,cusolverDnXgesvdr,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnXgesvdr_bufferSize,API,cusolverDnXgesvdr_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
-API:cusolverDnXgetrf_bufferSizecusolverDnXgetrfcusolverDnXgetrs,API,cusolverDnXgetrf_bufferSizecusolverDnXgetrfcusolverDnXgetrs,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
-API:cusolverDnXpotrf_bufferSizecusolverDnXpotrfcusolverDnXpotrs,API,cusolverDnXpotrf_bufferSizecusolverDnXpotrfcusolverDnXpotrs,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
-API:cusolverDnXsyevd_bufferSizecusolverDnXsyevd,API,cusolverDnXsyevd_bufferSizecusolverDnXsyevd,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnXgetrf,API,cusolverDnXgetrf,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnXgetrf_bufferSize,API,cusolverDnXgetrf_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnXgetrs,API,cusolverDnXgetrs,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnXpotrf,API,cusolverDnXpotrf,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnXpotrf_bufferSize,API,cusolverDnXpotrf_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnXpotrs,API,cusolverDnXpotrs,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnXsyevd,API,cusolverDnXsyevd,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnXsyevd_bufferSize,API,cusolverDnXsyevd_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnXsyevdx,API,cusolverDnXsyevdx,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnXsyevdx_bufferSize,API,cusolverDnXsyevdx_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
-API:cusolverDnXsyevdxcusolverSpCreate,API,cusolverDnXsyevdxcusolverSpCreate,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnXsyevjGetResidual,API,cusolverDnXsyevjGetResidual,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnXsyevjGetSweeps,API,cusolverDnXsyevjGetSweeps,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnXsyevjSetMaxSweeps,API,cusolverDnXsyevjSetMaxSweeps,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnXsyevjSetSortEig,API,cusolverDnXsyevjSetSortEig,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnXsyevjSetTolerance,API,cusolverDnXsyevjSetTolerance,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
-API:cusolverDnXsytrs_bufferSizecusolverDnXsytrs,API,cusolverDnXsytrs_bufferSizecusolverDnXsytrs,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
-API:cusolverDnXtrtri_bufferSizecusolverDnXtrtri,API,cusolverDnXtrtri_bufferSizecusolverDnXtrtri,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnXsytrs,API,cusolverDnXsytrs,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnXsytrs_bufferSize,API,cusolverDnXsytrs_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnXtrtri,API,cusolverDnXtrtri,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnXtrtri_bufferSize,API,cusolverDnXtrtri_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnZCgels,API,cusolverDnZCgels,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnZCgels_bufferSize,API,cusolverDnZCgels_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnZCgesv,API,cusolverDnZCgesv,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnZCgesv_bufferSize,API,cusolverDnZCgesv_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnZEgels,API,cusolverDnZEgels,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnZEgels_bufferSize,API,cusolverDnZEgels_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnZEgesv,API,cusolverDnZEgesv,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnZEgesv_bufferSize,API,cusolverDnZEgesv_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnZKgels,API,cusolverDnZKgels,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnZKgels_bufferSize,API,cusolverDnZKgels_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnZKgesv,API,cusolverDnZKgesv,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnZKgesv_bufferSize,API,cusolverDnZKgesv_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnZYgels,API,cusolverDnZYgels,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnZYgels_bufferSize,API,cusolverDnZYgels_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnZYgesv,API,cusolverDnZYgesv,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnZYgesv_bufferSize,API,cusolverDnZYgesv_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnZZgels,API,cusolverDnZZgels,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnZZgels_bufferSize,API,cusolverDnZZgels_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
-API:cusolverDnZZgelscusolverDnZCgelscusolverDnZKgelscusolverDnZEgelscusolverDnZYgels,API,cusolverDnZZgelscusolverDnZCgelscusolverDnZKgelscusolverDnZEgelscusolverDnZYgels,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverDnZZgesv,API,cusolverDnZZgesv,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnZZgesv_bufferSize,API,cusolverDnZZgesv_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
-API:cusolverDnZZgesvcusolverDnZCgesvcusolverDnZKgesvcusolverDnZEgesvcusolverDnZYgesv,API,cusolverDnZZgesvcusolverDnZCgesvcusolverDnZKgesvcusolverDnZEgesvcusolverDnZYgesv,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnZgebrd,API,cusolverDnZgebrd,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnZgebrd_bufferSize,API,cusolverDnZgebrd_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverDnZgeqrf,API,cusolverDnZgeqrf,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
@@ -1639,6 +1751,7 @@ API:cusolverRfBatchResetValues,API,cusolverRfBatchResetValues,https://download.s
 API:cusolverRfBatchSetupHost,API,cusolverRfBatchSetupHost,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverRfBatchSolve,API,cusolverRfBatchSolve,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverRfBatchZeroPivot,API,cusolverRfBatchZeroPivot,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverRfCreate,API,cusolverRfCreate,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverRfDestroy,API,cusolverRfDestroy,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverRfExtractBundledFactorsHost,API,cusolverRfExtractBundledFactorsHost,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverRfExtractSplitFactorsHost,API,cusolverRfExtractSplitFactorsHost,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
@@ -1649,12 +1762,13 @@ API:cusolverRfGetResetValuesFastMode,API,cusolverRfGetResetValuesFastMode,https:
 API:cusolverRfGet_Algs,API,cusolverRfGet_Algs,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverRfRefactor,API,cusolverRfRefactor,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverRfResetValues,API,cusolverRfResetValues,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
-API:cusolverRfSetAlgscusolverRfSolve,API,cusolverRfSetAlgscusolverRfSolve,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverRfSetAlgs,API,cusolverRfSetAlgs,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverRfSetMatrixFormat,API,cusolverRfSetMatrixFormat,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverRfSetNumericProperties,API,cusolverRfSetNumericProperties,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverRfSetResetValuesFastMode,API,cusolverRfSetResetValuesFastMode,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverRfSetupDevice,API,cusolverRfSetupDevice,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
-API:cusolverRfSetupHostcusolverRfCreate,API,cusolverRfSetupHostcusolverRfCreate,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverRfSetupHost,API,cusolverRfSetupHost,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverRfSolve,API,cusolverRfSolve,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverSpCcsreigs,API,cusolverSpCcsreigs,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverSpCcsreigvsi,API,cusolverSpCcsreigvsi,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverSpCcsrlsqvqr,API,cusolverSpCcsrlsqvqr,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
@@ -1664,6 +1778,7 @@ API:cusolverSpCcsrlsvqr,API,cusolverSpCcsrlsvqr,https://download.sourcefind.cn:6
 API:cusolverSpCcsrqrBufferInfoBatched,API,cusolverSpCcsrqrBufferInfoBatched,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverSpCcsrqrsvBatched,API,cusolverSpCcsrqrsvBatched,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverSpCcsrzfdHost,API,cusolverSpCcsrzfdHost,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
+API:cusolverSpCreate,API,cusolverSpCreate,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverSpCreateCsrqrInfo,API,cusolverSpCreateCsrqrInfo,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverSpDcsreigs,API,cusolverSpDcsreigs,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:cusolverSpDcsreigvsi,API,cusolverSpDcsreigvsi,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
@@ -1809,7 +1924,6 @@ API:cusparseChybsv_analysis,API,cusparseChybsv_analysis,https://download.sourcef
 API:cusparseCnnz,API,cusparseCnnz,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SPARSE
 API:cusparseCnnz_compress,API,cusparseCnnz_compress,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SPARSE
 API:cusparseColorInfo,API,cusparseColorInfo,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SPARSE
-API:cusparseColorInfo_tstructtypedef,API,cusparseColorInfo_tstructtypedef,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SPARSE
 API:cusparseContext,API,cusparseContext,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SPARSE
 API:cusparseCooAoSGet,API,cusparseCooAoSGet,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SPARSE
 API:cusparseCooGet,API,cusparseCooGet,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SPARSE
@@ -2140,7 +2254,6 @@ API:cusparseShybsv_solve,API,cusparseShybsv_solve,https://download.sourcefind.cn
 API:cusparseSnnz,API,cusparseSnnz,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SPARSE
 API:cusparseSnnz_compress,API,cusparseSnnz_compress,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SPARSE
 API:cusparseSolveAnalysisInfo,API,cusparseSolveAnalysisInfo,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SPARSE
-API:cusparseSolveAnalysisInfo_tstructtypedefstructtypedefstructtypedefstructtypedefstructtypedefstructtypedefstructtypedefstructtypedefstructtypedef,API,cusparseSolveAnalysisInfo_tstructtypedefstructtypedefstructtypedefstructtypedefstructtypedefstructtypedefstructtypedefstructtypedefstructtypedef,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SPARSE
 API:cusparseSolvePolicy_t,API,cusparseSolvePolicy_t,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SPARSE
 API:cusparseSpMM,API,cusparseSpMM,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SPARSE
 API:cusparseSpMMAlg_t,API,cusparseSpMMAlg_t,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SPARSE
@@ -2312,8 +2425,8 @@ API:cusparseZhybsv_analysis,API,cusparseZhybsv_analysis,https://download.sourcef
 API:cusparseZnnz,API,cusparseZnnz,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SPARSE
 API:cusparseZnnz_compress,API,cusparseZnnz_compress,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SPARSE
 API:cusparseZsctr,API,cusparseZsctr,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SPARSE
-API:hip,API,hip,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB
-API:hipConfigureCallhipLaunchByPtr,API,hipConfigureCallhipLaunchByPtr,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Execution Control [DEPRECATED since 7.0]
+API:hip,API,hip,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,CUB|thrust
+API:hipConfigureCall,API,hipConfigureCall,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Execution Control [DEPRECATED since 7.0]
 API:hipDeviceCanAccessPeer,API,hipDeviceCanAccessPeer,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Peer Device Memory Access
 API:hipDeviceDisablePeerAccess,API,hipDeviceDisablePeerAccess,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Peer Device Memory Access
 API:hipDeviceEnablePeerAccess,API,hipDeviceEnablePeerAccess,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Peer Device Memory Access
@@ -2323,28 +2436,42 @@ API:hipDeviceGetCacheConfig,API,hipDeviceGetCacheConfig,https://download.sourcef
 API:hipDeviceGetLimit,API,hipDeviceGetLimit,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Management
 API:hipDeviceGetPCIBusId,API,hipDeviceGetPCIBusId,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Management
 API:hipDeviceGetSharedMemConfig,API,hipDeviceGetSharedMemConfig,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Management
-API:hipDeviceGetStreamPriorityRangehipDeviceReset,API,hipDeviceGetStreamPriorityRangehipDeviceReset,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Management
+API:hipDeviceGetStreamPriorityRange,API,hipDeviceGetStreamPriorityRange,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Management
+API:hipDeviceReset,API,hipDeviceReset,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Management
 API:hipDeviceSetCacheConfig,API,hipDeviceSetCacheConfig,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Management
 API:hipDeviceSetSharedMemConfig,API,hipDeviceSetSharedMemConfig,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Management
-API:hipDeviceSynchronizehipGetDevice,API,hipDeviceSynchronizehipGetDevice,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Management
+API:hipDeviceSynchronize,API,hipDeviceSynchronize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Management
 API:hipDriverGetVersion,API,hipDriverGetVersion,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Version Management
-API:hipEventCreateWithFlagshipEventDestroy,API,hipEventCreateWithFlagshipEventDestroy,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Event Management
-API:hipEventElapsedTimehipEventQueryhipEventRecord,API,hipEventElapsedTimehipEventQueryhipEventRecord,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Event Management
+API:hipEventCreateWithFlags,API,hipEventCreateWithFlags,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Event Management
+API:hipEventDestroy,API,hipEventDestroy,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Event Management
+API:hipEventElapsedTime,API,hipEventElapsedTime,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Event Management
+API:hipEventQuery,API,hipEventQuery,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Event Management
+API:hipEventRecord,API,hipEventRecord,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Event Management
 API:hipEventSynchronize,API,hipEventSynchronize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Event Management
+API:hipExtent,API,hipExtent,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
 API:hipFuncGetAttributes,API,hipFuncGetAttributes,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Execution Control
 API:hipFuncSetCacheConfig,API,hipFuncSetCacheConfig,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Execution Control
+API:hipGetDevice,API,hipGetDevice,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Management
 API:hipGetDeviceCount,API,hipGetDeviceCount,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Management
 API:hipGetDeviceProperties,API,hipGetDeviceProperties,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Management
-API:hipGetErrorStringhipGetLastError,API,hipGetErrorStringhipGetLastError,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Error Handling
+API:hipGetErrorString,API,hipGetErrorString,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Error Handling
+API:hipGetLastError,API,hipGetLastError,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Error Handling
 API:hipGetSymbolAddress,API,hipGetSymbolAddress,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
-API:hipGetSymbolSizehipHostMalloc,API,hipGetSymbolSizehipHostMalloc,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
-API:hipHostGetDevicePointerhipHostGetFlagshipHostRegister,API,hipHostGetDevicePointerhipHostGetFlagshipHostRegister,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
-API:hipHostUnregisterhipMallochipMalloc3D,API,hipHostUnregisterhipMallochipMalloc3D,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
+API:hipGetSymbolSize,API,hipGetSymbolSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
+API:hipHostGetDevicePointer,API,hipHostGetDevicePointer,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
+API:hipHostGetFlags,API,hipHostGetFlags,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
+API:hipHostMalloc,API,hipHostMalloc,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
+API:hipHostRegister,API,hipHostRegister,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
+API:hipHostUnregister,API,hipHostUnregister,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
 API:hipIpcCloseMemHandle,API,hipIpcCloseMemHandle,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Management
 API:hipIpcGetMemHandle,API,hipIpcGetMemHandle,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Management
-API:hipIpcOpenMemHandlehipSetDevice,API,hipIpcOpenMemHandlehipSetDevice,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Management
+API:hipIpcOpenMemHandle,API,hipIpcOpenMemHandle,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Management
+API:hipLaunchByPtr,API,hipLaunchByPtr,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Execution Control [DEPRECATED since 7.0]
 API:hipLaunchKernel,API,hipLaunchKernel,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Execution Control
-API:hipMalloc3DArrayhipMallocArrayhipHostMalloc,API,hipMalloc3DArrayhipMallocArrayhipHostMalloc,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
+API:hipMalloc,API,hipMalloc,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
+API:hipMalloc3D,API,hipMalloc3D,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
+API:hipMalloc3DArray,API,hipMalloc3DArray,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
+API:hipMallocArray,API,hipMallocArray,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
 API:hipMallocManaged,API,hipMallocManaged,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
 API:hipMemGetInfo,API,hipMemGetInfo,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
 API:hipMemcpy2DAsync,API,hipMemcpy2DAsync,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
@@ -2353,17 +2480,23 @@ API:hipMemcpy3D,API,hipMemcpy3D,https://download.sourcefind.cn:65024/1/main/DTK-
 API:hipMemcpyAsync,API,hipMemcpyAsync,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
 API:hipMemcpyFromArray,API,hipMemcpyFromArray,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
 API:hipMemcpyFromSymbol,API,hipMemcpyFromSymbol,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
-API:hipMemcpyFromSymbolAsynchipMemcpyPeer,API,hipMemcpyFromSymbolAsynchipMemcpyPeer,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
+API:hipMemcpyFromSymbolAsync,API,hipMemcpyFromSymbolAsync,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
+API:hipMemcpyPeer,API,hipMemcpyPeer,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
 API:hipMemcpyPeerAsync,API,hipMemcpyPeerAsync,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
 API:hipMemcpyToArray,API,hipMemcpyToArray,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
 API:hipMemcpyToSymbol,API,hipMemcpyToSymbol,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
-API:hipMemcpyToSymbolAsynchipMemsethipMemset2D,API,hipMemcpyToSymbolAsynchipMemsethipMemset2D,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
-API:hipMemset2DAsynchipMemset3D,API,hipMemset2DAsynchipMemset3D,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
-API:hipMemset3DAsynchipMemsetAsyncmake_hipExtent,API,hipMemset3DAsynchipMemsetAsyncmake_hipExtent,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
+API:hipMemcpyToSymbolAsync,API,hipMemcpyToSymbolAsync,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
+API:hipMemset,API,hipMemset,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
+API:hipMemset2D,API,hipMemset2D,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
+API:hipMemset2DAsync,API,hipMemset2DAsync,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
+API:hipMemset3D,API,hipMemset3D,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
+API:hipMemset3DAsync,API,hipMemset3DAsync,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
 API:hipPeekAtLastError,API,hipPeekAtLastError,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Error Handling
 API:hipPointerGetAttributes,API,hipPointerGetAttributes,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Unified Addressing
-API:hipProfilerStarthipProfilerStopumul64himul64hi__umulhimulhimulhimulhi__urhadd__usad__lane_id__mbcnt_lo__mbcnt_hi,API,hipProfilerStarthipProfilerStopumul64himul64hi__umulhimulhimulhimulhi__urhadd__usad__lane_id__mbcnt_lo__mbcnt_hi,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:hipProfilerStart,API,hipProfilerStart,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:hipProfilerStopumul64himul64hi,API,hipProfilerStopumul64himul64hi,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
 API:hipRuntimeGetVersion,API,hipRuntimeGetVersion,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Version Management
+API:hipSetDevice,API,hipSetDevice,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Management
 API:hipSetDeviceFlags,API,hipSetDeviceFlags,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Device Management
 API:hipSetupArgument,API,hipSetupArgument,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Execution Control [DEPRECATED since 7.0]
 API:hipStreamAddCallback,API,hipStreamAddCallback,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Stream Management
@@ -2371,9 +2504,17 @@ API:hipStreamCreateWithFlags,API,hipStreamCreateWithFlags,https://download.sourc
 API:hipStreamCreateWithPriority,API,hipStreamCreateWithPriority,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Stream Management
 API:hipStreamDestroy,API,hipStreamDestroy,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Stream Management
 API:hipStreamGetFlags,API,hipStreamGetFlags,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Stream Management
-API:hipStreamGetPriorityhipStreamQuery,API,hipStreamGetPriorityhipStreamQuery,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Stream Management
+API:hipStreamGetPriority,API,hipStreamGetPriority,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Stream Management
+API:hipStreamQuery,API,hipStreamQuery,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Stream Management
 API:hipStreamSynchronize,API,hipStreamSynchronize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Stream Management
 API:hipStreamWaitEvent,API,hipStreamWaitEvent,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Stream Management
+API:hip_ds_bpermute,API,hip_ds_bpermute,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:hip_ds_bpermutef,API,hip_ds_bpermutef,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:hip_ds_permute,API,hip_ds_permute,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:hip_ds_permutef,API,hip_ds_permutef,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:hip_ds_swizzle_N,API,hip_ds_swizzle_N,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:hip_ds_swizzlef_N,API,hip_ds_swizzlef_N,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
+API:hip_move_dpp_N,API,hip_move_dpp_N,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
 API:hipblasAtomicsMode_t,API,hipblasAtomicsMode_t,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,BLAS Data types
 API:hipblasCgelsBatched8,API,hipblasCgelsBatched8,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,BLAS Data types
 API:hipblasCgemm,API,hipblasCgemm,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,BLAS Data types
@@ -2468,14 +2609,16 @@ API:hipblasZtrmm,API,hipblasZtrmm,https://download.sourcefind.cn:65024/1/main/DT
 API:hipblasZtrsm,API,hipblasZtrsm,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,BLAS Data types
 API:hipblasZtrsmBatched,API,hipblasZtrsmBatched,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,BLAS Data types
 API:hipdnnActivationBackward,API,hipdnnActivationBackward,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,MIOpen
-API:hipdnnActivationForwardhipdnnAddTensor,API,hipdnnActivationForwardhipdnnAddTensor,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,MIOpen
+API:hipdnnActivationForward,API,hipdnnActivationForward,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,MIOpen
+API:hipdnnAddTensor,API,hipdnnAddTensor,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,MIOpen
 API:hipdnnBatchNormalizationBackward,API,hipdnnBatchNormalizationBackward,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,MIOpen
 API:hipdnnBatchNormalizationForwardInference,API,hipdnnBatchNormalizationForwardInference,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,MIOpen
 API:hipdnnBatchNormalizationForwardTraining,API,hipdnnBatchNormalizationForwardTraining,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,MIOpen
 API:hipdnnConvolutionBackward,API,hipdnnConvolutionBackward,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,MIOpen
 API:hipdnnConvolutionBackwardData,API,hipdnnConvolutionBackwardData,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,MIOpen
 API:hipdnnConvolutionBackwardFilter,API,hipdnnConvolutionBackwardFilter,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,MIOpen
-API:hipdnnConvolutionForwardhipdnnCreate,API,hipdnnConvolutionForwardhipdnnCreate,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,MIOpen
+API:hipdnnConvolutionForward,API,hipdnnConvolutionForward,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,MIOpen
+API:hipdnnCreate,API,hipdnnCreate,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,MIOpen
 API:hipdnnCreateActivationDescriptor,API,hipdnnCreateActivationDescriptor,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,MIOpen
 API:hipdnnCreateConvolutionDescriptor,API,hipdnnCreateConvolutionDescriptor,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,MIOpen
 API:hipdnnCreateDropoutDescriptor,API,hipdnnCreateDropoutDescriptor,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,MIOpen
@@ -2605,6 +2748,8 @@ API:hipfftXtCallbackType_t,API,hipfftXtCallbackType_t,https://download.sourcefin
 API:hipfftXtClearCallback8,API,hipfftXtClearCallback8,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,FFT
 API:hipfftXtSetCallback,API,hipfftXtSetCallback,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,FFT
 API:hipfftXtSetCallbackSharedSize,API,hipfftXtSetCallbackSharedSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,FFT
+API:hiprand,API,hiprand,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
+API:hiprand4,API,hiprand4,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:hiprandCreateGenerator,API,hiprandCreateGenerator,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:hiprandCreateGeneratorHost,API,hiprandCreateGeneratorHost,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:hiprandCreatePoissonDistribution,API,hiprandCreatePoissonDistribution,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
@@ -2612,6 +2757,7 @@ API:hiprandDestroyDistribution,API,hiprandDestroyDistribution,https://download.s
 API:hiprandDestroyGenerator,API,hiprandDestroyGenerator,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:hiprandDirectionVectors32_tcurandState_t,API,hiprandDirectionVectors32_tcurandState_t,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:hiprandDiscreteDistribution_t,API,hiprandDiscreteDistribution_t,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
+API:hiprandGenerate,API,hiprandGenerate,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:hiprandGenerateChar,API,hiprandGenerateChar,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:hiprandGenerateLogNormal,API,hiprandGenerateLogNormal,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:hiprandGenerateLogNormalDouble,API,hiprandGenerateLogNormalDouble,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
@@ -2631,7 +2777,7 @@ API:hiprandMakeMTGP32Constants,API,hiprandMakeMTGP32Constants,https://download.s
 API:hiprandMakeMTGP32KernelState,API,hiprandMakeMTGP32KernelState,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:hiprandSetGeneratorOffset,API,hiprandSetGeneratorOffset,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:hiprandSetPseudoRandomGeneratorSeed,API,hiprandSetPseudoRandomGeneratorSeed,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
-API:hiprandSetQuasiRandomGeneratorDimensionshiprandGenerate,API,hiprandSetQuasiRandomGeneratorDimensionshiprandGenerate,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
+API:hiprandSetQuasiRandomGeneratorDimensions,API,hiprandSetQuasiRandomGeneratorDimensions,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:hiprandSetStream,API,hiprandSetStream,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:hiprandStateMRG32k3a,API,hiprandStateMRG32k3a,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:hiprandStateMtgp32,API,hiprandStateMtgp32,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
@@ -2641,21 +2787,28 @@ API:hiprandStateScrambledSobol64,API,hiprandStateScrambledSobol64,https://downlo
 API:hiprandStateSobol32,API,hiprandStateSobol32,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:hiprandStateSobol64,API,hiprandStateSobol64,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:hiprandStateXORWOW,API,hiprandStateXORWOW,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
+API:hiprand_discrete,API,hiprand_discrete,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:hiprand_discrete4,API,hiprand_discrete4,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
-API:hiprand_inithiprandhiprand4hiprand_discrete,API,hiprand_inithiprandhiprand4hiprand_discrete,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
+API:hiprand_init,API,hiprand_init,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:hiprand_log_normal,API,hiprand_log_normal,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:hiprand_log_normal2,API,hiprand_log_normal2,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:hiprand_log_normal2_double,API,hiprand_log_normal2_double,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:hiprand_log_normal4,API,hiprand_log_normal4,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:hiprand_log_normal4_double,API,hiprand_log_normal4_double,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:hiprand_log_normal_double,API,hiprand_log_normal_double,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
+API:hiprand_normal,API,hiprand_normal,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
+API:hiprand_normal2,API,hiprand_normal2,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:hiprand_normal2_double,API,hiprand_normal2_double,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
-API:hiprand_normal4_doublehiprand_uniform,API,hiprand_normal4_doublehiprand_uniform,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
+API:hiprand_normal4,API,hiprand_normal4,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
+API:hiprand_normal4_double,API,hiprand_normal4_double,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:hiprand_normal_double,API,hiprand_normal_double,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
-API:hiprand_normalhiprand_normal2hiprand_normal4,API,hiprand_normalhiprand_normal2hiprand_normal4,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
+API:hiprand_poisson,API,hiprand_poisson,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
+API:hiprand_poisson4,API,hiprand_poisson4,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
+API:hiprand_uniform,API,hiprand_uniform,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:hiprand_uniform2_double,API,hiprand_uniform2_double,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
-API:hiprand_uniform4_doubleskipaheadskipaheadsequenceskipahead_subsequencehiprand_poissonhiprand_poisson4,API,hiprand_uniform4_doubleskipaheadskipaheadsequenceskipahead_subsequencehiprand_poissonhiprand_poisson4,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
-API:hiprand_uniform_doublehiprand_uniform4,API,hiprand_uniform_doublehiprand_uniform4,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
+API:hiprand_uniform4,API,hiprand_uniform4,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
+API:hiprand_uniform4_double,API,hiprand_uniform4_double,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
+API:hiprand_uniform_double,API,hiprand_uniform_double,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:hipsolverCCgesv_bufferSize,API,hipsolverCCgesv_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:hipsolverDnCCgels,API,hipsolverDnCCgels,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
 API:hipsolverDnCCgels_bufferSize,API,hipsolverDnCCgels_bufferSize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SOLVER
@@ -3357,19 +3510,42 @@ API:hipsparseZhybmv,API,hipsparseZhybmv,https://download.sourcefind.cn:65024/1/m
 API:hipsparseZnnz,API,hipsparseZnnz,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SPARSE
 API:hipsparseZnnz_compress,API,hipsparseZnnz_compress,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SPARSE
 API:hipsparseZsctr,API,hipsparseZsctr,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SPARSE
-API:make_cudaPitchedPtrmake_cudaPos,API,make_cudaPitchedPtrmake_cudaPos,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
 API:make_hipPos,API,make_hipPos,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Memory Management
 API:mtgp32_fast_param_t,API,mtgp32_fast_param_t,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:mtgp32_kernel_params_t,API,mtgp32_kernel_params_t,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:mtgp32_params_fast_t,API,mtgp32_params_fast_t,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
-API:ncclCommGetAsyncErrorncclCommCountncclCommCuDevicencclCommUserRankncclAllReducencclBroadcastncclReducencclAllGather,API,ncclCommGetAsyncErrorncclCommCountncclCommCuDevicencclCommUserRankncclAllReducencclBroadcastncclReducencclAllGather,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RCCL
-API:ncclCommInitRankConfigncclCommFinalizencclCommDestroyncclCommAbort,API,ncclCommInitRankConfigncclCommFinalizencclCommDestroyncclCommAbort,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RCCL
-API:ncclRedOpCreatePreMulSumncclRedOpDestroy,API,ncclRedOpCreatePreMulSumncclRedOpDestroy,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RCCL
-API:ncclReduceScatterncclGroupStartncclGroupEndncclSendncclRecvncclComm_tncclResult_tncclDataType_tncclRedOp_t,API,ncclReduceScatterncclGroupStartncclGroupEndncclSendncclRecvncclComm_tncclResult_tncclDataType_tncclRedOp_t,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RCCL
-API:ncclScalarResidence_tncclConfig_t,API,ncclScalarResidence_tncclConfig_t,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RCCL
+API:ncclAllGather,API,ncclAllGather,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RCCL
+API:ncclAllReduce,API,ncclAllReduce,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RCCL
+API:ncclBroadcast,API,ncclBroadcast,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RCCL
+API:ncclCommAbort,API,ncclCommAbort,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RCCL
+API:ncclCommCount,API,ncclCommCount,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RCCL
+API:ncclCommCuDevice,API,ncclCommCuDevice,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RCCL
+API:ncclCommDestroy,API,ncclCommDestroy,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RCCL
+API:ncclCommFinalize,API,ncclCommFinalize,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RCCL
+API:ncclCommGetAsyncError,API,ncclCommGetAsyncError,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RCCL
+API:ncclCommInitRankConfig,API,ncclCommInitRankConfig,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RCCL
+API:ncclCommUserRank,API,ncclCommUserRank,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RCCL
+API:ncclComm_t,API,ncclComm_t,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RCCL
+API:ncclConfig_t,API,ncclConfig_t,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RCCL
+API:ncclDataType_t,API,ncclDataType_t,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RCCL
+API:ncclGroupEnd,API,ncclGroupEnd,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RCCL
+API:ncclGroupStart,API,ncclGroupStart,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RCCL
+API:ncclRecv,API,ncclRecv,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RCCL
+API:ncclRedOpCreatePreMulSum,API,ncclRedOpCreatePreMulSum,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RCCL
+API:ncclRedOpDestroy,API,ncclRedOpDestroy,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RCCL
+API:ncclRedOp_t,API,ncclRedOp_t,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RCCL
+API:ncclReduce,API,ncclReduce,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RCCL
+API:ncclReduceScatter,API,ncclReduceScatter,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RCCL
+API:ncclResult_t,API,ncclResult_t,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RCCL
+API:ncclScalarResidence_t,API,ncclScalarResidence_t,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RCCL
+API:ncclSend,API,ncclSend,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RCCL
 API:normal_args_double_t,API,normal_args_double_t,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:normal_args_t,API,normal_args_t,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
+API:printf,API,printf,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,Profiler Control
 API:pruneInfopruneInfo_t,API,pruneInfopruneInfo_t,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,SPARSE
+API:skipahead,API,skipahead,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
+API:skipahead_subsequence,API,skipahead_subsequence,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
+API:skipaheadsequence,API,skipaheadsequence,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,RAND
 API:thrust::adjacent_difference,API,thrust::adjacent_difference,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,thrust
 API:thrust::advance,API,thrust::advance,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,thrust
 API:thrust::all_of,API,thrust::all_of,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,thrust
@@ -3589,6 +3765,7 @@ API:thrust::stable_sort_by_key,API,thrust::stable_sort_by_key,https://download.s
 API:thrust::swap,API,thrust::swap,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,thrust
 API:thrust::swap_ranges,API,thrust::swap_ranges,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,thrust
 API:thrust::system,API,thrust::system,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,thrust
+API:thrust::system::,API,thrust::system::,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,thrust
 API:thrust::system::cpp,API,thrust::system::cpp,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,thrust
 API:thrust::system::cpp::memory_resource,API,thrust::system::cpp::memory_resource,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,thrust
 API:thrust::system::cpp::pointer,API,thrust::system::cpp::pointer,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,thrust
@@ -3596,12 +3773,10 @@ API:thrust::system::cpp::reference,API,thrust::system::cpp::reference,https://do
 API:thrust::system::cpp::universal_host_pinned_memory_resource,API,thrust::system::cpp::universal_host_pinned_memory_resource,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,thrust
 API:thrust::system::cpp::universal_memory_resource,API,thrust::system::cpp::universal_memory_resource,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,thrust
 API:thrust::system::cpp::universal_pointer,API,thrust::system::cpp::universal_pointer,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,thrust
-API:thrust::system::cuda,API,thrust::system::cuda,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,thrust
 API:thrust::system::error_category,API,thrust::system::error_category,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,thrust
 API:thrust::system::error_code,API,thrust::system::error_code,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,thrust
 API:thrust::system::error_condition,API,thrust::system::error_condition,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,thrust
 API:thrust::system::generic_category,API,thrust::system::generic_category,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,thrust
-API:thrust::system::hip,API,thrust::system::hip,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,thrust
 API:thrust::system::make_error_code,API,thrust::system::make_error_code,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,thrust
 API:thrust::system::omp,API,thrust::system::omp,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,thrust
 API:thrust::system::omp::memory_resource,API,thrust::system::omp::memory_resource,https://download.sourcefind.cn:65024/1/main/DTK-25.04.3/Document,,,,,,,,,,thrust

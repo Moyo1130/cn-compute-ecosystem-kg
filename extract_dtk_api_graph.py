@@ -69,6 +69,19 @@ SPLIT_PREFIXES = (
     "thrust::",
     "THRUST_",
     "GRID_MAPPING_",
+    "CUB_",
+    "Cub",
+    "cuda",
+    "hip",
+    "printf",
+    "__",
+    "curand_",
+    "hiprand_",
+    "skipahead",
+    "skipaheadsequence",
+    "skipahead_subsequence",
+    "cusolver",
+    "nccl",
 )
 
 
@@ -101,11 +114,15 @@ def looks_like_api_name(name: str) -> bool:
         return False
     if name in DROP_EXACT_NAMES:
         return False
+    if name in {"struct", "typedef"}:
+        return False
     if "enum" in name:
         return False
     if "cuFFT" in name:
         return False
     if name.startswith("MAX_"):
+        return False
+    if "structtypedef" in name:
         return False
     if name.isupper() and "_" not in name and "::" not in name and len(name) > 6:
         return False
