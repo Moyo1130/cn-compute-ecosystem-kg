@@ -1,0 +1,58 @@
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Virtual environments and local dependency folders
+.venv/
+venv/
+env/
+ENV/
+
+# Local secrets and environment overrides
+.env
+.env.*
+*.local
+
+# Logs and runtime output
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+~$*
+tmp/
+temp/
+
+# Temporary extraction/check files
+smoke_*.csv
+*_tmp.csv
+*_temp.csv
+
+# Archives generated for handoff or local backup
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+
+# OS/editor metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+
