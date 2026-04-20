@@ -1,35 +1,20 @@
-# 知识图谱数据汇总 v12.0 交接说明
+# 国产算力生态知识图谱数据收集 说明文档
 
-本文档用于交接当前工作区的数据生产流程、脚本用途、数据血缘和复跑注意事项。
+本文档用于交接数据收集流程、脚本用法、数据血缘和复跑注意事项。
 
 ## 1. 工作区总览
-
-工作区根目录：`D:\moyo\proj\KG\数据汇总v12.0`
 
 主要目录：
 
 - `1_deepspark数据爬虫`：第 1 阶段，爬取 DeepSparkHub 模型仓库，生成基础知识图谱节点和关系。
 - `2_提取天数文档_添加节点和关系`：第 2 阶段，在第 1 阶段结果基础上，补充天数智芯文档中的节点和关系。
 - `3_提取dtk文档_添加节点和关系`：第 3 阶段，批量解析 DTK 兼容性手册，补充 API、Runtime、Runtime-API 和 API-API 映射关系，并合并最终版。
-- `数据汇总v12.0.zip`：当前工作区压缩包。
-- `__pycache__`：Python 运行产生的缓存，可忽略。
-- `.git`：本地 Git 仓库元数据。
-
-统一 CSV 结构：
-
-- 节点文件列：`id,label,name,source_url,extra/Type,extra/area,extra/Main-Task,software_id,framework_id,extra/Vendor,extra/release,hardware_id,runtime_id,extra/library`
-- 关系文件列：`source_id,relation,target_id`
 
 最终交付文件：
 
 - `3_提取dtk文档_添加节点和关系/最终版本/nodes.csv`
 - `3_提取dtk文档_添加节点和关系/最终版本/edges.csv`
 - `3_提取dtk文档_添加节点和关系/最终版本/知识图谱数据说明.md`
-
-当前最终版规模：
-
-- `nodes.csv`：6686 行数据
-- `edges.csv`：67235 行数据
 
 ## 2. 整体数据生产流程
 
@@ -62,16 +47,8 @@
 关键文件：
 
 - `crawl_deepsparkhub_new.py`：DeepSparkHub 爬虫主脚本。
-- `data/nodes_v1.3.csv`：当前保留的第 1 阶段节点结果，986 行。
-- `data/edges_v1.3.csv`：当前保留的第 1 阶段关系结果，1891 行。
-
-脚本依赖：
-
-- Python
-- `requests`
-- `pandas`
-- 网络访问 Gitee API
-- 环境变量 `GITEE_TOKEN`
+- `data/nodes_v1.3.csv`：当前保留的第 1 阶段节点结果。
+- `data/edges_v1.3.csv`：当前保留的第 1 阶段关系结果。
 
 提前配置输出文件名（crawl_deepsparkhub_new.py 319-320行）
 
@@ -123,8 +100,8 @@ python .\crawl_deepsparkhub_new.py
 
 关键文件：
 
-- `nodes_origin.csv`：第 2 阶段节点结果，2341 行。
-- `edges_origin.csv`：第 2 阶段关系结果，4321 行。
+- `nodes_origin.csv`：第 2 阶段节点结果。
+- `edges_origin.csv`：第 2 阶段关系结果。
 - `tianshu_documents/1. 天数智芯加速卡软件栈文档合集_V4.2.0.pdf`
 - `tianshu_documents/天数智芯加速卡软件栈⽂档合集_V4.3.0.pdf`
 
@@ -192,7 +169,7 @@ python .\crawl_deepsparkhub_new.py
 - Python
 - `pdfplumber`
 
-单文档运行方式：
+单文档运行方式（调试用，正式项目直接跑batch_generate_dtk_graphs.py批量处理文档）：
 
 ```powershell
 cd .\3_提取dtk文档_添加节点和关系
@@ -225,6 +202,7 @@ python .\extract_dtk_api_graph.py ".\dtk文档\DTK 25.04.3 兼容性手册.pdf" 
 
 用途：
 
+- 引用并循环调用`extract_dtk_api_graph.py`
 - 批量处理 `dtk文档` 目录中的所有 PDF。
 - 每份 PDF 生成一组 CSV 到 `补充内容`。
 
